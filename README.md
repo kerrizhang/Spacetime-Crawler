@@ -30,6 +30,10 @@ python -m pip install packages/spacetime-2.1.1-py3-none-any.whl
 python -m pip install -r packages/requirements.txt
 ```
 
+Use this command to pip install BeautifulSoup4
+
+MAC: sudo python3 -m pip install bs4
+
 ### Step 2: Configuring config.ini
 
 Set the options in the config.ini file. The following
