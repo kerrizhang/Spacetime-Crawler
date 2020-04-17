@@ -58,6 +58,9 @@ def extract_next_links(url, resp):
     for i in local_urls:    
         if not i in new_urls and not i in processed_urls:        
             new_urls.append(i)
+        if not link in new_urls and not link in processed_urls:    
+            new_urls.append(link)
+
 
 
     
