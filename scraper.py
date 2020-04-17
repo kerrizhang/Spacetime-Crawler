@@ -1,4 +1,10 @@
 import re
+from bs4 import BeautifulSoup
+import requests
+import requests.exceptions
+from urllib.parse import urlsplit
+from urllib.parse import urlparse
+from collections import deque
 from urllib.parse import urlparse
 
 def scraper(url, resp):
@@ -7,6 +13,55 @@ def scraper(url, resp):
 
 def extract_next_links(url, resp):
     # Implementation requred.
+    queue_links = deque([url])
+    processed_urls = set()
+    domain_set_in = set()
+    domain_set_out = set()
+    broken_urls = set()
+    # process urls one by one until we exhaust the queuewhile len(new_urls):  
+    # move url from the queue to processed url set   
+    url = queue_links.popleft()   
+    processed_urls.add(url)
+    # print the current url 
+    print(“Processings: ” + url)
+    try:    
+        response = requests.get(url)
+    except(requests.exceptions.MissingSchema, requests.exceptions.ConnectionError, requests.exceptions.InvalidURL, requests.exceptions.InvalidSchema):   
+        broken_urls.insert(url)  
+    # add broken urls to it’s own set, then continue broken_urls.add(url)    continue
+    # extract base url to resolve relative 
+    
+    if ‘/’ in parts.path:
+        linksparts = urlsplit(url)base = “{0.netloc}”.format(parts)
+        strip_base = base.replace(“www.”, “”)base_url = “{0.scheme}://{0.netloc}”.format(parts)
+        path = url[:url.rfind(‘/’)+1] 
+    else:
+        #url
+        pass
+    soup = BeautifulSoup(response.text, “lxml”)
+    for link in soup.find_all(‘a’):    
+        # extract link url from the anchor    
+    if “href” in link.attrs:
+        anchor = link.attrs[“href”]
+    else:
+        ‘’
+    if anchor.startswith(‘/’):        
+        local_link = base_url + anchor        
+        local_urls.add(local_link)    
+    elif strip_base in anchor:        
+        local_urls.add(anchor)    
+    elif not anchor.startswith(‘http’):        
+        local_link = path + anchor        
+        local_urls.add(local_link)    
+    else:        
+        foreign_urls.add(anchor)
+    for i in local_urls:    
+        if not i in new_urls and not i in processed_urls:        
+            new_urls.append(i)
+
+
+    
+    
     return list()
 
 def is_valid(url):
