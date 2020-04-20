@@ -14,7 +14,7 @@ def scraper(url, resp):
 
 def extract_next_links(url, resp):
     # Implementation requred.
-
+    ret = []
     resp = requests.get(url)
     txt = resp.text
     #txt = lxml.html.parse(resp.content)
@@ -36,7 +36,20 @@ def extract_next_links(url, resp):
     for link in soup.findAll('a'):
         link_href = link.get('href')
         #if is_valid(str(link_href)):
-        print(link.get('href'))
+        if link_href[0:1] == "/":
+            if link_href[1:2] == "/":
+                ret.append("http:" + link_href)
+            else:
+                ret.append(url + link_href)
+        elif link_href[0:1] == "#":
+            pass
+        else:
+            ret.append(link_href)
+    for link in ret:
+        if "#" in link:
+            link = link[:link.find("#")]
+
+    return ret
     
 
     #print(something)
@@ -149,5 +162,5 @@ if __name__ == '__main__':
     #is_valid("https://today.uci.edu/department/information_computer_sciences/one/?something#three")
     #is_valid("today.uci.edu/department/information_computer_sciences/something")
     
-    extract_next_links("https://www.ics.uci.edu", 4)
+    [print(item) for item in extract_next_links("https://www.ics.uci.edu", 4)]
     
