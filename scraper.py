@@ -2,11 +2,12 @@ import re
 from bs4 import BeautifulSoup
 import requests
 import requests.exceptions
-from urllib.parse import urlsplit
-from urllib.parse import urlparse
-from collections import deque
-from urllib.parse import urlparse
-from utils import response
+import lxml
+# from urllib.parse import urlsplit
+# from urllib.parse import urlparse
+# from collections import deque
+# from urllib.parse import urlparse
+
 
 def scraper(url, resp):
     links = extract_next_links(url, resp)
@@ -14,6 +15,23 @@ def scraper(url, resp):
 
 def extract_next_links(url, resp):
     # Implementation requred.
+
+    resp = requests.get('http://ics.uci.edu')
+    txt = resp.text
+    #txt = lxml.html.parse(resp.content)
+
+    print(txt)
+
+    soup = BeautifulSoup(txt, 'lxml')
+    soup.find('a')
+
+    #soup.find_all('a').get('href')
+
+    # soup = BeautifulSoup(txt, 'lxml')
+    # print(soup)
+
+
+    '''
     new_urls = deque([url])
     local_urls, foreign_urls = set()
     processed_urls = set()
@@ -76,6 +94,7 @@ def extract_next_links(url, resp):
                 new_urls.append(link)
 
     return new_urls()
+    '''
 
 
 
@@ -110,6 +129,7 @@ if __name__ == '__main__':
     #is_valid("https://ics.uci.edu/something")
     #is_valid("https://google.com/something")
     #is_valid("https://today.uci.edu/department/information_computer_sciences/one/?something#three")
-    is_valid("today.uci.edu/department/information_computer_sciences/something")
-    #extract_next_links("https://www.ics.uci.edu", 4)
+    #is_valid("today.uci.edu/department/information_computer_sciences/something")
+    
+    extract_next_links("https://www.ics.uci.edu", 4)
     
