@@ -3,10 +3,9 @@ from bs4 import BeautifulSoup
 import requests
 import requests.exceptions
 import urllib.request
-# from urllib.parse import urlsplit
-# from urllib.parse import urlparse
+from urllib.parse import urlsplit
+from urllib.parse import urlparse
 # from collections import deque
-# from urllib.parse import urlparse
 
 
 def scraper(url, resp):
@@ -16,7 +15,7 @@ def scraper(url, resp):
 def extract_next_links(url, resp):
     # Implementation requred.
 
-    resp = requests.get('http://ics.uci.edu')
+    resp = requests.get(url)
     txt = resp.text
     #txt = lxml.html.parse(resp.content)
 
@@ -27,11 +26,18 @@ def extract_next_links(url, resp):
     #mylink.attrs['href']
 
     something = soup.findAll('a', attrs={'href': re.compile("^https://")})
+    something2 = soup.findAll('a', attrs={'href': re.compile("^http://")})
     
     #somethingElse = soup.find_all('a').get('href')
 
+    
+
+    
     for link in soup.findAll('a'):
+        link_href = link.get('href')
+        #if is_valid(str(link_href)):
         print(link.get('href'))
+    
 
     #print(something)
 
