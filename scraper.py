@@ -2,7 +2,7 @@ import re
 from bs4 import BeautifulSoup
 import requests
 import requests.exceptions
-import lxml
+import urllib.request
 # from urllib.parse import urlsplit
 # from urllib.parse import urlparse
 # from collections import deque
@@ -20,10 +20,22 @@ def extract_next_links(url, resp):
     txt = resp.text
     #txt = lxml.html.parse(resp.content)
 
-    print(txt)
+    #print(txt)
 
-    soup = BeautifulSoup(txt, 'lxml')
-    soup.find('a')
+    soup = BeautifulSoup(txt, "html.parser")
+    #mylink = soup.find_all('a')
+    #mylink.attrs['href']
+
+    something = soup.findAll('a', attrs={'href': re.compile("^https://")})
+    
+    #somethingElse = soup.find_all('a').get('href')
+
+    for link in soup.findAll('a'):
+        print(link.get('href'))
+
+    #print(something)
+
+    #print(mylink)
 
     #soup.find_all('a').get('href')
 
