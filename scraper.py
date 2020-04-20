@@ -82,12 +82,13 @@ def extract_next_links(url, resp):
 def is_valid(url):
     try:
         parsed = urlparse(url)
+        if  parsed.netloc == "" and str(parsed.path)[0:len("today.uci.edu/department/information_computer_sciences")] == "today.uci.edu/department/information_computer_sciences":
+            return True
         if parsed.scheme not in set(["http", "https"]):
             return False
         if parsed.netloc not in set(["ics.uci.edu", "www.ics.uci.edu", "cs.uci.edu", "www.cs.uci.edu", "informatics.uci.edu", "www.informatics.uci.edu", "stat.uci.edu", "www.stat.uci.edu"]): 
             return False
-        if parsed.netloc == "today.uci.edu" and str(parsed.path)[0:42] == "/department/information_computer_sciences/":
-            print("worked")
+        
         return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
@@ -108,7 +109,7 @@ if __name__ == '__main__':
     #a = response()
     #is_valid("https://ics.uci.edu/something")
     #is_valid("https://google.com/something")
-    is_valid("https://today.uci.edu/department/information_computer_sciences/one/?something#three")
-    #is_valid("https://today.uci.edu/department/information_computer_sciences/something")
+    #is_valid("https://today.uci.edu/department/information_computer_sciences/one/?something#three")
+    is_valid("today.uci.edu/department/information_computer_sciences/something")
     #extract_next_links("https://www.ics.uci.edu", 4)
     
