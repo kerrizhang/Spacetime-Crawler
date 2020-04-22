@@ -7,15 +7,40 @@ from urllib.parse import urlsplit
 from urllib.parse import urlparse
 # from collections import deque
 
+linkqueue = []
+uniquelinks = set()
+
 
 def scraper(url, resp):
     links = extract_next_links(url, resp)
-    return [link for link in links if is_valid(link)]
+
+    for item in links:
+        if is_valid(item):
+            if item not in uniquelinks:
+                linkqueue.append(item)
+                uniquelinks.add(item)
+
+    #print(linkqueue)
+    while len(linkqueue) > 0:
+        nextlink = linkqueue.pop(0)
+        newlinks = extract_next_links(nextlink, requests.get(nextlink))
+
+        for item in newlinks:
+            if is_valid(item):
+                if item not in uniquelinks:
+                    linkqueue.append(item)
+                    uniquelinks.add(item)
+                    print(item)
+
+        print("New number in queue: " + str(len(linkqueue)))
+
+    #return [link for link in links if is_valid(link)]
 
 def extract_next_links(url, resp):
+    print("NOW EXTRACTING " + url + "       ________________________________________________________________________________________________________________")
     # Implementation requred.
     ret = []
-    resp = requests.get(url)
+    #resp = requests.get(url)
     txt = resp.text
     #txt = lxml.html.parse(resp.content)
 
@@ -36,15 +61,18 @@ def extract_next_links(url, resp):
     for link in soup.findAll('a'):
         link_href = link.get('href')
         #if is_valid(str(link_href)):
-        if link_href[0:1] == "/":
-            if link_href[1:2] == "/":
-                ret.append("http:" + link_href)
-            else:
-                ret.append(url + link_href)
-        elif link_href[0:1] == "#":
+        if link_href == None:
             pass
         else:
-            ret.append(link_href)
+            if link_href[0:1] == "/":
+                if link_href[1:2] == "/":
+                    ret.append("http:" + link_href)
+                else:
+                    ret.append(url + link_href)
+            elif link_href[0:1] == "#":
+                pass
+            else:
+                ret.append(link_href)
     for link in ret:
         if "#" in link:
             link = link[:link.find("#")]
@@ -162,5 +190,5 @@ if __name__ == '__main__':
     #is_valid("https://today.uci.edu/department/information_computer_sciences/one/?something#three")
     #is_valid("today.uci.edu/department/information_computer_sciences/something")
     
-    [print(item) for item in extract_next_links("https://www.ics.uci.edu", 4)]
+    scraper("https://www.ics.uci.edu", requests.get("https://www.ics.uci.edu"))
     
