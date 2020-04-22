@@ -191,4 +191,5 @@ if __name__ == '__main__':
     #is_valid("today.uci.edu/department/information_computer_sciences/something")
     
     scraper("https://www.ics.uci.edu", requests.get("https://www.ics.uci.edu"))
+    print("Unique links: " + str(len(uniquelinks)))
     
