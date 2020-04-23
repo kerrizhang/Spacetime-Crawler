@@ -39,62 +39,47 @@ def scraper(url, resp):
 
     #return [link for link in links if is_valid(link)]
 
+
 def extract_next_links(url, input_response):
     print("NOW EXTRACTING " + url + "       ________________________________________________________________________________________________________________")
     # Implementation requred.
     extracted_links = []
     
-    resp = requests.get(url)
-    txt = resp.text
-    
-    #txt = lxml.html.parse(resp.content)
+    # resp = requests.get(url)
+    # txt = resp.text
 
-    #print(txt)
+    if input_response.status == 200:   # THIS NEEDS TO BE IMPROVED ############
 
-    soup = BeautifulSoup(txt, "html.parser")
-    
+        txt = input_response.raw_response
 
-    #mylink = soup.find_all('a')
-    #mylink.attrs['href']
-
-    something = soup.findAll('a', attrs={'href': re.compile("^https://")})
-    something2 = soup.findAll('a', attrs={'href': re.compile("^http://")})
-    
-    #somethingElse = soup.find_all('a').get('href')
-
-    
-
-    
-    for link in soup.findAll('a'):
-        link_href = link.get('href')
-        #if is_valid(str(link_href)):
-        if link_href == None:
-            pass
-        else:
-            if link_href[0:1] == "/":
-                if link_href[1:2] == "/":
-                    extracted_links.append("http:" + link_href)
-                else:
-                    extracted_links.append(url + link_href)
-            elif link_href[0:1] == "#":
+        soup = BeautifulSoup(txt, "html.parser")
+        
+        for link in soup.findAll('a'):
+            link_href = link.get('href')
+            #if is_valid(str(link_href)):
+            if link_href == None:
                 pass
             else:
-                extracted_links.append(link_href)
-    for link in extracted_links:
-        if "#" in link:
-            link = link[:link.find("#")]
+                if link_href[0:1] == "/":
+                    if link_href[1:2] == "/":
+                        extracted_links.append("http:" + link_href)
+                    else:
+                        extracted_links.append(url + link_href)
+                elif link_href[0:1] == "#":
+                    pass
+                else:
+                    extracted_links.append(link_href)
+        for link in extracted_links:
+            if "#" in link:
+                link = link[:link.find("#")]
 
-    return extracted_links
-    
 
-    #print(something)
+        return extracted_links
 
-    #print(mylink)
 
-    #soup.find_all('a').get('href')
+    else:
+        print("Error: Status code was ", input_response.status)
 
-    # soup = BeautifulSoup(txt, 'lxml')
-    # print(soup)
 
 
 
@@ -125,6 +110,18 @@ def is_valid(url):
         raise
 
 
+def get_response(url):
+    try:
+        resp = requests.get(url)
+        resp_dict = {'url':url, 'status':resp.status_code, 'response': open(str.encode(resp.text))}
+
+        return response.Response(resp_dict)
+    except:
+        print("Could not get response for URL")
+        
+
+
+
 if __name__ == '__main__':
     #a = response()
     #is_valid("https://ics.uci.edu/something")
@@ -141,12 +138,21 @@ if __name__ == '__main__':
     url = "https://www.ics.uci.edu"
 
     resp = requests.get(url)
+    resp_dict = {'url':url, 'status':resp.status_code, 'response': open(str.encode(resp.text))} # THIS IS NOT CORRECT KERRI ####### 
 
+<<<<<<< Updated upstream
     resp_dict = {'url':url, 'status':resp.status_code, 'response': open(str.encode(resp.text))}
+=======
+>>>>>>> Stashed changes
     responseObj = response.Response(resp_dict)
 
+    #responseObj = get_response(url)
 
-    print(responseObj.raw_response)
+    #print(responseObj.status)
+
+    
+
+    
     
 
     #scraper("https://www.ics.uci.edu", responseObj)
