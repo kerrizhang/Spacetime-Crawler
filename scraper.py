@@ -17,7 +17,13 @@ uniquelinks = set()
 def scraper(url, resp):
     if url[len(url) - 1:] == "/":
         url = url[:len(url) - 1]
+
+    # if "?" in str(url):
+    #     index = url.find("?")
+    #     url = url[:index]
+
     linkqueue.append(url)
+    uniquelinks.add(url)
     # links = extract_next_links(url, resp)
     #
     # for item in links:
@@ -72,8 +78,13 @@ def extract_next_links(url, input_response):
         if link_href == None:
             pass
         else:
+            # if "?" in str(link_href):
+            #     index = link_href.find("?")
+            #     link_href = link_href[:index]
+
             if link_href[len(link_href) - 1:] == "/":
                 link_href = link_href[:len(link_href) - 1]
+
 
             if link_href[0:1] == "/":
                 if link_href[1:2] == "/":
@@ -159,9 +170,14 @@ def simhash(url):
 
         
 
+    print(urlparse('http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni').netloc == urlparse('http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/involved/leadership_council').netloc)
 
+<<<<<<< HEAD
 
 if __name__ == '__main__':
+=======
+    url = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni"
+>>>>>>> 6b63f5a71fa60d9becf86e6c44bd516333d45791
 
     #url = "https://www.ics.uci.edu/"
     url = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni"
