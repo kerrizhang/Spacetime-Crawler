@@ -38,7 +38,7 @@ def scraper(url, resp):
                 if item not in uniquelinks:
                     linkqueue.append(item)
                     uniquelinks.add(item)
-                    #print(item) #UNCOMMENT TO PRINT OUT NEW LINKS
+                    print(item) #UNCOMMENT TO PRINT OUT NEW LINKS
                 else:
                     repeats = repeats + 1
             elif is_valid(item):
@@ -90,11 +90,12 @@ def extract_next_links(url, input_response):
     for link in extracted_links:
         if "#" in link:
             link = link[:link.find("#")]
+        if "?" in link:
+            #print("QUESTION MARK ?????????????????")
+            link = link[:link.find("?")]
 
 
     return extracted_links
-
-
 
 
 
@@ -127,6 +128,8 @@ def is_valid(url):
         raise
 
 
+
+
 def get_response(url):
     try:
         resp = requests.get(url)
@@ -135,31 +138,49 @@ def get_response(url):
         return response.Response(resp_dict)
     except:
         print("Could not get response for URL")
+
+
+
+def simhash(url):
+    resp = get_response(url)
+    txt = resp.raw_response
+    #print(html2text.html2text(txt))
+    soup = BeautifulSoup(txt, "html.parser")
+    text = soup.get_text()
+
+    lines = (line.strip() for line in text.splitlines())
+    chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
+    # drop blank lines
+    text = '\n'.join(chunk for chunk in chunks if chunk)
+
+    print(text)
+
+    
+
         
 
 
 
 if __name__ == '__main__':
-    #a = response()
-    #is_valid("https://ics.uci.edu/something")
-    #is_valid("https://google.com/something")
-    #is_valid("https://today.uci.edu/department/information_computer_sciences/one/?something#three")
-    #is_valid("today.uci.edu/department/information_computer_sciences/something")
-    
-    #scraper("https://www.ics.uci.edu", requests.get("https://www.ics.uci.edu"))
-    #resp = Response()
 
+    #url = "https://www.ics.uci.edu/"
+    url = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni"
+    url2 = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/involved"
 
-
-
-    url = "https://www.ics.uci.edu/"
-
-    resp = requests.get(url)
-    resp_dict = {'url':url, 'status':resp.status_code, 'response': pickle.dumps(resp.text.encode())} # THIS IS NOT CORRECT KERRI ####### 
+    #resp = requests.get(url)
+    #resp_dict = {'url':url, 'status':resp.status_code, 'response': pickle.dumps(resp.text.encode())} 
 
     #responseObj = response.Response(resp_dict)
 
     responseObj = get_response(url)
+
+    print(simhash(url))
+    
+    #print(responseObj.raw_response)
+    #print("#################################")
+    #print(responseObj2.raw_response)
+
+    
 
     #print(responseObj.raw_response)
     #print(responseObj.status)
@@ -169,8 +190,8 @@ if __name__ == '__main__':
     
     
 
-    scraper(url, responseObj)
-    print("Unique links: " + str(len(uniquelinks)))
+    #scraper(url, responseObj)
+    #print("Unique links: " + str(len(uniquelinks)))
 
     #print(resp)
     #print(resp.url)
