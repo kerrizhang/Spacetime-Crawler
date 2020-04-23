@@ -45,8 +45,8 @@ def extract_next_links(url, input_response):
     extracted_links = []
     
     resp = requests.get(url)
-    
     txt = resp.text
+    
     #txt = lxml.html.parse(resp.content)
 
     #print(txt)
@@ -80,7 +80,7 @@ def extract_next_links(url, input_response):
                 pass
             else:
                 extracted_links.append(link_href)
-    for link in ret:
+    for link in extracted_links:
         if "#" in link:
             link = link[:link.find("#")]
 
@@ -142,10 +142,14 @@ if __name__ == '__main__':
 
     resp = requests.get(url)
 
-    resp_dict = {'url':url, 'status':resp.status_code, 'response': resp.text}
+    resp_dict = {'url':url, 'status':resp.status_code, 'response': str.encode(resp.text)}
     responseObj = response.Response(resp_dict)
 
-    scraper("https://www.ics.uci.edu", responseObj)
+
+    print(responseObj.raw_response)
+    
+
+    #scraper("https://www.ics.uci.edu", responseObj)
 
     #print(resp)
     #print(resp.url)
