@@ -15,7 +15,8 @@ uniquelinks = set()
 
 
 def scraper(url, resp):
-
+    if url[len(url) - 1:] == "/":
+        url = url[:len(url) - 1]
     linkqueue.append(url)
     # links = extract_next_links(url, resp)
     #
@@ -71,6 +72,9 @@ def extract_next_links(url, input_response):
         if link_href == None:
             pass
         else:
+            if link_href[len(link_href) - 1:] == "/":
+                link_href = link_href[:len(link_href) - 1]
+
             if link_href[0:1] == "/":
                 if link_href[1:2] == "/":
                     extracted_links.append("http:" + link_href)
