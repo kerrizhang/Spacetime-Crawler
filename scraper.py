@@ -142,7 +142,7 @@ if __name__ == '__main__':
 
     resp = requests.get(url)
 
-    resp_dict = {'url':url, 'status':resp.status_code, 'response': str.encode(resp.text)}
+    resp_dict = {'url':url, 'status':resp.status_code, 'response': open(str.encode(resp.text))}
     responseObj = response.Response(resp_dict)
 
 
