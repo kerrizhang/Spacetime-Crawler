@@ -39,17 +39,21 @@ def scraper(url, resp):
 
     #return [link for link in links if is_valid(link)]
 
-def extract_next_links(url, resp):
+def extract_next_links(url, input_response):
     print("NOW EXTRACTING " + url + "       ________________________________________________________________________________________________________________")
     # Implementation requred.
-    ret = []
-    #resp = requests.get(url)
+    extracted_links = []
+    
+    resp = requests.get(url)
+    
     txt = resp.text
     #txt = lxml.html.parse(resp.content)
 
     #print(txt)
 
     soup = BeautifulSoup(txt, "html.parser")
+    
+
     #mylink = soup.find_all('a')
     #mylink.attrs['href']
 
@@ -69,18 +73,18 @@ def extract_next_links(url, resp):
         else:
             if link_href[0:1] == "/":
                 if link_href[1:2] == "/":
-                    ret.append("http:" + link_href)
+                    extracted_links.append("http:" + link_href)
                 else:
-                    ret.append(url + link_href)
+                    extracted_links.append(url + link_href)
             elif link_href[0:1] == "#":
                 pass
             else:
-                ret.append(link_href)
+                extracted_links.append(link_href)
     for link in ret:
         if "#" in link:
             link = link[:link.find("#")]
 
-    return ret
+    return extracted_links
     
 
     #print(something)
@@ -132,13 +136,18 @@ if __name__ == '__main__':
     #resp = Response()
     #print("Unique links: " + str(len(uniquelinks)))
 
-    test = requests.get("https://www.ics.uci.edu")
-    resp = response.Response({'url':'https://www.ics.uci.edu', 'status':200, 'error':'Naw', 'response': 'was good homie'})
 
 
-    scraper("https://www.ics.uci.edu", resp)
+    url = "https://www.ics.uci.edu"
 
-    print(resp)
+    resp = requests.get(url)
+
+    resp_dict = {'url':url, 'status':resp.status_code, 'response': resp.text}
+    responseObj = response.Response(resp_dict)
+
+    scraper("https://www.ics.uci.edu", responseObj)
+
+    #print(resp)
     #print(resp.url)
     #print(test.json()['result'])
     
