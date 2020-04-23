@@ -17,7 +17,13 @@ uniquelinks = set()
 def scraper(url, resp):
     if url[len(url) - 1:] == "/":
         url = url[:len(url) - 1]
+
+    # if "?" in str(url):
+    #     index = url.find("?")
+    #     url = url[:index]
+
     linkqueue.append(url)
+    uniquelinks.add(url)
     # links = extract_next_links(url, resp)
     #
     # for item in links:
@@ -38,7 +44,7 @@ def scraper(url, resp):
                 if item not in uniquelinks:
                     linkqueue.append(item)
                     uniquelinks.add(item)
-                    #print(item) #UNCOMMENT TO PRINT OUT NEW LINKS
+                    print(item) #UNCOMMENT TO PRINT OUT NEW LINKS
                 else:
                     repeats = repeats + 1
             elif is_valid(item):
@@ -72,8 +78,13 @@ def extract_next_links(url, input_response):
         if link_href == None:
             pass
         else:
+            # if "?" in str(link_href):
+            #     index = link_href.find("?")
+            #     link_href = link_href[:index]
+
             if link_href[len(link_href) - 1:] == "/":
                 link_href = link_href[:len(link_href) - 1]
+
 
             if link_href[0:1] == "/":
                 if link_href[1:2] == "/":
@@ -150,9 +161,9 @@ if __name__ == '__main__':
     #resp = Response()
 
 
+    print(urlparse('http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni').netloc == urlparse('http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/involved/leadership_council').netloc)
 
-
-    url = "https://www.ics.uci.edu/"
+    url = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni"
 
     resp = requests.get(url)
     resp_dict = {'url':url, 'status':resp.status_code, 'response': pickle.dumps(resp.text.encode())} # THIS IS NOT CORRECT KERRI ####### 
