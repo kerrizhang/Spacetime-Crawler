@@ -5,6 +5,8 @@ import requests.exceptions
 import urllib.request
 from urllib.parse import urlsplit
 from urllib.parse import urlparse
+import json
+from utils import response
 # from collections import deque
 
 linkqueue = []
@@ -12,6 +14,7 @@ uniquelinks = set()
 
 
 def scraper(url, resp):
+
     links = extract_next_links(url, resp)
 
     for item in links:
@@ -190,6 +193,17 @@ if __name__ == '__main__':
     #is_valid("https://today.uci.edu/department/information_computer_sciences/one/?something#three")
     #is_valid("today.uci.edu/department/information_computer_sciences/something")
     
-    scraper("https://www.ics.uci.edu", requests.get("https://www.ics.uci.edu"))
-    print("Unique links: " + str(len(uniquelinks)))
+    #scraper("https://www.ics.uci.edu", requests.get("https://www.ics.uci.edu"))
+    #resp = Response()
+    #print("Unique links: " + str(len(uniquelinks)))
+
+    test = requests.get("https://www.ics.uci.edu")
+    resp = response.Response({'url':'https://www.ics.uci.edu', 'status':200, 'error':'Naw', 'response': 'was good homie'})
+
+
+    scraper("https://www.ics.uci.edu", resp)
+
+    print(resp)
+    #print(resp.url)
+    #print(test.json()['result'])
     
