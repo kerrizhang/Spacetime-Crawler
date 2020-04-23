@@ -15,33 +15,44 @@ uniquelinks = set()
 
 
 def scraper(url, resp):
-    links = extract_next_links(url, resp)
 
-    for item in links:
-        if is_valid(item):
-            if item not in uniquelinks:
-                linkqueue.append(item)
-                uniquelinks.add(item)
+    linkqueue.append(url)
+    # links = extract_next_links(url, resp)
+    #
+    # for item in links:
+    #     if is_valid(item):
+    #         if item not in uniquelinks:
+    #             linkqueue.append(item)
+    #             uniquelinks.add(item)
 
     #print(linkqueue)
     while len(linkqueue) > 0:
         nextlink = linkqueue.pop(0)
         newlinks = extract_next_links(nextlink, get_response(nextlink))
 
+        repeats = 0
+
         for item in newlinks:
             if is_valid(item) and resp.status == 200:
                 if item not in uniquelinks:
                     linkqueue.append(item)
                     uniquelinks.add(item)
-                    print(item)
+                    #print(item) #UNCOMMENT TO PRINT OUT NEW LINKS
+                else:
+                    repeats = repeats + 1
+            elif is_valid(item):
+                print("Error: Status code was ", resp.status)
 
+        print("Number of repeated urls: " + str(repeats))
         print("New number in queue: " + str(len(linkqueue)))
+        print("Number of unique so far: " + str(len(uniquelinks)))
+        print("_______________________________________________________________________________________________________________________")
 
     #return [link for link in links if is_valid(link)]
 
 
 def extract_next_links(url, input_response):
-    print("NOW EXTRACTING " + url + "       ________________________________________________________________________________________________________________")
+    print("NOW EXTRACTING " + url)
     # Implementation requred.
     extracted_links = []
     
@@ -64,7 +75,10 @@ def extract_next_links(url, input_response):
                 if link_href[1:2] == "/":
                     extracted_links.append("http:" + link_href)
                 else:
-                    extracted_links.append(url + link_href)
+                    if(url[len(url) - 1:] == "/"):
+                        extracted_links.append(url + link_href[1:])
+                    else:
+                        extracted_links.append(url + link_href)
             elif link_href[0:1] == "#":
                 pass
             else:
@@ -74,11 +88,10 @@ def extract_next_links(url, input_response):
             link = link[:link.find("#")]
 
 
-        return extracted_links
+    return extracted_links
 
 
-    else:
-        print("Error: Status code was ", input_response.status)
+
 
 
 
@@ -131,11 +144,11 @@ if __name__ == '__main__':
     
     #scraper("https://www.ics.uci.edu", requests.get("https://www.ics.uci.edu"))
     #resp = Response()
-    #print("Unique links: " + str(len(uniquelinks)))
 
 
 
-    url = "https://www.ics.uci.edu"
+
+    url = "https://www.ics.uci.edu/"
 
     resp = requests.get(url)
     resp_dict = {'url':url, 'status':resp.status_code, 'response': pickle.dumps(resp.text.encode())} # THIS IS NOT CORRECT KERRI ####### 
@@ -153,6 +166,7 @@ if __name__ == '__main__':
     
 
     scraper(url, responseObj)
+    print("Unique links: " + str(len(uniquelinks)))
 
     #print(resp)
     #print(resp.url)
