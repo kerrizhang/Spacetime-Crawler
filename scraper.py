@@ -15,7 +15,6 @@ uniquelinks = set()
 
 
 def scraper(url, resp):
-
     links = extract_next_links(url, resp)
 
     for item in links:
@@ -27,7 +26,7 @@ def scraper(url, resp):
     #print(linkqueue)
     while len(linkqueue) > 0:
         nextlink = linkqueue.pop(0)
-        newlinks = extract_next_links(nextlink, requests.get(nextlink))
+        newlinks = extract_next_links(nextlink, get_response(nextlink))
 
         for item in newlinks:
             if is_valid(item):
@@ -49,9 +48,8 @@ def extract_next_links(url, input_response):
     # resp = requests.get(url)
     # txt = resp.text
 
-    print("Response input : ", input_response)
 
-    if input_response.status == 200:   # THIS NEEDS TO BE IMPROVED ############
+    if (input_response.status) == 200:   # THIS NEEDS TO BE IMPROVED ############
 
         txt = input_response.raw_response
 
