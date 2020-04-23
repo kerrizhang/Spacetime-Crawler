@@ -29,7 +29,7 @@ def scraper(url, resp):
         newlinks = extract_next_links(nextlink, get_response(nextlink))
 
         for item in newlinks:
-            if is_valid(item):
+            if is_valid(item) and resp.status == 200:
                 if item not in uniquelinks:
                     linkqueue.append(item)
                     uniquelinks.add(item)
@@ -49,30 +49,29 @@ def extract_next_links(url, input_response):
     # txt = resp.text
 
 
-    if (input_response.status) == 200:   # THIS NEEDS TO BE IMPROVED ############
 
-        txt = input_response.raw_response
+    txt = input_response.raw_response
 
-        soup = BeautifulSoup(txt, "html.parser")
-        
-        for link in soup.findAll('a'):
-            link_href = link.get('href')
-            #if is_valid(str(link_href)):
-            if link_href == None:
+    soup = BeautifulSoup(txt, "html.parser")
+
+    for link in soup.findAll('a'):
+        link_href = link.get('href')
+        #if is_valid(str(link_href)):
+        if link_href == None:
+            pass
+        else:
+            if link_href[0:1] == "/":
+                if link_href[1:2] == "/":
+                    extracted_links.append("http:" + link_href)
+                else:
+                    extracted_links.append(url + link_href)
+            elif link_href[0:1] == "#":
                 pass
             else:
-                if link_href[0:1] == "/":
-                    if link_href[1:2] == "/":
-                        extracted_links.append("http:" + link_href)
-                    else:
-                        extracted_links.append(url + link_href)
-                elif link_href[0:1] == "#":
-                    pass
-                else:
-                    extracted_links.append(link_href)
-        for link in extracted_links:
-            if "#" in link:
-                link = link[:link.find("#")]
+                extracted_links.append(link_href)
+    for link in extracted_links:
+        if "#" in link:
+            link = link[:link.find("#")]
 
 
         return extracted_links
