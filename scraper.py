@@ -7,6 +7,7 @@ from urllib.parse import urlsplit
 from urllib.parse import urlparse
 import json
 from utils import response
+import pickle
 # from collections import deque
 
 linkqueue = []
@@ -47,6 +48,8 @@ def extract_next_links(url, input_response):
     
     # resp = requests.get(url)
     # txt = resp.text
+
+    print("Response input : ", input_response)
 
     if input_response.status == 200:   # THIS NEEDS TO BE IMPROVED ############
 
@@ -113,7 +116,7 @@ def is_valid(url):
 def get_response(url):
     try:
         resp = requests.get(url)
-        resp_dict = {'url':url, 'status':resp.status_code, 'response': open(str.encode(resp.text))}
+        resp_dict = {'url':url, 'status':resp.status_code, 'response': pickle.dumps(resp.text.encode())}
 
         return response.Response(resp_dict)
     except:
@@ -138,16 +141,13 @@ if __name__ == '__main__':
     url = "https://www.ics.uci.edu"
 
     resp = requests.get(url)
-    resp_dict = {'url':url, 'status':resp.status_code, 'response': open(str.encode(resp.text))} # THIS IS NOT CORRECT KERRI ####### 
+    resp_dict = {'url':url, 'status':resp.status_code, 'response': pickle.dumps(resp.text.encode())} # THIS IS NOT CORRECT KERRI ####### 
 
-<<<<<<< Updated upstream
-    resp_dict = {'url':url, 'status':resp.status_code, 'response': open(str.encode(resp.text))}
-=======
->>>>>>> Stashed changes
-    responseObj = response.Response(resp_dict)
+    #responseObj = response.Response(resp_dict)
 
-    #responseObj = get_response(url)
+    responseObj = get_response(url)
 
+    #print(responseObj.raw_response)
     #print(responseObj.status)
 
     
@@ -155,7 +155,7 @@ if __name__ == '__main__':
     
     
 
-    #scraper("https://www.ics.uci.edu", responseObj)
+    scraper(url, responseObj)
 
     #print(resp)
     #print(resp.url)
