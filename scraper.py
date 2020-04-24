@@ -9,6 +9,7 @@ import json
 from utils import response
 import pickle
 import datetime
+import os
 # from collections import deque
 
 linkqueue = []
@@ -277,6 +278,8 @@ if __name__ == '__main__':
     url = "https://www.ics.uci.edu"
     print(get_response(url))
     print("hi")
+    if not os.path.exists('logs'):
+        os.makedirs('logs')
     # url = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni"
     # url2 = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/involved"
 
