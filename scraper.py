@@ -186,6 +186,15 @@ def simhash(url):
         print("========================")
     print(final)
 
+    ans = []
+    for i in final:
+        if i > 0:
+            ans.append(1)
+        else:
+            ans.append(0)
+    
+    return ans
+
 
 
     
