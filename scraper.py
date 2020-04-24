@@ -162,14 +162,41 @@ def simhash(url):
     l = tokenize(text)
     d = computeWordFrequencies(l)
 
-    print(text)
+    #vector = []
+    vector = {}
+    for i in d.keys():
+        l = []
+        hashnum = format(hash(i)%1024, '012b')
+        for j in hashnum[2:]:
+            l.append(j)
+        vector[i] = l
+        #print(vector)
+      
+    final = []
+    for i in range(10):
+        add = 0
+        for k,v in vector.items():
+            print(v[i])
+            if v[i] == 1:
+                add += d[k]
+            elif v[i] == 0:
+                add -= d[k]
+            #print(add)
+        final.append(add)
+        print("========================")
+    print(final)
 
-def tokenize(TextFilePath):
+
+
+    
+
+    #print(text)
+
+def tokenize(text):
     l = []
-    for line in text:
-        for i in re.findall(r'[a-zA-Z0-9]{2,}', line):
-            i = i.lower()
-            l.append(i)
+    for i in re.findall(r'[a-zA-Z0-9]{2,}', text):
+        i = i.lower()
+        l.append(i)
     return l
 
 def computeWordFrequencies(tokens):
@@ -186,12 +213,8 @@ def computeWordFrequencies(tokens):
 
     print(urlparse('http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni').netloc == urlparse('http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/involved/leadership_council').netloc)
 
-<<<<<<< HEAD
 
 if __name__ == '__main__':
-=======
-    url = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni"
->>>>>>> 6b63f5a71fa60d9becf86e6c44bd516333d45791
 
     #url = "https://www.ics.uci.edu/"
     url = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni"
