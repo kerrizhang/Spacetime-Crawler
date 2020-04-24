@@ -274,7 +274,7 @@ def computeWordFrequencies(tokens):
 
 if __name__ == '__main__':
 
-    url = "https://www.informatics.uci.edu/undergrad/upcoming-course-schedule"
+    url = "https://www.ics.uci.edu"
     print(get_response(url))
     print("hi")
     # url = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni"
