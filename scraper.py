@@ -192,7 +192,7 @@ def simhash(url):
             ans.append(1)
         else:
             ans.append(0)
-    
+    print(ans)
     return ans
 
 
