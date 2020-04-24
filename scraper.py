@@ -181,14 +181,14 @@ def simhash(url):
     vector = {}
     for i in d.keys():
         l = []
-        hashnum = format(hash(i)%65537, '018b')
+        hashnum = format(hash(i)%2147483648, '034b')
         for j in hashnum[2:]:
             l.append(j)
         vector[i] = l
         #print(vector)
       
     final = []
-    for i in range(16):
+    for i in range(32):
         add = 0
         for k, v in vector.items():
             if v[i] == '1':
@@ -197,7 +197,7 @@ def simhash(url):
                 add -= d[k]
             #print(add)
         final.append(add)
-
+    
     ans = []
     for i in final:
         if i > 0:
@@ -205,7 +205,7 @@ def simhash(url):
         else:
             ans.append(0)
     return ans
-
+    
 
 
     
@@ -260,9 +260,7 @@ if __name__ == '__main__':
     
 
     #print(responseObj.raw_response)
-    #print(responseObj.status)
-
-    
+    #print(responseObj.status)    
 
     
     
