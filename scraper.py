@@ -176,10 +176,10 @@ def simhash(url):
     for i in range(10):
         add = 0
         for k,v in vector.items():
-            print(v[i])
-            if v[i] == 1:
+            print(str(v[i]) + " " + str(d[k]))
+            if v[i] == '1':
                 add += d[k]
-            elif v[i] == 0:
+            else:
                 add -= d[k]
             #print(add)
         final.append(add)
@@ -227,7 +227,7 @@ if __name__ == '__main__':
 
     responseObj = get_response(url)
 
-    print(simhash(url))
+    print(simhash(url2))
     
     #print(responseObj.raw_response)
     #print("#################################")
