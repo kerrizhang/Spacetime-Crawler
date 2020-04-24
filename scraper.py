@@ -11,19 +11,19 @@ import pickle
 # from collections import deque
 
 linkqueue = []
-uniquelinks = set()
+uniquelinks = []
 
 
 def scraper(url, resp):
     if url[len(url) - 1:] == "/":
         url = url[:len(url) - 1]
-
     # if "?" in str(url):
     #     index = url.find("?")
     #     url = url[:index]
 
     linkqueue.append(url)
-    uniquelinks.add(url)
+    x = simhash(url)
+    uniquelinks.append(simhash(url))
     # links = extract_next_links(url, resp)
     #
     # for item in links:
@@ -41,9 +41,9 @@ def scraper(url, resp):
 
         for item in newlinks:
             if is_valid(item) and resp.status == 200:
-                if item not in uniquelinks:
+                if simhash(item) not in uniquelinks:
                     linkqueue.append(item)
-                    uniquelinks.add(item)
+                    uniquelinks.append(simhash(item))
                     print(item) #UNCOMMENT TO PRINT OUT NEW LINKS
                 else:
                     repeats = repeats + 1
@@ -225,9 +225,9 @@ def computeWordFrequencies(tokens):
 
 if __name__ == '__main__':
 
-    #url = "https://www.ics.uci.edu/"
-    url = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni"
-    url2 = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/involved"
+    url = "https://www.ics.uci.edu/"
+    # url = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni"
+    # url2 = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/involved"
 
     #resp = requests.get(url)
     #resp_dict = {'url':url, 'status':resp.status_code, 'response': pickle.dumps(resp.text.encode())} 
@@ -236,9 +236,9 @@ if __name__ == '__main__':
 
     responseObj = get_response(url)
 
-    print(simhash(url2))
-    print(simhash(url))
-    print(similarity(simhash(url2), simhash(url)))
+    # print(simhash(url2))
+    # print(simhash(url))
+    # print(similarity(simhash(url2), simhash(url)))
     
     #print(responseObj.raw_response)
     #print("#################################")
@@ -254,7 +254,7 @@ if __name__ == '__main__':
     
     
 
-    #scraper(url, responseObj)
+    scraper(url, responseObj)
     #print("Unique links: " + str(len(uniquelinks)))
 
     #print(resp)
