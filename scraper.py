@@ -40,13 +40,17 @@ def scraper(url, resp):
         repeats = 0
 
         for item in newlinks:
+            #print("----------" + item)
             if is_valid(item) and resp.status == 200:
                 if simhash(item) not in uniquelinks:
                     linkqueue.append(item)
                     uniquelinks.append(simhash(item))
-                    print(item) #UNCOMMENT TO PRINT OUT NEW LINKS
+                    print("new link! " + item) #UNCOMMENT TO PRINT OUT NEW LINKS
+                    print(simhash(item))
                 else:
                     repeats = repeats + 1
+                    print("this is repeat: " + item) #UNCOMMENT TO SEE REPEATS
+                    print(simhash(item))
             elif is_valid(item):
                 print("Error: Status code was ", resp.status)
 
@@ -91,13 +95,20 @@ def extract_next_links(url, input_response):
                     extracted_links.append("http:" + link_href)
                 else:
                     if(url[len(url) - 1:] == "/"):
-                        extracted_links.append(url + link_href[1:])
+                        extracted_links.append(urlparse(url).netloc + link_href[1:])
                     else:
-                        extracted_links.append(url + link_href)
+                        extracted_links.append(urlparse(url).netloc + link_href)
             elif link_href[0:1] == "#":
                 pass
-            else:
+            elif link_href[0:2] == "..":
+                extracted_links.append(urlparse(url).netloc + link_href[2:])
+            elif link_href[0:4] == "http":
                 extracted_links.append(link_href)
+            else:
+                extracted_links.append(url + "/" + link_href)
+
+
+
     for link in extracted_links:
         if "#" in link:
             link = link[:link.find("#")]
@@ -170,16 +181,16 @@ def simhash(url):
     vector = {}
     for i in d.keys():
         l = []
-        hashnum = format(hash(i)%1024, '012b')
+        hashnum = format(hash(i)%65537, '018b')
         for j in hashnum[2:]:
             l.append(j)
         vector[i] = l
         #print(vector)
       
     final = []
-    for i in range(10):
+    for i in range(16):
         add = 0
-        for k,v in vector.items():
+        for k, v in vector.items():
             if v[i] == '1':
                 add += d[k]
             else:
@@ -220,12 +231,14 @@ def computeWordFrequencies(tokens):
 
         
 
-    print(urlparse('http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni').netloc == urlparse('http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/involved/leadership_council').netloc)
+    #print(urlparse('http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni').netloc == urlparse('http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/involved/leadership_council').netloc)
 
 
 if __name__ == '__main__':
 
-    url = "https://www.ics.uci.edu/"
+    url = "https://www.ics.uci.edu/about"
+    print(get_response(url))
+    print("hi")
     # url = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni"
     # url2 = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/involved"
 
