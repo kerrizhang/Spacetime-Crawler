@@ -159,13 +159,27 @@ def simhash(url):
     soup = BeautifulSoup(txt, "html.parser")
     text = soup.get_text()
 
-    lines = (line.strip() for line in text.splitlines())
-    chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
-    # drop blank lines
-    text = '\n'.join(chunk for chunk in chunks if chunk)
+    l = tokenize(text)
+    d = computeWordFrequencies(l)
 
     print(text)
 
+def tokenize(TextFilePath):
+    l = []
+    for line in text:
+        for i in re.findall(r'[a-zA-Z0-9]{2,}', line):
+            i = i.lower()
+            l.append(i)
+    return l
+
+def computeWordFrequencies(tokens):
+    d = {}
+    for i in tokens:
+        if i in d.keys():
+            d[i]+=1
+        else:
+            d[i] = 1
+    return d
     
 
         
