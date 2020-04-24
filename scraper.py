@@ -150,7 +150,12 @@ def get_response(url):
     except:
         print("Could not get response for URL")
 
-
+def similarity(l1, l2):
+    num = 0
+    for i in range(10):
+        if l1[i] == l2[i]:
+            num += 1
+    return num/10
 
 def simhash(url):
     resp = get_response(url)
@@ -159,8 +164,7 @@ def simhash(url):
     soup = BeautifulSoup(txt, "html.parser")
     text = soup.get_text()
 
-    l = tokenize(text)
-    d = computeWordFrequencies(l)
+    d = computeWordFrequencies(tokenize(text))
 
     #vector = []
     vector = {}
@@ -176,15 +180,12 @@ def simhash(url):
     for i in range(10):
         add = 0
         for k,v in vector.items():
-            print(str(v[i]) + " " + str(d[k]))
             if v[i] == '1':
                 add += d[k]
             else:
                 add -= d[k]
             #print(add)
         final.append(add)
-        print("========================")
-    print(final)
 
     ans = []
     for i in final:
@@ -192,7 +193,6 @@ def simhash(url):
             ans.append(1)
         else:
             ans.append(0)
-    print(ans)
     return ans
 
 
@@ -237,6 +237,8 @@ if __name__ == '__main__':
     responseObj = get_response(url)
 
     print(simhash(url2))
+    print(simhash(url))
+    print(similarity(simhash(url2), simhash(url)))
     
     #print(responseObj.raw_response)
     #print("#################################")
