@@ -1,25 +1,30 @@
-NOW EXTRACTING - https://www.ics.uci.edu/community/news/view_news?id=1742
-_________https://www.ics.uci.edu/community/news/view_news?id=1742/press/index.php
-*********https://www.ics.uci.edu/community/news/view_news?id=1742
-*********https://www.ics.uci.edu/about/kfflab/index.php
-_________https://www.ics.uci.edu/community/news/view_news?id=1742/mailto:matt.miller@uci.edu
-*********https://www.ics.uci.edu/about/visit/index.php
-*********https://www.ics.uci.edu/community/news
+NOW EXTRACTING - https://www.ics.uci.edu/about/about_safety.php
+_________https://www.ics.uci.edu/about/about_safety.php/about_safety.php
 *********https://www.ics.uci.edu/about/about_safety.php
-*********http://www.informatics.uci.edu/support/provide-projects
-*********http://www.cs.uci.edu
-_________https://www.ics.uci.edu/community
-http://www.ics.uci.edu/social
-*********http://www.informatics.uci.edu
-*********https://www.ics.uci.edu/accessibility
-_________https://www.ics.uci.edu/community/news/view_news?id=1742/index.php
+*********https://www.ics.uci.edu/community/news
 *********https://www.ics.uci.edu/about/search/index.php
+_________https://www.ics.uci.edu/about/about_safety.php/search/index.php
+_________https://www.ics.uci.edu/about/about_safety.php/about_deanmsg.php
+_________https://www.ics.uci.edu/about/about_safety.php/about_contact.php
+*********https://www.ics.uci.edu/about/visit/index.php
+http://www.ics.uci.edu/social
+*********https://www.ics.uci.edu/accessibility
+_________https://www.ics.uci.edu/about/about_safety.php/bren/index.php
+https://www.ics.uci.edu/about
+_________https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php
+_________https://www.ics.uci.edu/about/about_safety.php/about_meet_the_dean.php
+_________https://www.ics.uci.edu/about/about_safety.php/visit/index.php
 *********http://www.stat.uci.edu
-*********https://www.ics.uci.edu/employment
-*********https://www.ics.uci.edu/about/about_contact.php
+_________https://www.ics.uci.edu/about/about_contact.php
+*********http://www.cs.uci.edu
 *********https://www.ics.uci.edu/about/facilities/index.php
-Number of repeated urls: 18
-New number in queue: 20
-Number of newly added links: 1
-Number of unique so far: 22
-2020-04-24 18:00:48.115973
+*********http://www.informatics.uci.edu/support/provide-projects
+_________https://www.ics.uci.edu/employment
+_________https://www.ics.uci.edu/about/about_safety.php/about_mission.php
+_________https://www.ics.uci.edu/about/kfflab/index.php
+*********http://www.informatics.uci.edu
+Number of repeated urls: 22
+New number in queue: 16
+Number of newly added links: 2
+Number of unique so far: 18
+2020-04-24 19:59:17.217651

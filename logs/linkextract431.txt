@@ -1,0 +1,23 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~yamingy
+http://www.ics.uci.edu/~yamingy/bayesD_demo2.r
+http://www.ics.uci.edu/~yamingy/cocktail.r
+http://www.ics.uci.edu/~yamingy/cocktail_demo1.r
+http://www.ics.uci.edu/~yamingy/npmle_README.txt
+_________http://www.ics.uci.edu/statistics/faculty
+http://www.ics.uci.edu/~yamingy/bayesD_cocktail.r
+http://www.ics.uci.edu/~yamingy/cocktail.m
+http://www.ics.uci.edu/~yamingy/cocktail_demo4.r
+http://www.ics.uci.edu/~yamingy/cocktail_demo3.r
+http://www.ics.uci.edu/~yamingy/bayesD_demo1.r
+_________http://www.ics.uci.edu/statistics
+http://www.ics.uci.edu/~yamingy/npmle.c
+http://www.ics.uci.edu/~yamingy/npmle.r
+http://www.ics.uci.edu/~yamingy/cocktail_demo2.r
+http://www.ics.uci.edu/~yamingy/cocktail_README.txt
+http://www.ics.uci.edu/~yamingy/cocktail_demo.m
+http://www.ics.uci.edu/~yamingy/bayesD_demo3.r
+Number of repeated urls: 2
+New number in queue: 1259
+Number of newly added links: 15
+Number of unique so far: 1691
+2020-04-24 19:23:46.399794

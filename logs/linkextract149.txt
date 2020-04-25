@@ -1,76 +1,50 @@
-NOW EXTRACTING - https://www.informatics.uci.edu/brochure-tiles/how-we-live
-*********https://www.informatics.uci.edu/research/areas-of-expertise
-*********https://www.informatics.uci.edu/grad/mswe
-*********https://www.informatics.uci.edu/explore/department-vision
-*********https://www.informatics.uci.edu/grad/phd-software-engineering
-*********https://www.informatics.uci.edu/undergrad/upcoming-course-schedule
-*********https://www.informatics.uci.edu/explore/history-of-the-department
-*********https://www.informatics.uci.edu/undergrad/student-profiles
-*********https://www.informatics.uci.edu/impact/undergraduate-alumni-spotlights
-*********https://www.informatics.uci.edu/undergrad/bs-information-computer-science
-*********https://www.informatics.uci.edu/support/support-students
-*********https://www.informatics.uci.edu/explore/visiting-the-department
-*********https://www.informatics.uci.edu/very-top-footer-menu-items/contact
-*********https://www.informatics.uci.edu/admissions/student-life
-*********https://www.informatics.uci.edu/very-top-footer-menu-items/news
-*********https://www.informatics.uci.edu/support/collaborate-on-research
-*********https://www.informatics.uci.edu/grad/student-groups
-*********https://www.informatics.uci.edu/grad/upcoming-course-schedule
-*********https://www.informatics.uci.edu/admissions/coming-from-abroad
-*********https://www.informatics.uci.edu/research/example-research-projects
-*********https://www.informatics.uci.edu/admissions/graduate-application-process
-*********https://www.informatics.uci.edu/impact/outreach
-*********https://www.informatics.uci.edu/explore/facts-figures
-*********https://www.informatics.uci.edu/brochure-tiles/how-we-work
-*********https://www.informatics.uci.edu/grad/policies
-*********https://www.informatics.uci.edu/undergrad/minors
-*********https://www.informatics.uci.edu/support/become-a-mentor
-http://www.informatics.uci.edu/files/pdf/InformaticsBrochure-March2018
-*********https://www.informatics.uci.edu/support/share-your-talent
-_________https://www.informatics.uci.edu
-*********https://www.informatics.uci.edu/undergrad/courses
-*********https://www.informatics.uci.edu/research/phd-research
-_________https://www.informatics.uci.edu/support/provide-projects
-*********https://www.informatics.uci.edu/undergrad/student-groups
-*********https://www.informatics.uci.edu/research/undergraduate-research
-*********https://www.informatics.uci.edu/impact/community-engagement
-*********https://www.informatics.uci.edu/very-top-footer-menu-items/people
-*********https://www.informatics.uci.edu/research/masters-research
-*********https://www.informatics.uci.edu/explore/faculty-profiles
-*********https://www.informatics.uci.edu/grad/mhcid
-*********https://www.informatics.uci.edu/grad/diversity-ambassador
-*********https://www.informatics.uci.edu/research/gifts-grants
-*********https://www.informatics.uci.edu/grad/phd-informatics
-*********https://www.informatics.uci.edu/undergrad/policies
-*********https://www.informatics.uci.edu/explore/blogs-we-author
-*********https://www.informatics.uci.edu/grad/student-profiles
-*********https://www.informatics.uci.edu/undergrad/bs-computer-game-science
-*********https://www.informatics.uci.edu/undergrad/bs-business-information-management
-*********https://www.informatics.uci.edu/research/labs-centers
-*********https://www.informatics.uci.edu/admissions/housing
-*********https://www.informatics.uci.edu/explore/books-we-have-written
-*********https://www.informatics.uci.edu/grad/ms-informatics
-*********https://www.informatics.uci.edu/undergrad/bs-software-engineering
-*********https://www.informatics.uci.edu/admissions/undergraduate-application-process
-*********https://www.informatics.uci.edu/undergrad/special-opportunities
-*********https://www.informatics.uci.edu/support/champion-research
-*********https://www.informatics.uci.edu/research/past-dissertations
-*********https://www.informatics.uci.edu/support/become-a-corporate-partner
-*********https://www.informatics.uci.edu/support/set-future-agenda
-*********https://www.informatics.uci.edu/grad/overview
-*********https://www.informatics.uci.edu/impact/graduate-alumni-spotlights
-*********https://www.informatics.uci.edu/impact/research-that-matters
-_________https://www.informatics.uci.edu/grad/courses
-*********https://www.informatics.uci.edu/explore/chairs-welcome
-*********https://www.informatics.uci.edu/explore/books-we-read
-_________https://www.informatics.uci.edu/undergrad/bs-informatics
-_________http://www.ics.uci.edu
-_________https://www.informatics.uci.edu/brochure-tiles/how-we-live/mailto:ichair@ics.uci.edu
-*********https://www.informatics.uci.edu/explore/department-seminars
-*********https://www.informatics.uci.edu/very-top-footer-menu-items/site-map
-*********https://www.informatics.uci.edu/grad/ms-software-engineering
-Number of repeated urls: 69
-New number in queue: 801
-Number of newly added links: 1
-Number of unique so far: 951
-2020-04-24 18:30:49.128378
+NOW EXTRACTING - http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/policies/CS199_IN4MATX199.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/resources/Title_IX_Resources.php
+*********https://www.ics.uci.edu/accessibility
+*********http://www.cs.uci.edu
+*********http://www.stat.uci.edu
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/sao/index.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/resources/index.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/index.php
+*********https://www.ics.uci.edu/about/kfflab/index.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/mailto:ucounsel@uci.edu
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/policies/Course_Outside_UCI.php
+*********http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php
+_________https://www.ics.uci.edu/community/news
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/policies/Academic_Standing.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/policies/Grade_Options.php
+*********https://www.ics.uci.edu/about/facilities/index.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/QA_Petitions.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/policies/Add_Drop_ChangeOption.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/policies/Laptop_ComputerUse.php
+http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/degrees/index.php
+*********https://www.ics.uci.edu/about/search/index.php
+*********http://www.informatics.uci.edu/support/provide-projects
+*********https://www.ics.uci.edu/employment
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/policies/Withdrawal_Readmission.php
+*********http://www.informatics.uci.edu
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/sao/Concurrent_Enrollment.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/degrees/Minors.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/degrees/Second_BA.php
+*********http://www.ics.uci.edu/social
+*********https://www.ics.uci.edu/about/about_safety.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/policies/Change_of_Major.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/advising/ICS Credit by Exam Fall.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/degrees/Double_Majors.php
+http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/courses/index.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/sao/SAO_Events.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/advising/ICS New Student Welcome.php
+_________https://www.ics.uci.edu/ugrad/livechat.php/degrees
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/sao/Course_updates.php
+_________https://www.ics.uci.edu/ugrad/livechat.php
+*********https://www.ics.uci.edu/ugrad
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/policies/Academic_Honesty.php
+*********https://www.ics.uci.edu/about/visit/index.php
+*********https://www.ics.uci.edu/about/about_contact.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php/QA_Graduation.php
+Number of repeated urls: 42
+New number in queue: 778
+Number of newly added links: 2
+Number of unique so far: 928
+2020-04-24 19:54:35.379753

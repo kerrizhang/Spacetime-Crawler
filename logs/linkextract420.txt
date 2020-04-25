@@ -1,0 +1,8 @@
+NOW EXTRACTING - https://www.ics.uci.edu/~marymr
+*********https://www.ics.uci.edu/~marymr
+*********https://www.ics.uci.edu/~dgillen
+Number of repeated urls: 2
+New number in queue: 1224
+Number of newly added links: 0
+Number of unique so far: 1645
+2020-04-24 19:22:48.891123

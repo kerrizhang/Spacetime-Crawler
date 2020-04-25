@@ -1,0 +1,11 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~feldman
+http://www.ics.uci.edu/~feldman/ICS131.htm
+http://www.ics.uci.edu/~feldman/mailto:feldman@ics.uci.edu
+http://www.ics.uci.edu/~feldman/ICS131F00.html
+_________http://www.ics.uci.edu
+_________http://www.ics.uci.edu/WWWdocs/localFAQ.html#HTML
+Number of repeated urls: 2
+New number in queue: 1253
+Number of newly added links: 3
+Number of unique so far: 1625
+2020-04-24 19:16:48.660088

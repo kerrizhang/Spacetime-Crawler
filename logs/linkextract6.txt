@@ -1,22 +1,25 @@
-NOW EXTRACTING - https://www.ics.uci.edu/about/kfflab/index.php
-_________https://www.ics.uci.edu/about/kfflab
+NOW EXTRACTING - https://www.ics.uci.edu/community/news/view_news?id=1714
 *********https://www.ics.uci.edu/accessibility
-*********http://www.cs.uci.edu
-*********http://www.stat.uci.edu
-*********https://www.ics.uci.edu/about/kfflab/index.php
-_________https://www.ics.uci.edu/community/news
-*********https://www.ics.uci.edu/about/facilities/index.php
-https://www.ics.uci.edu/about
-*********https://www.ics.uci.edu/about/search/index.php
-*********http://www.informatics.uci.edu/support/provide-projects
-*********https://www.ics.uci.edu/employment
-*********http://www.informatics.uci.edu
+_________https://www.ics.uci.edu/about/visit/index.php
 *********http://www.ics.uci.edu/social
-*********https://www.ics.uci.edu/about/about_safety.php
-*********https://www.ics.uci.edu/about/visit/index.php
+*********https://www.ics.uci.edu/about/kfflab/index.php
+_________http://www.stat.uci.edu
+*********https://www.ics.uci.edu/community/news/view_news?id=1714
+*********https://www.ics.uci.edu/about/search/index.php
+*********https://www.ics.uci.edu/employment
 *********https://www.ics.uci.edu/about/about_contact.php
-Number of repeated urls: 15
-New number in queue: 62
-Number of newly added links: 1
-Number of unique so far: 69
-2020-04-24 17:41:42.015926
+_________https://www.ics.uci.edu/community/news
+_________http://www.cs.uci.edu
+_________https://www.ics.uci.edu/community/news/view_news?id=1714/mailto:matt.miller@uci.edu
+*********https://www.ics.uci.edu/about/about_safety.php
+_________https://www.ics.uci.edu/about/facilities/index.php
+*********http://www.informatics.uci.edu
+_________https://www.ics.uci.edu/community
+_________http://www.informatics.uci.edu/support/provide-projects
+_________https://www.ics.uci.edu/community/news/view_news?id=1714/index.php
+_________https://www.ics.uci.edu/community/news/view_news?id=1714/press/index.php
+Number of repeated urls: 19
+New number in queue: 12
+Number of newly added links: 0
+Number of unique so far: 19
+2020-04-24 19:33:57.913154

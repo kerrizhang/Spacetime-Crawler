@@ -1,0 +1,20 @@
+NOW EXTRACTING - https://www.cs.uci.edu/seminar-series-testing
+*********https://www.ics.uci.edu
+*********https://www.cs.uci.edu/faculty
+*********https://www.cs.uci.edu/undergraduate-programs
+*********https://www.cs.uci.edu/current-graduate-students
+*********https://www.cs.uci.edu/job-opportunities
+*********https://www.cs.uci.edu/about-the-department
+*********https://www.cs.uci.edu/cs-research-areas
+_________https://www.cs.uci.edu/seminar-series-testing/mailto:mstasik@ics.uci.edu
+*********https://www.cs.uci.edu/graduate-computer-science-programs
+*********https://www.cs.uci.edu/research-centers
+_________http://www.ics.uci.edu
+_________https://www.cs.uci.edu/seminar-series-testing/mailto:communications@ics.uci.edu
+*********http://www.cs.uci.edu
+*********https://www.cs.uci.edu/contact
+Number of repeated urls: 14
+New number in queue: 1374
+Number of newly added links: 0
+Number of unique so far: 2074
+2020-04-24 19:53:06.499539

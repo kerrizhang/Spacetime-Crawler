@@ -1,0 +1,25 @@
+NOW EXTRACTING - http://www.ics.uci.edu/community/scholarships/index.php
+*********https://www.ics.uci.edu/about/facilities/index.php
+_________https://www.ics.uci.edu/community/scholarships
+*********https://www.ics.uci.edu/about/about_safety.php
+*********https://www.ics.uci.edu/employment
+*********http://www.ics.uci.edu/social
+*********https://www.ics.uci.edu/about/visit/index.php
+*********http://www.informatics.uci.edu/support/provide-projects
+*********https://www.ics.uci.edu/about/kfflab/index.php
+_________http://www.ics.uci.edu/community/scholarships/index.php/scholar_corporate.php
+*********http://www.stat.uci.edu
+*********http://www.cs.uci.edu
+_________https://www.ics.uci.edu/community/news
+*********https://www.ics.uci.edu/about/search/index.php
+*********http://www.ics.uci.edu/community/scholarships/index.php
+_________https://www.ics.uci.edu/community
+*********https://www.ics.uci.edu/accessibility
+*********http://www.informatics.uci.edu
+_________http://www.ics.uci.edu/community/scholarships/index.php/mailto:khuerth@ics.uci.edu
+*********https://www.ics.uci.edu/about/about_contact.php
+Number of repeated urls: 19
+New number in queue: 1242
+Number of newly added links: 0
+Number of unique so far: 1642
+2020-04-24 19:20:15.193903

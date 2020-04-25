@@ -1,0 +1,14 @@
+NOW EXTRACTING - https://www.ics.uci.edu/~dgillen
+_________https://www.stat.uci.edu
+https://www.ics.uci.edu/~dgillen/publications.html
+https://www.ics.uci.edu/~dgillen/teaching.html
+https://www.ics.uci.edu/~dgillen/experience.html
+*********https://www.stat.uci.edu/gillen-furthers-healthcare-research-with-two-nih-grants
+https://www.ics.uci.edu/~dgillen/lab-members.html
+_________https://www.ics.uci.edu/~dgillen/index.html
+https://www.ics.uci.edu/~dgillen/research.html
+Number of repeated urls: 3
+New number in queue: 1228
+Number of newly added links: 5
+Number of unique so far: 1650
+2020-04-24 19:22:53.795936

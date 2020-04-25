@@ -21,6 +21,7 @@ uniquelinks = []
 failedlinks = []
 uniqueurls = []
 stopwords = []
+url_dict = dict()
 
 def scraper(url, resp):
     if url[len(url) - 1:] == "/":
@@ -30,8 +31,10 @@ def scraper(url, resp):
     #     url = url[:index]
 
     linkqueue.append(url)
-    uniquelinks.append(simhash(url))
     uniqueurls.append(url)
+    url_dict[url] = resp
+    uniquelinks.append(simhash(url))
+
     # links = extract_next_links(url, resp)
     #
     # for item in links:
@@ -44,7 +47,7 @@ def scraper(url, resp):
     filenumber = 0
     while len(linkqueue) > 0:
         nextlink = linkqueue.pop(0)
-        newlinks = extract_next_links(nextlink, get_response(nextlink))
+        newlinks = extract_next_links(nextlink, url_dict[nextlink])
 
         repeats = 0
         newadded = 0
@@ -55,10 +58,12 @@ def scraper(url, resp):
             if item not in uniqueurls:
                 # print("----------" + item)
                 if is_valid(item) and resp.status == 200:
-
-                    if simhash(item) not in uniquelinks:
+                    if item not in url_dict:
+                        url_dict[item] = get_response(item)
+                    item_simhash = simhash(item)
+                    if item_simhash not in uniquelinks:
                         linkqueue.append(item)
-                        uniquelinks.append(simhash(item))
+                        uniquelinks.append(item_simhash)
                         uniqueurls.append(item)
                         newadded = newadded + 1
                         f.write(item + "\n")
@@ -134,26 +139,32 @@ def extract_next_links(url, input_response):
             else:
                 extracted_links.add(url + "/" + link_href)
 
-    # for i, e in enumerate(extracted_links):
-    # if "#" in e:
-    # extracted_links[i] = extracted_links[i][:e.find('#')]
 
-    # if "?" in link:
-    #     #print("QUESTION MARK ?????????????????")
-    #     link = link[:link.find("?")]
+    hash_set = set()
+    for item in extracted_links:
+        if "#" in item:
+            hash_set.add(item[:item.find('#')])
+        else:
+            hash_set.add(item)
 
-    e_list = list(extracted_links)
-    for i, e in enumerate(e_list):
-        if e[len(e) - 1:] == "/":
-            e_list[i] = e[:len(e) - 1]
-    extracted_links = set(e_list)
+    #print(hash_set)
+    extracted_links = set()
+    for item in hash_set:
+        if item[len(item) - 1:] == "/":
+            extracted_links.add(item[:len(item) - 1])
+        else:
+            extracted_links.add(item)
 
+    '''
     rp = urllib.robotparser.RobotFileParser()
+
     final_links = set()
 
 
     for link in extracted_links:
-        base_url = "http://" + urlparse(url).netloc
+        #print(link)
+        base_url = "http://" + urlparse(link).netloc
+        print(base_url)
         rp.set_url(urljoin(base_url, "/robots.txt"))
         # rp.set_url("http://www.ics.uci.edu/robots.txt")
         rp.read()
@@ -163,9 +174,9 @@ def extract_next_links(url, input_response):
         #if rp.site_maps() != None:
 
             #print(sitemaps_list)
-
-    # return extracted_links
-    return final_links
+    '''
+    return extracted_links
+    #return final_links
 
 
 def is_valid(url):
@@ -216,7 +227,8 @@ def similarity(l1, l2):
 
 
 def simhash(url):
-    resp = get_response(url)
+    #print(url_dict)
+    resp = url_dict[url]
     if (resp == None):
         print("This url has an empty response: " + url)
         failedlinks.append(url)

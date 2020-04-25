@@ -1,31 +1,50 @@
-NOW EXTRACTING - https://www.stat.uci.edu/professor-berrocal-elected-chair-of-the-section-in-environmental-sciences-of-the-isba
-*********https://www.stat.uci.edu/minor-in-statistics
-*********https://www.ics.uci.edu
-*********https://www.stat.uci.edu/statistics-internships-employment-opportunities
-*********https://www.stat.uci.edu/slider/b-s-in-data-science
-*********http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
-*********https://www.stat.uci.edu/faculty
-_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=vberroca
-*********https://www.stat.uci.edu/statistics-ph-d-student-mary-ryan-receives-public-impact-fellowship
-_________https://www.stat.uci.edu
-*********https://www.stat.uci.edu/seminar-series
-*********https://www.stat.uci.edu/employers-of-statistics-grad-students
-*********https://www.stat.uci.edu/tutoring-resources
-*********https://www.stat.uci.edu/nsf-announces-2020-graduate-research-fellows
-*********https://www.stat.uci.edu/research
-*********https://www.stat.uci.edu/amstat-news-celebrating-rising-undergraduate-women-in-statistics-and-data-science
-*********https://www.stat.uci.edu/chairs-message
-*********https://www.stat.uci.edu/contact-the-department
-*********https://www.stat.uci.edu/grad-student-directory
-*********https://www.stat.uci.edu/staff-spotlight-rosemary-bustas-journey-from-chemistry-to-statistics-to-scotland-and-beyond
-*********https://www.stat.uci.edu/m-s-ph-d-in-statistics
-*********https://www.stat.uci.edu/professor-berrocal-elected-chair-of-the-section-in-environmental-sciences-of-the-isba
-_________https://www.stat.uci.edu/professor-berrocal-elected-chair-of-the-section-in-environmental-sciences-of-the-isba/mailto:communications@ics.uci.edu
-*********https://www.stat.uci.edu/what-is-statistics
-*********http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
-*********http://www.stat.uci.edu/news
-Number of repeated urls: 25
-New number in queue: 649
-Number of newly added links: 0
-Number of unique so far: 796
-2020-04-24 18:21:42.636069
+NOW EXTRACTING - http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php
+http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/sao/index.php
+http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/degrees/Minors.php
+http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/policies/CS199_IN4MATX199.php
+*********http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/advising/ICS Credit by Exam Fall.php
+*********https://www.ics.uci.edu/accessibility
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/sao/Course_updates.php
+*********http://www.cs.uci.edu
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/policies/Change_of_Major.php
+*********http://www.stat.uci.edu
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/sao/Concurrent_Enrollment.php
+*********https://www.ics.uci.edu/about/kfflab/index.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/policies/Add_Drop_ChangeOption.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/policies/Withdrawal_Readmission.php
+_________https://www.ics.uci.edu/community/news
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/degrees/index.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/QA_Petitions.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/policies/Course_Outside_UCI.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/policies/Grade_Options.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/policies/Laptop_ComputerUse.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/degrees/Second_BA.php
+*********https://www.ics.uci.edu/about/facilities/index.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/policies/Academic_Honesty.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/QA_Graduation.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/mailto:ucounsel@uci.edu
+*********https://www.ics.uci.edu/about/search/index.php
+*********http://www.informatics.uci.edu/support/provide-projects
+*********https://www.ics.uci.edu/employment
+*********http://www.informatics.uci.edu
+*********http://www.ics.uci.edu/social
+*********https://www.ics.uci.edu/about/about_safety.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/degrees/Double_Majors.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/policies/Academic_Standing.php
+http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/resources/index.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/sao/SAO_Events.php
+_________https://www.ics.uci.edu/ugrad/livechat.php/policies
+_________https://www.ics.uci.edu/ugrad/livechat.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/advising/ICS New Student Welcome.php
+*********https://www.ics.uci.edu/ugrad
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/resources/Title_IX_Resources.php
+*********https://www.ics.uci.edu/about/visit/index.php
+*********https://www.ics.uci.edu/about/about_contact.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/index.php
+http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php/courses/index.php
+Number of repeated urls: 39
+New number in queue: 772
+Number of newly added links: 5
+Number of unique so far: 919
+2020-04-24 19:51:41.514008

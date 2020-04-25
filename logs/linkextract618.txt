@@ -1,0 +1,34 @@
+NOW EXTRACTING - https://www.cs.uci.edu/2018/11
+*********http://www.ics.uci.edu/~mlevorat
+*********https://www.cs.uci.edu/professor-franz-honored-with-humboldt-research-award
+*********https://www.ics.uci.edu
+*********https://www.cs.uci.edu/just-code-it-introduces-middle-schools-girls-to-computer-science
+*********https://www.cs.uci.edu/faculty
+*********https://www.cs.uci.edu/computer-science-team-develops-coronavirustwittermap
+*********https://www.cs.uci.edu/undergraduate-programs
+*********https://www.cs.uci.edu/current-graduate-students
+*********https://www.cs.uci.edu/job-opportunities
+_________https://www.cs.uci.edu/professor-franz-honored-with-humboldt-research-award/#more-1854
+*********https://www.cs.uci.edu/uci-feels-like-home-for-navy-veteran-and-computer-science-major-timothy-tomas
+*********https://www.cs.uci.edu/about-the-department
+_________https://www.informatics.uci.edu/explore/faculty-profiles/cristina-lopes
+*********https://www.cs.uci.edu/2020-hall-of-fame-celebration-honors-achievement-and-opportunity
+*********https://www.cs.uci.edu/cs-research-areas
+*********https://www.cs.uci.edu/graduate-computer-science-programs
+*********https://www.cs.uci.edu/professor-levoratos-darpa-project-aims-to-strengthen-autonomous-drone-systems
+_________https://www.cs.uci.edu/multidepartmental-collaboration-on-detecting-code-clones-leads-to-distinguished-paper-award/#more-1849
+*********https://www.cs.uci.edu/research-centers
+*********https://www.cs.uci.edu/uci-news-coronavirus-twitter-map-developed-at-uci-displays-social-media-reactions-to-covid-19-chen-li-quoted
+_________http://www.ics.uci.edu
+_________https://www.cs.uci.edu/uci-feels-like-home-for-navy-veteran-and-computer-science-major-timothy-tomas/#more-1840
+*********https://www.cs.uci.edu/chemical-engineering-news-exploring-chemical-space-can-ai-take-us-where-no-human-has-gone-before-pierre-baldi-quoted
+*********http://www.cs.uci.edu
+*********https://www.cs.uci.edu/contact
+_________https://www.cs.uci.edu/professor-levoratos-darpa-project-aims-to-strengthen-autonomous-drone-systems/#more-1833
+_________https://www.cs.uci.edu/2018/11/mailto:communications@ics.uci.edu
+*********https://www.cs.uci.edu/multidepartmental-collaboration-on-detecting-code-clones-leads-to-distinguished-paper-award
+Number of repeated urls: 28
+New number in queue: 1391
+Number of newly added links: 0
+Number of unique so far: 2010
+2020-04-24 19:42:22.976571

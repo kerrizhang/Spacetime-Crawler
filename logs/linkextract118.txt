@@ -1,26 +1,85 @@
-NOW EXTRACTING - https://www.cs.uci.edu/research-centers
-*********https://www.ics.uci.edu
-_________https://www.cs.uci.edu/research-centers/mailto:communications@ics.uci.edu
-*********https://www.cs.uci.edu/just-code-it-introduces-middle-schools-girls-to-computer-science
-*********https://www.cs.uci.edu/faculty
-*********https://www.cs.uci.edu/computer-science-team-develops-coronavirustwittermap
-*********https://www.cs.uci.edu/undergraduate-programs
-http://www.ics.uci.edu/~theory
-*********https://www.cs.uci.edu/current-graduate-students
-*********https://www.cs.uci.edu/job-opportunities
-*********https://www.cs.uci.edu/about-the-department
-*********https://www.cs.uci.edu/2020-hall-of-fame-celebration-honors-achievement-and-opportunity
-*********https://www.cs.uci.edu/cs-research-areas
-*********https://www.cs.uci.edu/graduate-computer-science-programs
-*********https://www.cs.uci.edu/research-centers
-*********https://www.cs.uci.edu/uci-news-coronavirus-twitter-map-developed-at-uci-displays-social-media-reactions-to-covid-19-chen-li-quoted
-http://www.ics.uci.edu/~projects/cert
+NOW EXTRACTING - https://www.informatics.uci.edu/impact/research-that-matters
+_________https://www.informatics.uci.edu/support/provide-projects
+*********https://www.informatics.uci.edu/explore/history-of-the-department
+*********https://www.informatics.uci.edu/grad/phd-informatics
+*********https://www.informatics.uci.edu/impact/outreach
+_________https://www.informatics.uci.edu
+*********https://www.informatics.uci.edu/grad/mswe
+*********https://www.informatics.uci.edu/grad/student-profiles
+*********https://www.informatics.uci.edu/research/past-dissertations
+*********https://www.informatics.uci.edu/grad/phd-software-engineering
+*********https://www.informatics.uci.edu/explore/facts-figures
+*********https://www.informatics.uci.edu/grad/ms-informatics
+*********https://www.informatics.uci.edu/explore/visiting-the-department
+_________http://www.informatics.uci.edu/explore/faculty-profiles/judy-olson
+*********https://www.informatics.uci.edu/admissions/coming-from-abroad
+*********https://www.informatics.uci.edu/grad/overview
+*********https://www.informatics.uci.edu/very-top-footer-menu-items/people
+*********https://www.informatics.uci.edu/support/share-your-talent
+*********http://www.informatics.uci.edu/explore/faculty-profiles/gillian-hayes
+*********https://www.informatics.uci.edu/explore/faculty-profiles
+*********https://www.informatics.uci.edu/undergrad/bs-informatics
+*********http://www.informatics.uci.edu/explore/faculty-profiles/richard-taylor
+_________https://www.informatics.uci.edu/impact/research-that-matters/mailto:ichair@ics.uci.edu
+*********https://www.informatics.uci.edu/grad/policies
+*********https://www.informatics.uci.edu/grad/mhcid
+_________https://www.informatics.uci.edu/undergrad/bs-software-engineering
+*********https://www.informatics.uci.edu/support/become-a-mentor
+*********https://www.informatics.uci.edu/undergrad/bs-computer-game-science
+*********https://www.informatics.uci.edu/explore/chairs-welcome
+*********https://www.informatics.uci.edu/undergrad/student-profiles
+*********https://www.informatics.uci.edu/undergrad/student-groups
+*********https://www.informatics.uci.edu/very-top-footer-menu-items/news
+*********https://www.informatics.uci.edu/support/champion-research
+*********https://www.informatics.uci.edu/admissions/housing
+*********https://www.informatics.uci.edu/research/phd-research
+*********https://www.informatics.uci.edu/research/undergraduate-research
+*********https://www.informatics.uci.edu/very-top-footer-menu-items/contact
+*********https://www.informatics.uci.edu/undergrad/special-opportunities
+*********https://www.informatics.uci.edu/explore/blogs-we-author
+*********https://www.informatics.uci.edu/impact/undergraduate-alumni-spotlights
+*********https://www.informatics.uci.edu/support/collaborate-on-research
+*********https://www.informatics.uci.edu/admissions/student-life
+*********https://www.informatics.uci.edu/impact/community-engagement
+*********https://www.informatics.uci.edu/support/support-students
+*********https://www.informatics.uci.edu/undergrad/bs-information-computer-science
+*********https://www.informatics.uci.edu/undergrad/minors
+_________http://www.informatics.uci.edu/grad/student-profiles/jed-brubaker
+*********https://www.informatics.uci.edu/support/set-future-agenda
+_________http://www.informatics.uci.edu/explore/faculty-profiles/geoffrey-bowker
+_________http://www.informatics.uci.edu/explore/department-vision
+*********https://www.informatics.uci.edu/research/areas-of-expertise
+*********https://www.informatics.uci.edu/explore/books-we-read
+*********https://www.informatics.uci.edu/grad/student-groups
+*********https://www.informatics.uci.edu/explore/department-seminars
+*********https://www.informatics.uci.edu/undergrad/policies
+*********https://www.informatics.uci.edu/admissions/graduate-application-process
+*********https://www.informatics.uci.edu/impact/research-that-matters
+*********http://www.informatics.uci.edu/explore/faculty-profiles/gloria-mark
+*********https://www.informatics.uci.edu/very-top-footer-menu-items/site-map
 _________http://www.ics.uci.edu
-*********https://www.cs.uci.edu/chemical-engineering-news-exploring-chemical-space-can-ai-take-us-where-no-human-has-gone-before-pierre-baldi-quoted
-*********http://www.cs.uci.edu
-*********https://www.cs.uci.edu/contact
-Number of repeated urls: 18
-New number in queue: 642
-Number of newly added links: 2
-Number of unique so far: 761
-2020-04-24 18:18:28.278437
+*********https://www.informatics.uci.edu/undergrad/upcoming-course-schedule
+*********https://www.informatics.uci.edu/grad/ms-software-engineering
+*********https://www.informatics.uci.edu/impact/graduate-alumni-spotlights
+*********https://www.informatics.uci.edu/support/become-a-corporate-partner
+_________http://www.informatics.uci.edu/explore/faculty-profiles/don-patterson
+*********http://www.informatics.uci.edu/explore/faculty-profiles/andre-van-der-hoek
+*********https://www.informatics.uci.edu/research/gifts-grants
+*********https://www.informatics.uci.edu/explore/books-we-have-written
+*********https://www.informatics.uci.edu/research/masters-research
+*********https://www.informatics.uci.edu/admissions/undergraduate-application-process
+*********https://www.informatics.uci.edu/grad/upcoming-course-schedule
+*********https://www.informatics.uci.edu/research/labs-centers
+*********https://www.informatics.uci.edu/undergrad/bs-business-information-management
+_________https://www.informatics.uci.edu/undergrad/courses
+*********https://www.informatics.uci.edu/research/example-research-projects
+*********http://www.informatics.uci.edu/explore/faculty-profiles/gary-olson
+*********https://www.informatics.uci.edu/grad/diversity-ambassador
+*********http://www.informatics.uci.edu/explore/faculty-profiles/bill-tomlinson
+_________https://www.informatics.uci.edu/grad/courses
+*********https://www.informatics.uci.edu/explore/department-vision
+Number of repeated urls: 79
+New number in queue: 768
+Number of newly added links: 0
+Number of unique so far: 887
+2020-04-24 19:18:16.475976

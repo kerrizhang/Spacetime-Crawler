@@ -1,38 +1,75 @@
-NOW EXTRACTING - https://www.ics.uci.edu/about/about_contact.php/bren/index.php
-_________https://www.ics.uci.edu/about/about_contact.php/bren
-_________https://www.ics.uci.edu/about/about_contact.php/bren/index.php/mailto:gcounsel@ics.uci.edu
-*********http://www.informatics.uci.edu/support/provide-projects
-_________https://www.ics.uci.edu/about/about_contact.php/bren/index.php/search/index.php
-*********https://www.ics.uci.edu/community/news
-*********https://www.ics.uci.edu/about
-_________https://www.ics.uci.edu/about/about_contact.php/bren/index.php/brenhall/index.php
-*********https://www.ics.uci.edu/employment
-*********http://www.informatics.uci.edu
-_________https://www.ics.uci.edu/about/about_contact.php/bren/index.php/about_safety.php
-_________https://www.ics.uci.edu/about/about_contact.php/bren/index.php/about_mission.php
-_________https://www.ics.uci.edu/about/about_contact.php/bren/index.php/visit/index.php
-*********https://www.ics.uci.edu/accessibility
-_________https://www.ics.uci.edu/about/about_contact.php/bren/index.php/search/search_communications.php
-*********https://www.ics.uci.edu/about/about_safety.php
-*********http://www.cs.uci.edu
-*********https://www.ics.uci.edu/about/about_contact.php
-*********http://www.ics.uci.edu/social
-_________https://www.ics.uci.edu/about/about_contact.php/bren/index.php/mailto:ucounsel@uci.edu
-https://www.ics.uci.edu/about/about_contact.php/bren/index.php/bren/index.php
-*********https://www.ics.uci.edu/about/facilities/index.php
-_________https://www.ics.uci.edu/about/about_contact.php/bren/index.php/
-*********https://www.ics.uci.edu/about/visit/index.php
-*********https://www.ics.uci.edu/about/search/index.php
-_________https://www.ics.uci.edu/about/about_contact.php/bren/index.php/mailto:communications@ics.uci.edu
-_________https://www.ics.uci.edu/about/about_contact.php/bren/index.php/about_deanmsg.php
-_________https://www.ics.uci.edu/about/about_contact.php/bren/index.php/about_contact.php
-*********https://www.ics.uci.edu/about/kfflab/index.php
-_________https://www.ics.uci.edu/about/about_contact.php/bren/index.php/search/search_sao.php
-_________https://www.ics.uci.edu/about/about_contact.php/bren/index.php/about_meet_the_dean.php
-*********http://www.stat.uci.edu
-_________https://www.ics.uci.edu/about/about_contact.php/bren/index.php/mailto:matt.miller@uci.edu
-Number of repeated urls: 31
-New number in queue: 643
-Number of newly added links: 1
-Number of unique so far: 771
-2020-04-24 18:19:18.503031
+NOW EXTRACTING - https://www.informatics.uci.edu/admissions/undergraduate-application-process
+_________https://www.informatics.uci.edu/support/provide-projects
+*********https://www.informatics.uci.edu/explore/history-of-the-department
+*********https://www.informatics.uci.edu/grad/phd-informatics
+*********https://www.informatics.uci.edu/impact/outreach
+_________https://www.informatics.uci.edu
+*********https://www.informatics.uci.edu/grad/mswe
+*********https://www.informatics.uci.edu/grad/student-profiles
+*********https://www.informatics.uci.edu/research/past-dissertations
+*********https://www.informatics.uci.edu/grad/phd-software-engineering
+*********https://www.informatics.uci.edu/explore/facts-figures
+*********https://www.informatics.uci.edu/grad/ms-informatics
+*********https://www.informatics.uci.edu/explore/visiting-the-department
+*********https://www.informatics.uci.edu/admissions/coming-from-abroad
+*********https://www.informatics.uci.edu/grad/overview
+*********https://www.informatics.uci.edu/very-top-footer-menu-items/people
+*********https://www.informatics.uci.edu/support/share-your-talent
+*********https://www.informatics.uci.edu/explore/faculty-profiles
+*********https://www.informatics.uci.edu/undergrad/bs-informatics
+_________https://www.informatics.uci.edu/admissions/undergraduate-application-process/mailto:ichair@ics.uci.edu
+*********https://www.informatics.uci.edu/grad/policies
+*********https://www.informatics.uci.edu/grad/mhcid
+_________https://www.informatics.uci.edu/undergrad/bs-software-engineering
+*********https://www.informatics.uci.edu/support/become-a-mentor
+*********https://www.informatics.uci.edu/undergrad/bs-computer-game-science
+*********https://www.informatics.uci.edu/explore/chairs-welcome
+*********https://www.informatics.uci.edu/undergrad/student-profiles
+*********https://www.informatics.uci.edu/undergrad/student-groups
+*********https://www.informatics.uci.edu/very-top-footer-menu-items/news
+*********https://www.informatics.uci.edu/support/champion-research
+*********https://www.informatics.uci.edu/admissions/housing
+*********https://www.informatics.uci.edu/research/phd-research
+*********https://www.informatics.uci.edu/research/undergraduate-research
+*********https://www.informatics.uci.edu/very-top-footer-menu-items/contact
+*********https://www.informatics.uci.edu/undergrad/special-opportunities
+*********https://www.informatics.uci.edu/explore/blogs-we-author
+*********https://www.informatics.uci.edu/impact/undergraduate-alumni-spotlights
+*********https://www.informatics.uci.edu/support/collaborate-on-research
+*********https://www.informatics.uci.edu/admissions/student-life
+*********https://www.informatics.uci.edu/impact/community-engagement
+*********https://www.informatics.uci.edu/support/support-students
+*********https://www.informatics.uci.edu/undergrad/bs-information-computer-science
+*********https://www.informatics.uci.edu/undergrad/minors
+*********https://www.informatics.uci.edu/support/set-future-agenda
+*********https://www.informatics.uci.edu/research/areas-of-expertise
+*********https://www.informatics.uci.edu/explore/books-we-read
+*********https://www.informatics.uci.edu/grad/student-groups
+*********https://www.informatics.uci.edu/explore/department-seminars
+*********https://www.informatics.uci.edu/undergrad/policies
+*********https://www.informatics.uci.edu/admissions/graduate-application-process
+*********https://www.informatics.uci.edu/impact/research-that-matters
+*********https://www.informatics.uci.edu/very-top-footer-menu-items/site-map
+_________http://www.ics.uci.edu
+*********https://www.informatics.uci.edu/undergrad/upcoming-course-schedule
+_________http://www.ics.uci.edu/ugrad
+*********https://www.informatics.uci.edu/grad/ms-software-engineering
+*********https://www.informatics.uci.edu/impact/graduate-alumni-spotlights
+*********https://www.informatics.uci.edu/support/become-a-corporate-partner
+*********https://www.informatics.uci.edu/research/gifts-grants
+*********https://www.informatics.uci.edu/explore/books-we-have-written
+*********https://www.informatics.uci.edu/research/masters-research
+*********https://www.informatics.uci.edu/admissions/undergraduate-application-process
+*********https://www.informatics.uci.edu/grad/upcoming-course-schedule
+*********https://www.informatics.uci.edu/research/labs-centers
+*********https://www.informatics.uci.edu/undergrad/bs-business-information-management
+_________https://www.informatics.uci.edu/undergrad/courses
+*********https://www.informatics.uci.edu/research/example-research-projects
+*********https://www.informatics.uci.edu/grad/diversity-ambassador
+_________https://www.informatics.uci.edu/grad/courses
+*********https://www.informatics.uci.edu/explore/department-vision
+Number of repeated urls: 69
+New number in queue: 772
+Number of newly added links: 0
+Number of unique so far: 900
+2020-04-24 19:27:29.805613

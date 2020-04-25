@@ -1,0 +1,11 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~sternh
+http://www.ics.uci.edu/~sternh/mailto:sternh@
+uci.edu
+_________http://www.ics.uci.edu
+http://www.ics.uci.edu/~sternh/courses/210
+*********http://www.stat.uci.edu
+Number of repeated urls: 2
+New number in queue: 1244
+Number of newly added links: 2
+Number of unique so far: 1671
+2020-04-24 19:23:20.270641

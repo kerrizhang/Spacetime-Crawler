@@ -1,0 +1,31 @@
+NOW EXTRACTING - https://www.cs.uci.edu/2016/12
+https://www.cs.uci.edu/uci-team-places-first-in-regional-acm-competition-advances-to-international-finals-in-may
+*********https://www.ics.uci.edu
+*********https://www.cs.uci.edu/just-code-it-introduces-middle-schools-girls-to-computer-science
+*********https://www.cs.uci.edu/faculty
+https://www.cs.uci.edu/uci-ranked-7th-best-university-for-coding-in-u-s-by-hackerrank
+_________https://www.cs.uci.edu/uci-team-places-first-in-regional-acm-competition-advances-to-international-finals-in-may/#more-643
+*********https://www.cs.uci.edu/undergraduate-programs
+*********https://www.cs.uci.edu/computer-science-team-develops-coronavirustwittermap
+*********https://www.cs.uci.edu/current-graduate-students
+https://www.cs.uci.edu/two-ics-ph-d-students-receive-2017-uci-public-impact-fellowships
+*********https://www.cs.uci.edu/job-opportunities
+*********https://www.cs.uci.edu/about-the-department
+*********https://www.cs.uci.edu/2020-hall-of-fame-celebration-honors-achievement-and-opportunity
+*********https://www.cs.uci.edu/cs-research-areas
+*********https://www.cs.uci.edu/graduate-computer-science-programs
+_________https://www.ics.uci.edu/involved/corporate_partner
+*********https://www.cs.uci.edu/research-centers
+*********https://www.cs.uci.edu/uci-news-coronavirus-twitter-map-developed-at-uci-displays-social-media-reactions-to-covid-19-chen-li-quoted
+_________http://www.ics.uci.edu
+_________https://www.cs.uci.edu/two-ics-ph-d-students-receive-2017-uci-public-impact-fellowships/#more-668
+_________https://www.cs.uci.edu/2016/12/mailto:communications@ics.uci.edu
+https://www.cs.uci.edu/cylance-commits-50k-to-ucis-center-for-machine-learning-and-intelligent-systems-to-support-seminar-series-ph-d-recruitment
+*********https://www.cs.uci.edu/chemical-engineering-news-exploring-chemical-space-can-ai-take-us-where-no-human-has-gone-before-pierre-baldi-quoted
+*********http://www.cs.uci.edu
+*********https://www.cs.uci.edu/contact
+Number of repeated urls: 21
+New number in queue: 1370
+Number of newly added links: 4
+Number of unique so far: 2082
+2020-04-24 19:54:26.150259

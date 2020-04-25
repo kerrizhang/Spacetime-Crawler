@@ -1,46 +1,32 @@
-NOW EXTRACTING - https://www.cs.uci.edu/current-graduate-students
-*********https://www.cs.uci.edu/chemical-engineering-news-exploring-chemical-space-can-ai-take-us-where-no-human-has-gone-before-pierre-baldi-quoted
-*********https://www.cs.uci.edu/computer-science-team-develops-coronavirustwittermap
-http://www.ics.uci.edu/grad/policies/GradPolicies_SexualHarassment.php
-http://www.ics.uci.edu/grad/policies/GradPolicies_EnrollmentStatus.php#FilingFee
-*********https://www.cs.uci.edu/graduate-computer-science-programs
-http://www.ics.uci.edu/grad/policies/GradPolicies_Grading.php
-http://www.ics.uci.edu/grad/policies/GradPolicies_CandidacyCommittee.php
-*********https://www.cs.uci.edu/job-opportunities
-http://www.ics.uci.edu/grad/policies/GradPolicies_CPT_OPT.php#CPT
-http://www.ics.uci.edu/grad/policies/GradPolicies_CommitteeMembers.php
-http://www.ics.uci.edu/computing/policy/index.php
-_________http://www.ics.uci.edu/grad/policies/GradPolicies_EnrollmentStatus.php#InAbsentia
-*********https://www.cs.uci.edu/cs-research-areas
-_________http://www.ics.uci.edu/grad/policies/GradPolicies_EnrollmentStatus.php#LOA
-*********https://www.cs.uci.edu/about-the-department
-http://www.ics.uci.edu/grad/policies/GradPolicies_PreviousMSdegree.php
-_________http://www.ics.uci.edu/grad/policies/GradPolicies_EnrollmentStatus.php#SummerEnroll
-_________http://www.ics.uci.edu/grad/policies/GradPolicies_CPT_OPT.php#OPT
-*********https://www.cs.uci.edu/2020-hall-of-fame-celebration-honors-achievement-and-opportunity
-http://www.ics.uci.edu/grad/policies/GradPolicies_CopyrightInfringement.php
-http://www.ics.uci.edu/grad/policies/GradPolicies_TransferCredit.php
-*********https://www.cs.uci.edu/faculty
-http://www.ics.uci.edu/grad/policies/GradPolicies_GradStudentReview.php
-*********https://www.cs.uci.edu/contact
-*********https://www.cs.uci.edu/uci-news-coronavirus-twitter-map-developed-at-uci-displays-social-media-reactions-to-covid-19-chen-li-quoted
-http://www.ics.uci.edu/grad/policies/GradPolicies_ComprehensiveExam.php
-_________http://www.ics.uci.edu
-*********https://www.ics.uci.edu
-_________http://www.ics.uci.edu/grad/policies/GradPolicies_EnrollmentStatus.php#PartTime
-http://www.ics.uci.edu/grad/policies/GradPolicies_CAResidency.php
-*********https://www.cs.uci.edu/just-code-it-introduces-middle-schools-girls-to-computer-science
-*********https://www.cs.uci.edu/undergraduate-programs
-*********https://www.cs.uci.edu/research-centers
-http://www.ics.uci.edu/grad/policies/GradPolicies_ResidencyReqt.php
-*********https://www.cs.uci.edu/current-graduate-students
-_________https://www.ics.uci.edu/computing
-_________http://www.ics.uci.edu/computing/policy/ethics.php
-http://www.ics.uci.edu/grad/policies/GradPolicies_AdvanceCandidacy.php#AdvanceMS
-_________https://www.cs.uci.edu/current-graduate-students/mailto:communications@ics.uci.edu
+NOW EXTRACTING - https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php
+https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php/search/index.php
+*********https://www.ics.uci.edu/accessibility
 *********http://www.cs.uci.edu
-Number of repeated urls: 25
-New number in queue: 807
-Number of newly added links: 15
-Number of unique so far: 950
-2020-04-24 18:21:09.425767
+*********http://www.stat.uci.edu
+_________https://www.ics.uci.edu/about/about_safety.php/brenhall
+*********https://www.ics.uci.edu/about/kfflab/index.php
+*********https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php
+_________https://www.ics.uci.edu/community/news
+https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php/bren/index.php
+_________https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php/about_deanmsg.php
+*********https://www.ics.uci.edu/about/facilities/index.php
+*********https://www.ics.uci.edu/about
+*********https://www.ics.uci.edu/about/search/index.php
+*********http://www.informatics.uci.edu/support/provide-projects
+*********https://www.ics.uci.edu/employment
+*********http://www.informatics.uci.edu
+_________https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php/about_mission.php
+*********http://www.ics.uci.edu/social
+*********https://www.ics.uci.edu/about/about_safety.php
+https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php/brenhall/index.php
+_________https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php/about_contact.php
+_________https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php/about_meet_the_dean.php
+_________https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php/about_safety.php
+*********https://www.ics.uci.edu/about/visit/index.php
+*********https://www.ics.uci.edu/about/about_contact.php
+https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php/visit/index.php
+Number of repeated urls: 22
+New number in queue: 765
+Number of newly added links: 4
+Number of unique so far: 908
+2020-04-24 19:48:10.219216

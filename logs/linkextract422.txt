@@ -1,0 +1,8 @@
+NOW EXTRACTING - https://www.ics.uci.edu/~galbraic
+*********http://www.ics.uci.edu/~smyth
+*********http://www.stat.uci.edu
+Number of repeated urls: 2
+New number in queue: 1227
+Number of newly added links: 0
+Number of unique so far: 1650
+2020-04-24 19:22:54.199702

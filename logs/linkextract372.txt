@@ -1,0 +1,20 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~andre
+http://www.ics.uci.edu/~andre/teaching.html
+http://www.ics.uci.edu/~andre/mailto:andre@ics.uci.edu
+http://www.ics.uci.edu/~andre/address.html
+http://www.ics.uci.edu/~andre/callto://awvanderhoek
+http://www.ics.uci.edu/~andre/publications.html
+_________http://www.ics.uci.edu/informatics
+http://www.ics.uci.edu/~andre/research.html
+_________http://www.ics.uci.edu/~andre/index.html
+https://www.ics.uci.edu/~amezasor
+http://www.ics.uci.edu/~epaikari
+*********http://www.informatics.uci.edu
+_________http://www.informatics.uci.edu/people
+http://www.ics.uci.edu/~andre/bio.html
+_________http://www.ics.uci.edu/informatics/ugrad
+Number of repeated urls: 5
+New number in queue: 1261
+Number of newly added links: 9
+Number of unique so far: 1634
+2020-04-24 19:17:00.365746

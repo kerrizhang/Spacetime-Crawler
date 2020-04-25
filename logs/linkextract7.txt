@@ -1,23 +1,36 @@
-NOW EXTRACTING - https://www.ics.uci.edu/about/facilities/index.php
+NOW EXTRACTING - https://www.ics.uci.edu/about/search/index.php
+_________https://www.ics.uci.edu/about/search/index.php/search_payroll.php
 *********https://www.ics.uci.edu/accessibility
-*********http://www.cs.uci.edu
-*********http://www.stat.uci.edu
-*********https://www.ics.uci.edu/about/kfflab/index.php
-_________https://www.ics.uci.edu/community/news
-*********https://www.ics.uci.edu/about/facilities/index.php
-*********https://www.ics.uci.edu/about
-*********https://www.ics.uci.edu/about/search/index.php
-*********http://www.informatics.uci.edu/support/provide-projects
-*********https://www.ics.uci.edu/employment
-*********http://www.informatics.uci.edu
+_________https://www.ics.uci.edu/about/search
+_________https://www.ics.uci.edu/about/visit/index.php
 *********http://www.ics.uci.edu/social
-*********https://www.ics.uci.edu/about/about_safety.php
-_________https://www.ics.uci.edu/about/facilities
-_________https://www.ics.uci.edu/about/facilities/index.php/jcleaver@ics.uci.edu
-*********https://www.ics.uci.edu/about/visit/index.php
+_________https://www.ics.uci.edu/about/search/index.php/search_dept_cs-staff.php
+_________https://www.ics.uci.edu/about/search/index.php/search_facilities.php
+_________https://www.ics.uci.edu/about/search/index.php/index.php
+*********https://www.ics.uci.edu/about/kfflab/index.php
+_________http://www.stat.uci.edu
+_________https://www.ics.uci.edu/about/search/index.php/search_dept_in4matx-staff.php
+*********https://www.ics.uci.edu/about/search/index.php
+*********https://www.ics.uci.edu/about
+*********https://www.ics.uci.edu/employment
+_________https://www.ics.uci.edu/about/search/index.php/search_communications.php
 *********https://www.ics.uci.edu/about/about_contact.php
-Number of repeated urls: 17
-New number in queue: 61
+_________https://www.ics.uci.edu/about/search/index.php/search_business.php
+_________https://www.ics.uci.edu/community/news
+_________http://www.cs.uci.edu
+_________https://www.ics.uci.edu/about/search/index.php/search_support.php
+*********https://www.ics.uci.edu/about/about_safety.php
+_________https://www.ics.uci.edu/about/facilities/index.php
+_________https://www.ics.uci.edu/about/search/index.php/search_dept_stats-staff.php
+*********http://www.informatics.uci.edu
+_________https://www.ics.uci.edu/about/search/index.php/search_dean.php
+_________https://www.ics.uci.edu/about/search/index.php/search_external.php
+_________https://www.ics.uci.edu/about/search/index.php/search_sao.php
+_________http://www.informatics.uci.edu/support/provide-projects
+_________https://www.ics.uci.edu/about/search/index.php/search_graduate.php
+_________https://www.ics.uci.edu/about/search/index.php/search_oai.php
+Number of repeated urls: 30
+New number in queue: 11
 Number of newly added links: 0
-Number of unique so far: 69
-2020-04-24 17:42:22.546926
+Number of unique so far: 19
+2020-04-24 19:34:08.254778

@@ -1,0 +1,16 @@
+NOW EXTRACTING - https://www.ics.uci.edu/~pattis
+https://www.ics.uci.edu/~pattis/quotations.html
+https://www.ics.uci.edu/~pattis/ICS-33/index.html
+https://www.ics.uci.edu/~pattis/ICS-7/index.html
+_________http://www.ics.uci.edu/informatics
+_________http://www.ics.uci.edu/computerscience
+https://www.ics.uci.edu/~pattis/misc/sbsarticle/index.html
+_________http://www.ics.uci.edu
+https://www.ics.uci.edu/~pattis/mailto:pattis@ics.uci.edu
+https://www.ics.uci.edu/~pattis/misc/cheatingarticle/index.html
+https://www.ics.uci.edu/~pattis/educationvideoclips.html
+Number of repeated urls: 3
+New number in queue: 1215
+Number of newly added links: 7
+Number of unique so far: 1582
+2020-04-24 19:16:04.798274

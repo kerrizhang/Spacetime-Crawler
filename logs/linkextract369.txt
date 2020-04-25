@@ -1,0 +1,29 @@
+NOW EXTRACTING - https://www.ics.uci.edu/~iftekha
+https://www.ics.uci.edu/~iftekha/publication/understanding-code-smells-in-android-applications
+https://www.ics.uci.edu/~iftekha/publication/a-multiple-case-study-of-artificial-intelligent-system-development-in-industry
+https://www.ics.uci.edu/~iftekha/publication/understanding-development-process-of-machine-learning-systems-challenges-and-solutions
+https://www.ics.uci.edu/~iftekha/publication/how-hard-does-mutation-analysis-have-to-be-anyway
+https://www.ics.uci.edu/~iftekha/mailto:iftekha@uci.edu
+https://www.ics.uci.edu/~iftekha/publication/an-empirical-study-of-design-degradation-how-software-projects-get-worse-over-time-copy
+https://www.ics.uci.edu/~iftekha/publication/planning-for-untangling-predicting-the-difficulty-of-merge-conflicts
+https://www.ics.uci.edu/~iftekha/publication/land-of-lost-knowledge-an-initial-investigation-into-projects-lost-knowledge
+https://www.ics.uci.edu/~iftekha/publication/applying-mutation-analysis-on-kernel-test-suites-an-experience-report
+https://www.ics.uci.edu/~iftekha/publication/an-empirical-examination-of-the-relationship-between-code-smells-and-merge-conflicts
+https://www.ics.uci.edu/~iftekha/publication/an-empirical-comparisonstr
+https://www.ics.uci.edu/~iftekha/publication/an-empirical-investigation-into-merge-conflicts-and-their-effect-on-software-quality
+https://www.ics.uci.edu/~iftekha/publication/how-verified-or-tested-is-my-code
+https://www.ics.uci.edu/~iftekha/publication/mutation-reduction-strategies-considered-harmful
+https://www.ics.uci.edu/~iftekha/publication/can-testedness-be-effectively-measured
+*********https://www.ics.uci.edu/~iftekha/project/vlsma
+https://www.ics.uci.edu/~iftekha/publication/does-the-choice-of-mutation-tool-matter
+https://www.ics.uci.edu/~iftekha/publication/a-case-study-of-motivations-for-corporate-contribution-to-foss
+https://www.ics.uci.edu/~iftekha/publication/measuring-effectiveness-of-mutant-sets
+https://www.ics.uci.edu/~iftekha/publication/towards-understanding-code-readability-and-its-impact-on-design-quality
+https://www.ics.uci.edu/~iftekha/publication/on-the-limits-of-mutation-reduction-strategies
+https://www.ics.uci.edu/~iftekha/publication/does-the-choice-of-mutation-tool-mattertr
+https://www.ics.uci.edu/~iftekha/publication/accessibility-issues-in-android-apps-state-of-affairs-sentiments-and-ways-forward
+Number of repeated urls: 1
+New number in queue: 1243
+Number of newly added links: 22
+Number of unique so far: 1613
+2020-04-24 19:16:36.088870

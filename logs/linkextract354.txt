@@ -1,9 +1,27 @@
-NOW EXTRACTING - http://www.ics.uci.edu/~mbietz
-http://www.ics.uci.edu/~mbietz/research
-_________http://www.ics.uci.edu/informatics
-http://www.ics.uci.edu/~mbietz/publications
-Number of repeated urls: 1
-New number in queue: 1217
-Number of newly added links: 2
-Number of unique so far: 1572
-2020-04-24 19:09:21.863122
+NOW EXTRACTING - http://www.ics.uci.edu/grad/sao
+*********https://www.ics.uci.edu/about/facilities/index.php
+*********https://www.ics.uci.edu/about/about_safety.php
+*********https://www.ics.uci.edu/employment
+*********http://www.ics.uci.edu/social
+*********https://www.ics.uci.edu/about/visit/index.php
+_________http://www.ics.uci.edu/grad/sao/mailto: %67c%6fu%6ese%6c@%69%63s%2e%75%63i%2ee%64u
+*********http://www.ics.uci.edu/grad/admissions/index.php
+*********https://www.ics.uci.edu/grad
+*********http://www.informatics.uci.edu/support/provide-projects
+*********https://www.ics.uci.edu/about/kfflab/index.php
+_________http://www.ics.uci.edu/grad/sao/mailto:adsa@ics.uci.edu
+_________http://www.ics.uci.edu/grad/sao/mailto: %67c%6f%75nse%6c%40i%63%73%2euc%69.%65d%75
+*********http://www.cs.uci.edu
+*********http://www.stat.uci.edu
+_________https://www.ics.uci.edu/community/news
+*********https://www.ics.uci.edu/about/search/index.php
+*********https://www.ics.uci.edu/accessibility
+*********http://www.informatics.uci.edu
+*********http://www.ics.uci.edu/grad/sao
+*********https://www.ics.uci.edu/about/about_contact.php
+_________https://www.ics.uci.edu/grad/sao
+Number of repeated urls: 21
+New number in queue: 1189
+Number of newly added links: 0
+Number of unique so far: 1544
+2020-04-24 19:15:01.285868
