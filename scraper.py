@@ -100,6 +100,8 @@ def scraper(url, resp):
         print("New number in queue: " + str(len(linkqueue)))
         print("Number of newly added links: " + str(newadded))
         print("Number of unique so far: " + str(len(uniquelinks)))
+
+        print("Number of subdomains so far: " + str(len(subdomains.keys())))
         print(
             "_____________________________________________________________________________________________________________________")
 
