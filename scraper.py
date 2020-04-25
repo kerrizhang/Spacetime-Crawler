@@ -5,6 +5,7 @@ import requests.exceptions
 import urllib.request
 from urllib.parse import urlsplit
 from urllib.parse import urlparse
+from urllib.parse import urljoin
 import json
 from utils import response
 import pickle
@@ -14,23 +15,26 @@ import pickle
 linkqueue = []
 uniquelinks = []
 failedlinks = []
-uniqueurls = []
+uniqueurls = set()
 stopwords = []
+commonwordsdict = dict()
+longestlength = 0
 
 
 def scraper(url, resp):
+    global longestlength
     f = open("stopwords.txt")
     for line in f:
         stopwords.append(line.strip("\n"))
     f.close()
 
-    if url[len(url) - 1:] == "/":
-        url = url[:len(url) - 1]
-
+    begincheck = url
+    if url[-1] == "/":
+        begincheck = url[:-1]
 
     linkqueue.append(url)
     uniquelinks.append(simhash(url))
-    uniqueurls.append(url)
+    uniqueurls.add(begincheck)
 
     while len(linkqueue) > 0:
         nextlink = linkqueue.pop(0)
@@ -40,22 +44,37 @@ def scraper(url, resp):
         newadded = 0
 
         for item in newlinks:
-            if item not in uniqueurls:
+            tempcheck = item
+            if item[-1] == "/":
+                tempcheck = item[:-1]
+            if tempcheck not in uniqueurls:
                 if is_valid(item) and resp.status == 200:
-
-                    item_simhash = simhash(item)
+                    temp = simhash(item)
+                    item_simhash = temp[0]
+                    worddict = temp[1]
+                    curlen = 0
+                    for t in worddict.items():
+                        curlen += t[1]
+                    if curlen > longestlength:
+                        longestlength = curlen
                     if item_simhash[0] != 2:
                         if item_simhash not in uniquelinks:
+                            for word in worddict:
+                                if word in commonwordsdict:
+                                    commonwordsdict[word] += worddict[word]
+                                else:
+                                    commonwordsdict[word] = worddict[word]
                             linkqueue.append(item)
                             uniquelinks.append(item_simhash)
-                            uniqueurls.append(item)
+                            uniqueurls.add(tempcheck)
                             newadded = newadded + 1
                             print("new link! " + item)  # UNCOMMENT TO PRINT OUT NEW LINKS
+                            #print(commonwordsdict)
                             # print(simhash(item))
                         else:
                             repeats = repeats + 1
                             print("this is content repeat: " + item)  # UNCOMMENT TO SEE CONTENT REPEATS
-                            uniqueurls.append(item)
+                            uniqueurls.add(tempcheck)
                             # print(simhash(item))
                     else:
                         print("Simhash had a 2")
@@ -75,6 +94,7 @@ def scraper(url, resp):
 
 def extract_next_links(url, input_response):
     print("NOW EXTRACTING " + url)
+    print(longestlength)
     # Implementation requred.
     extracted_links = []
 
@@ -91,33 +111,21 @@ def extract_next_links(url, input_response):
             if link_href == None:
                 pass
             else:
-                if link_href[len(link_href) - 1:] == "/":
-                    link_href = link_href[:len(link_href) - 1]
+                # if link_href[len(link_href) - 1:] == "/":
+                #     link_href = link_href[:len(link_href) - 1]
+                # print(link_href)
+                # print(urlparse(url).path)
 
-                if link_href[0:1] == "/":
-                    if link_href[1:2] == "/":
-                        extracted_links.append("http:" + link_href)
-                    else:
-                        if (url[len(url) - 1:] == "/"):
-                            extracted_links.append(urlparse(url).netloc + link_href[1:])
-                        else:
-                            extracted_links.append(urlparse(url).netloc + link_href)
-                elif link_href[0:1] == "#":
-                    pass
-                elif link_href[0:2] == "..":
-                    extracted_links.append(urlparse(url).netloc + link_href[2:])
-                elif link_href[0:4] == "http":
-                    extracted_links.append(link_href)
-                else:
-                    extracted_links.append(url + "/" + link_href)
+                extracted_links.append(urljoin(url, link_href))
 
         for i, e in enumerate(extracted_links):
             if "#" in e:
                 extracted_links[i] = extracted_links[i][:e.find('#')]
 
-        for i, e in enumerate(extracted_links):
-            if e[len(e) - 1:] == "/":
-                extracted_links[i] = e[:len(e) - 1]
+
+        # for i, e in enumerate(extracted_links):
+        #     if e[len(e) - 1:] == "/":
+        #         extracted_links[i] = e[:len(e) - 1]
 
         return extracted_links
 
@@ -132,13 +140,26 @@ def is_valid(url):
         if "/pdf/" in url or "mailto:" in url or "@" in url:
             return False
         parsed = urlparse(url)
+        print(parsed.netloc)
         if parsed.netloc == "" and str(parsed.path)[0:len(
                 "today.uci.edu/department/information_computer_sciences")] == "today.uci.edu/department/information_computer_sciences":
             return True
+
         if parsed.scheme not in set(["http", "https"]):
             return False
-        if (
-                "ics.uci.edu" in parsed.netloc or "cs.uci.edu" in parsed.netloc or "informatics.uci.edu" in parsed.netloc or "stat.uci.edu" in parsed.netloc):
+
+
+        if ("ics.uci.edu" in parsed.netloc or "cs.uci.edu" in parsed.netloc or "informatics.uci.edu" in parsed.netloc or "stat.uci.edu" in parsed.netloc):
+            if (re.match(
+                r".*\.(css|js|bmp|gif|jpe?g|ico"
+                + r"|png|tiff?|mid|mp2|mp3|mp4"
+                + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
+                + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
+                + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
+                + r"|epub|dll|cnf|tgz|sha1"
+                + r"|thmx|mso|arff|rtf|jar|csv"
+                + r"|rm|smil|wmv|swf|wma|zip|rar|gz)$", url.lower())):
+                    return False
             return not re.match(
                 r".*\.(css|js|bmp|gif|jpe?g|ico"
                 + r"|png|tiff?|mid|mp2|mp3|mp4"
@@ -179,18 +200,17 @@ def simhash(url):
     if (resp == None):
         print("This url has an empty response: " + url)
         failedlinks.append(url)
-        return [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        return ([2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], dict())
     txt = resp.raw_response
     
     try:
         soup = BeautifulSoup(txt, "html.parser")
         text = soup.get_text()
-
         d = computeWordFrequencies(tokenize(text))
         vector = {}
         for i in d.keys():
             l = []
-            hashnum = format(hash(i) % 8192, '013b')
+            hashnum = format(hash(i) % 32768, '015b')
             for j in hashnum:
                 l.append(j)
             vector[i] = l
@@ -210,11 +230,11 @@ def simhash(url):
                 ans.append(1)
             else:
                 ans.append(0)
-        return ans
+        return (ans, d)
 
     except:
         print("Beautiful soup failed")
-        return [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        return ([2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], dict())
 
 
 def tokenize(text):
@@ -237,7 +257,8 @@ def computeWordFrequencies(tokens):
 
 
 if __name__ == '__main__':
-    url = "https://www.ics.uci.edu"
+    is_valid("http://www.vision.ics.uci.edu")
+    url = "http://www.vision.ics.uci.edu"
     url2 = "https://www.cs.uci.edu"
     url3 = "https://www.informatics.uci.edu"
     url4 = "https://www.stat.uci.edu"
