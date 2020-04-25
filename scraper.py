@@ -26,22 +26,12 @@ def scraper(url, resp):
 
     if url[len(url) - 1:] == "/":
         url = url[:len(url) - 1]
-    # if "?" in str(url):
-    #     index = url.find("?")
-    #     url = url[:index]
+
 
     linkqueue.append(url)
     uniquelinks.append(simhash(url))
     uniqueurls.append(url)
-    # links = extract_next_links(url, resp)
-    #
-    # for item in links:
-    #     if is_valid(item):
-    #         if item not in uniquelinks:
-    #             linkqueue.append(item)
-    #             uniquelinks.add(item)
 
-    # print(linkqueue)
     while len(linkqueue) > 0:
         nextlink = linkqueue.pop(0)
         newlinks = extract_next_links(nextlink, get_response(nextlink))
@@ -51,7 +41,6 @@ def scraper(url, resp):
 
         for item in newlinks:
             if item not in uniqueurls:
-                # print("----------" + item)
                 if is_valid(item) and resp.status == 200:
 
                     item_simhash = simhash(item)
@@ -81,16 +70,12 @@ def scraper(url, resp):
         print("Number of unique so far: " + str(len(uniquelinks)))
         print(
             "_____________________________________________________________________________________________________________________")
-    # return [link for link in links if is_valid(link)]
 
 
 def extract_next_links(url, input_response):
     print("NOW EXTRACTING " + url)
     # Implementation requred.
     extracted_links = []
-
-    # resp = requests.get(url)
-    # txt = resp.text
 
     if input_response == None:
         return []
@@ -101,14 +86,9 @@ def extract_next_links(url, input_response):
 
     for link in soup.findAll('a'):
         link_href = link.get('href')
-        # if is_valid(str(link_href)):
         if link_href == None:
             pass
         else:
-            # if "?" in str(link_href):
-            #     index = link_href.find("?")
-            #     link_href = link_href[:index]
-
             if link_href[len(link_href) - 1:] == "/":
                 link_href = link_href[:len(link_href) - 1]
 
@@ -132,10 +112,6 @@ def extract_next_links(url, input_response):
     for i, e in enumerate(extracted_links):
         if "#" in e:
             extracted_links[i] = extracted_links[i][:e.find('#')]
-
-        # if "?" in link:
-        #     #print("QUESTION MARK ?????????????????")
-        #     link = link[:link.find("?")]
 
     for i, e in enumerate(extracted_links):
         if e[len(e) - 1:] == "/":
@@ -192,19 +168,16 @@ def similarity(l1, l2):
 
 
 def simhash(url):
-    # print(url_dict)
     resp = get_response(url)
     if (resp == None):
         print("This url has an empty response: " + url)
         failedlinks.append(url)
         return [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     txt = resp.raw_response
-    # print(html2text.html2text(txt))
     soup = BeautifulSoup(txt, "html.parser")
     text = soup.get_text()
 
     d = computeWordFrequencies(tokenize(text))
-    # vector = []
     vector = {}
     for i in d.keys():
         l = []
@@ -212,7 +185,6 @@ def simhash(url):
         for j in hashnum:
             l.append(j)
         vector[i] = l
-        # print(vector)
     final = []
     for i in range(13):
         add = 0
@@ -221,10 +193,7 @@ def simhash(url):
                 add += d[k]
             else:
                 add -= d[k]
-            # print(add)
         final.append(add)
-    # return final
-    # print(final)
 
     ans = []
     for i in final:
@@ -233,9 +202,6 @@ def simhash(url):
         else:
             ans.append(0)
     return ans
-
-    # print(text)
-
 
 def tokenize(text):
     l = []
@@ -255,37 +221,13 @@ def computeWordFrequencies(tokens):
                 freq_dict[i] = 1
     return freq_dict
 
-    # print(urlparse('http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni').netloc == urlparse('http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/involved/leadership_council').netloc)
-
 
 if __name__ == '__main__':
     url = "https://www.ics.uci.edu"
 
-    # url = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni"
-    # url2 = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/involved"
-
-    # resp = requests.get(url)
-    # resp_dict = {'url':url, 'status':resp.status_code, 'response': pickle.dumps(resp.text.encode())}
-
-    # responseObj = response.Response(resp_dict)
 
     responseObj = get_response(url)
-
-    # print(simhash(url2))
-    # print(simhash(url))
-    # print(similarity(simhash(url2), simhash(url)))
-
-    # print(responseObj.raw_response)
-    # print("#################################")
-    # print(responseObj2.raw_response)
-
-    # print(responseObj.raw_response)
-    # print(responseObj.status)
 
     scraper(url, responseObj)
     print("TOTAL Unique links: " + str(len(uniquelinks)))
     print("FAILED LINKSSS: " + str(failedlinks))
-
-    # print(resp)
-    # print(resp.url)
-    # print(test.json()['result'])
