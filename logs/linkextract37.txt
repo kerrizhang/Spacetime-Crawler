@@ -1,52 +1,24 @@
-NOW EXTRACTING - https://www.ics.uci.edu/ugrad
-*********https://www.ics.uci.edu/about/facilities/index.php
-*********https://www.ics.uci.edu/about/about_safety.php
-*********https://www.ics.uci.edu/employment
-*********http://www.ics.uci.edu/social
-_________https://www.ics.uci.edu/ugrad/index.php
-https://www.ics.uci.edu/ugrad/sao/Concurrent_Enrollment.php
-*********https://www.ics.uci.edu/about/visit/index.php
-https://www.ics.uci.edu/ugrad/advising/ICS Credit by Exam Fall.php
-https://www.ics.uci.edu/ugrad/degrees/Second_BA.php
-_________https://www.ics.uci.edu/ugrad/mailto:ucounsel@uci.edu
-_________https://www.ics.uci.edu/ugrad/mailto:ucounsel@uci
-https://www.ics.uci.edu/ugrad/QA_Petitions.php
-https://www.ics.uci.edu/ugrad/courses/index.php
-https://www.ics.uci.edu/ugrad/policies/Course_Outside_UCI.php
-*********http://www.informatics.uci.edu/support/provide-projects
-https://www.ics.uci.edu/ugrad/policies/Grade_Options.php
-_________https://www.ics.uci.edu/ugrad/livechat
-https://www.ics.uci.edu/ugrad/advising/ICS New Student Welcome.php
-*********https://www.ics.uci.edu/about/kfflab/index.php
-https://www.ics.uci.edu/ugrad/degrees/Minors.php
-https://www.ics.uci.edu/ugrad/degrees/Double_Majors.php
-https://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse.php
-https://www.ics.uci.edu/ugrad/policies/Academic_Standing.php
-https://www.ics.uci.edu/ugrad/policies/Add_Drop_ChangeOption.php
-https://www.ics.uci.edu/ugrad/sao/SAO_Events.php
-https://www.ics.uci.edu/ugrad/resources/Title_IX_Resources.php
-https://www.ics.uci.edu/ugrad/sao/Appts_Walk-Ins.php
-_________https://www.ics.uci.edu/ugrad/mailto:adsa@ics.uci.edu
-https://www.ics.uci.edu/ugrad/sao/Course_updates.php
-https://www.ics.uci.edu/ugrad/policies/Change_of_Major.php
+NOW EXTRACTING - https://www.cs.uci.edu/just-code-it-introduces-middle-schools-girls-to-computer-science
+*********https://www.cs.uci.edu/graduate-computer-science-programs
+*********https://www.cs.uci.edu/computer-science-team-develops-coronavirustwittermap
+*********https://www.cs.uci.edu/contact
+_________https://www.cs.uci.edu/just-code-it-introduces-middle-schools-girls-to-computer-science/mailto:communications@ics.uci.edu
+*********https://www.cs.uci.edu/faculty
+*********https://www.cs.uci.edu/chemical-engineering-news-exploring-chemical-space-can-ai-take-us-where-no-human-has-gone-before-pierre-baldi-quoted
 *********http://www.cs.uci.edu
-*********http://www.stat.uci.edu
-_________https://www.ics.uci.edu/community/news
-https://www.ics.uci.edu/ugrad/QA_Graduation.php
-https://www.ics.uci.edu/ugrad/policies/Withdrawal_Readmission.php
-*********https://www.ics.uci.edu/about/search/index.php
-https://www.ics.uci.edu/ugrad/policies/Academic_Honesty.php
-https://www.ics.uci.edu/ugrad/policies/CS199_IN4MATX199.php
-https://www.ics.uci.edu/ugrad/degrees/index.php
-*********https://www.ics.uci.edu/ugrad
-https://www.ics.uci.edu/ugrad/sao/index.php
-*********https://www.ics.uci.edu/accessibility
-*********http://www.informatics.uci.edu
-_________https://www.ics.uci.edu/ugrad/livechat.php
-https://www.ics.uci.edu/ugrad/resources/index.php
-*********https://www.ics.uci.edu/about/about_contact.php
-Number of repeated urls: 21
-New number in queue: 174
-Number of newly added links: 25
-Number of unique so far: 212
-2020-04-24 17:33:19.580946
+*********https://www.cs.uci.edu/uci-news-coronavirus-twitter-map-developed-at-uci-displays-social-media-reactions-to-covid-19-chen-li-quoted
+*********https://www.cs.uci.edu/undergraduate-programs
+*********https://www.ics.uci.edu
+*********https://www.cs.uci.edu/cs-research-areas
+*********https://www.cs.uci.edu/research-centers
+*********https://www.cs.uci.edu/about-the-department
+*********https://www.cs.uci.edu/just-code-it-introduces-middle-schools-girls-to-computer-science
+*********https://www.cs.uci.edu/current-graduate-students
+_________http://www.ics.uci.edu
+*********https://www.cs.uci.edu/2020-hall-of-fame-celebration-honors-achievement-and-opportunity
+*********https://www.cs.uci.edu/job-opportunities
+Number of repeated urls: 18
+New number in queue: 486
+Number of newly added links: 0
+Number of unique so far: 524
+2020-04-24 18:19:47.771008

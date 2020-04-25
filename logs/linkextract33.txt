@@ -1,50 +1,26 @@
-NOW EXTRACTING - http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php
-*********https://www.ics.uci.edu/about/facilities/index.php
-*********http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/sao/SAO_Events.php
-*********https://www.ics.uci.edu/about/about_safety.php
-http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/degrees/Second_BA.php
-*********https://www.ics.uci.edu/employment
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/mailto:ucounsel@uci.edu
-*********http://www.ics.uci.edu/social
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/degrees/index.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/resources/index.php
-*********https://www.ics.uci.edu/about/visit/index.php
-_________https://www.ics.uci.edu/ugrad/livechat.php/policies
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/degrees/Double_Majors.php
-http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/policies/Grade_Options.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/policies/Change_of_Major.php
-*********http://www.informatics.uci.edu/support/provide-projects
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/index.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/advising/ICS Credit by Exam Fall.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/policies/CS199_IN4MATX199.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/resources/Title_IX_Resources.php
-*********https://www.ics.uci.edu/about/kfflab/index.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/policies/Withdrawal_Readmission.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/QA_Graduation.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/policies/Course_Outside_UCI.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/advising/ICS New Student Welcome.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/policies/Laptop_ComputerUse.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/policies/Add_Drop_ChangeOption.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/QA_Petitions.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/policies/Academic_Standing.php
+NOW EXTRACTING - https://www.cs.uci.edu/research-centers
+http://www.ics.uci.edu/~theory
+http://www.ics.uci.edu/~projects/cert
+*********https://www.cs.uci.edu/graduate-computer-science-programs
+*********https://www.cs.uci.edu/computer-science-team-develops-coronavirustwittermap
+*********https://www.cs.uci.edu/contact
+*********https://www.cs.uci.edu/faculty
+*********https://www.cs.uci.edu/chemical-engineering-news-exploring-chemical-space-can-ai-take-us-where-no-human-has-gone-before-pierre-baldi-quoted
 *********http://www.cs.uci.edu
-*********http://www.stat.uci.edu
-_________https://www.ics.uci.edu/community/news
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/policies/Academic_Honesty.php
-*********https://www.ics.uci.edu/about/search/index.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/sao/index.php
-http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/courses/index.php
-*********https://www.ics.uci.edu/ugrad
-*********https://www.ics.uci.edu/accessibility
-*********http://www.informatics.uci.edu
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/degrees/Minors.php
-_________https://www.ics.uci.edu/ugrad/livechat.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/sao/Concurrent_Enrollment.php
-*********https://www.ics.uci.edu/about/about_contact.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php/sao/Course_updates.php
-Number of repeated urls: 41
-New number in queue: 150
-Number of newly added links: 3
-Number of unique so far: 184
-2020-04-24 17:32:18.737191
+*********https://www.cs.uci.edu/uci-news-coronavirus-twitter-map-developed-at-uci-displays-social-media-reactions-to-covid-19-chen-li-quoted
+*********https://www.cs.uci.edu/undergraduate-programs
+*********https://www.ics.uci.edu
+*********https://www.cs.uci.edu/cs-research-areas
+*********https://www.cs.uci.edu/research-centers
+*********https://www.cs.uci.edu/about-the-department
+_________https://www.cs.uci.edu/research-centers/mailto:communications@ics.uci.edu
+*********https://www.cs.uci.edu/just-code-it-introduces-middle-schools-girls-to-computer-science
+*********https://www.cs.uci.edu/current-graduate-students
+_________http://www.ics.uci.edu
+*********https://www.cs.uci.edu/2020-hall-of-fame-celebration-honors-achievement-and-opportunity
+*********https://www.cs.uci.edu/job-opportunities
+Number of repeated urls: 18
+New number in queue: 490
+Number of newly added links: 2
+Number of unique so far: 524
+2020-04-24 18:19:01.786960

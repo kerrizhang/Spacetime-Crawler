@@ -6,19 +6,21 @@ import requests.exceptions
 import urllib.request
 from urllib.parse import urlsplit
 from urllib.parse import urlparse
-from urlparse import urljoin
+from urllib.parse import urljoin
+# from urlparse import urljoin
 import json
 from utils import response
 import pickle
 import datetime
 import os
+
 # from collections import deque
 
 linkqueue = []
 uniquelinks = []
 failedlinks = []
 uniqueurls = []
-
+stopwords = []
 
 def scraper(url, resp):
     if url[len(url) - 1:] == "/":
@@ -38,7 +40,7 @@ def scraper(url, resp):
     #             linkqueue.append(item)
     #             uniquelinks.add(item)
 
-    #print(linkqueue)
+    # print(linkqueue)
     filenumber = 0
     while len(linkqueue) > 0:
         nextlink = linkqueue.pop(0)
@@ -51,7 +53,7 @@ def scraper(url, resp):
 
         for item in newlinks:
             if item not in uniqueurls:
-                #print("----------" + item)
+                # print("----------" + item)
                 if is_valid(item) and resp.status == 200:
 
                     if simhash(item) not in uniquelinks:
@@ -60,12 +62,12 @@ def scraper(url, resp):
                         uniqueurls.append(item)
                         newadded = newadded + 1
                         f.write(item + "\n")
-                        print("new link! " + item) #UNCOMMENT TO PRINT OUT NEW LINKS
-                        #print(simhash(item))
+                        print("new link! " + item)  # UNCOMMENT TO PRINT OUT NEW LINKS
+                        # print(simhash(item))
                     else:
                         repeats = repeats + 1
                         f.write("_________" + item + "\n")
-                        print("this is content repeat: " + item) #UNCOMMENT TO SEE CONTENT REPEATS
+                        print("this is content repeat: " + item)  # UNCOMMENT TO SEE CONTENT REPEATS
                         # print(simhash(item))
                 elif is_valid(item):
                     print("Error: Status code was ", resp.status)
@@ -78,7 +80,8 @@ def scraper(url, resp):
         print("New number in queue: " + str(len(linkqueue)))
         print("Number of newly added links: " + str(newadded))
         print("Number of unique so far: " + str(len(uniquelinks)))
-        print("_______________________________________________________________________________________________________________________")
+        print(
+            "_______________________________________________________________________________________________________________________")
         filenumber = filenumber + 1
         f.write("Number of repeated urls: " + str(repeats) + "\n")
         f.write("New number in queue: " + str(len(linkqueue)) + "\n")
@@ -86,18 +89,16 @@ def scraper(url, resp):
         f.write("Number of unique so far: " + str(len(uniquelinks)) + "\n")
         f.write(str(datetime.datetime.now()) + "\n")
         f.close()
-    #return [link for link in links if is_valid(link)]
+    # return [link for link in links if is_valid(link)]
 
 
 def extract_next_links(url, input_response):
     print("NOW EXTRACTING " + url)
     # Implementation requred.
     extracted_links = set()
-    
+
     # resp = requests.get(url)
     # txt = resp.text
-
-
 
     txt = input_response.raw_response
 
@@ -105,7 +106,7 @@ def extract_next_links(url, input_response):
 
     for link in soup.findAll('a'):
         link_href = link.get('href')
-        #if is_valid(str(link_href)):
+        # if is_valid(str(link_href)):
         if link_href == None:
             pass
         else:
@@ -116,12 +117,11 @@ def extract_next_links(url, input_response):
             if link_href[len(link_href) - 1:] == "/":
                 link_href = link_href[:len(link_href) - 1]
 
-
             if link_href[0:1] == "/":
                 if link_href[1:2] == "/":
                     extracted_links.add("http:" + link_href)
                 else:
-                    if(url[len(url) - 1:] == "/"):
+                    if (url[len(url) - 1:] == "/"):
                         extracted_links.add(urlparse(url).netloc + link_href[1:])
                     else:
                         extracted_links.add(urlparse(url).netloc + link_href)
@@ -134,14 +134,13 @@ def extract_next_links(url, input_response):
             else:
                 extracted_links.add(url + "/" + link_href)
 
+    # for i, e in enumerate(extracted_links):
+    # if "#" in e:
+    # extracted_links[i] = extracted_links[i][:e.find('#')]
 
-    #for i, e in enumerate(extracted_links):
-        #if "#" in e:
-            #extracted_links[i] = extracted_links[i][:e.find('#')]
-
-        # if "?" in link:
-        #     #print("QUESTION MARK ?????????????????")
-        #     link = link[:link.find("?")]
+    # if "?" in link:
+    #     #print("QUESTION MARK ?????????????????")
+    #     link = link[:link.find("?")]
 
     e_list = list(extracted_links)
     for i, e in enumerate(e_list):
@@ -152,36 +151,36 @@ def extract_next_links(url, input_response):
     rp = urllib.robotparser.RobotFileParser()
     final_links = set()
 
-    #sitemaps_list = rp.site_maps()
-    #print(sitemaps_list)
+
     for link in extracted_links:
-        rp.set_url(urlparse.urljoin(urlparse(url).netloc, "/robots.txt"))
-        #rp.set_url("http://www.ics.uci.edu/robots.txt")
+        base_url = "http://" + urlparse(url).netloc
+        rp.set_url(urljoin(base_url, "/robots.txt"))
+        # rp.set_url("http://www.ics.uci.edu/robots.txt")
         rp.read()
-    #    rp.crawl_delay("*")
+        #    rp.crawl_delay("*")
         if rp.can_fetch("*", link):
             final_links.add(link)
+        #if rp.site_maps() != None:
 
+            #print(sitemaps_list)
 
-
-    #return extracted_links
+    # return extracted_links
     return final_links
-
-
-
-
 
 
 def is_valid(url):
     try:
         parsed = urlparse(url)
-        if  parsed.netloc == "" and str(parsed.path)[0:len("today.uci.edu/department/information_computer_sciences")] == "today.uci.edu/department/information_computer_sciences":
+        if parsed.netloc == "" and str(parsed.path)[0:len(
+                "today.uci.edu/department/information_computer_sciences")] == "today.uci.edu/department/information_computer_sciences":
             return True
         if parsed.scheme not in set(["http", "https"]):
             return False
-        if parsed.netloc not in set(["ics.uci.edu", "www.ics.uci.edu", "cs.uci.edu", "www.cs.uci.edu", "informatics.uci.edu", "www.informatics.uci.edu", "stat.uci.edu", "www.stat.uci.edu"]): 
+        if parsed.netloc not in set(
+                ["ics.uci.edu", "www.ics.uci.edu", "cs.uci.edu", "www.cs.uci.edu", "informatics.uci.edu",
+                 "www.informatics.uci.edu", "stat.uci.edu", "www.stat.uci.edu"]):
             return False
-        
+
         return not re.match(
             r".*\.(css|js|bmp|gif|jpe?g|ico"
             + r"|png|tiff?|mid|mp2|mp3|mp4"
@@ -194,78 +193,70 @@ def is_valid(url):
 
 
     except TypeError:
-        print ("TypeError for ", parsed)
+        print("TypeError for ", parsed)
         raise
-
-
 
 
 def get_response(url):
     try:
         resp = requests.get(url)
-        resp_dict = {'url':url, 'status':resp.status_code, 'response': pickle.dumps(resp.text.encode())}
+        resp_dict = {'url': url, 'status': resp.status_code, 'response': pickle.dumps(resp.text.encode())}
 
         return response.Response(resp_dict)
     except:
         print("Could not get response for URL")
+
 
 def similarity(l1, l2):
     num = 0
     for i in range(10):
         if l1[i] == l2[i]:
             num += 1
-    return num/10
+    return num / 10
+
 
 def simhash(url):
     resp = get_response(url)
     if (resp == None):
         print("This url has an empty response: " + url)
         failedlinks.append(url)
-        return [0,0,0,0,0,0,0,0,0,0]
+        return [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     txt = resp.raw_response
-    #print(html2text.html2text(txt))
+    # print(html2text.html2text(txt))
     soup = BeautifulSoup(txt, "html.parser")
     text = soup.get_text()
 
     d = computeWordFrequencies(tokenize(text))
-
-    #vector = []
+    # vector = []
     vector = {}
     for i in d.keys():
         l = []
-        hashnum = format(hash(i)%1000000000, '012b')
-        for j in hashnum[2:]:
+        hashnum = format(hash(i) % 8192, '013b')
+        for j in hashnum:
             l.append(j)
         vector[i] = l
-        #print(vector)
-
+        # print(vector)
     final = []
-    for i in range(10):
+    for i in range(13):
         add = 0
         for k, v in vector.items():
             if v[i] == '1':
                 add += d[k]
             else:
                 add -= d[k]
-            #print(add)
+            # print(add)
         final.append(add)
+    # return final
+    #print(final)
 
-    return final
+    ans = []
+    for i in final:
+        if i > 0:
+            ans.append(1)
+        else:
+            ans.append(0)
+    return ans
 
-    # ans = []
-    # for i in final:
-    #     if i > 0:
-    #         ans.append(1)
-    #     else:
-    #         ans.append(0)
-    # return ans
-
-    
-
-
-    
-
-    #print(text)
 
 def tokenize(text):
     l = []
@@ -274,59 +265,55 @@ def tokenize(text):
         l.append(i)
     return l
 
+
 def computeWordFrequencies(tokens):
-    d = {}
+    freq_dict = {}
     for i in tokens:
-        if i in d.keys():
-            d[i]+=1
-        else:
-            d[i] = 1
-    return d
-    
+        if i not in stopwords:
+            if i in freq_dict.keys():
+                freq_dict[i] += 1
+            else:
+                freq_dict[i] = 1
+    return freq_dict
 
-        
-
-    #print(urlparse('http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni').netloc == urlparse('http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/involved/leadership_council').netloc)
+    # print(urlparse('http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni').netloc == urlparse('http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/involved/leadership_council').netloc)
 
 
 if __name__ == '__main__':
+    f = open("stopwords.txt")
+    for line in f:
+        stopwords.append(line.strip("\n"))
+    f.close()
 
     url = "https://www.ics.uci.edu"
     print(get_response(url))
-    print("hi")
     if not os.path.exists('logs'):
         os.makedirs('logs')
     # url = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni"
     # url2 = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/involved"
 
-    #resp = requests.get(url)
-    #resp_dict = {'url':url, 'status':resp.status_code, 'response': pickle.dumps(resp.text.encode())} 
+    # resp = requests.get(url)
+    # resp_dict = {'url':url, 'status':resp.status_code, 'response': pickle.dumps(resp.text.encode())}
 
-    #responseObj = response.Response(resp_dict)
+    # responseObj = response.Response(resp_dict)
 
     responseObj = get_response(url)
 
     # print(simhash(url2))
     # print(simhash(url))
     # print(similarity(simhash(url2), simhash(url)))
-    
-    #print(responseObj.raw_response)
-    #print("#################################")
-    #print(responseObj2.raw_response)
 
-    
+    # print(responseObj.raw_response)
+    # print("#################################")
+    # print(responseObj2.raw_response)
 
-    #print(responseObj.raw_response)
-    #print(responseObj.status)    
-
-    
-    
+    # print(responseObj.raw_response)
+    # print(responseObj.status)
 
     scraper(url, responseObj)
     print("TOTAL Unique links: " + str(len(uniquelinks)))
     print("FAILED LINKSSS: " + str(failedlinks))
 
-    #print(resp)
-    #print(resp.url)
-    #print(test.json()['result'])
-    
+    # print(resp)
+    # print(resp.url)
+    # print(test.json()['result'])

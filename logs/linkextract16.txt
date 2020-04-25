@@ -1,36 +1,48 @@
-NOW EXTRACTING - https://www.ics.uci.edu/about/search/index.php
-*********https://www.ics.uci.edu/about/facilities/index.php
-*********https://www.ics.uci.edu/about/about_safety.php
-_________https://www.ics.uci.edu/about/search/index.php/search_graduate.php
-*********https://www.ics.uci.edu/employment
-_________https://www.ics.uci.edu/about/search/index.php/search_sao.php
-_________https://www.ics.uci.edu/about/search/index.php/search_facilities.php
-*********http://www.ics.uci.edu/social
-_________https://www.ics.uci.edu/about/search/index.php/search_external.php
-*********https://www.ics.uci.edu/about/visit/index.php
-_________https://www.ics.uci.edu/about/search/index.php/search_communications.php
-_________https://www.ics.uci.edu/about/search/index.php/index.php
-_________https://www.ics.uci.edu/about/search/index.php/search_dept_stats-staff.php
-_________https://www.ics.uci.edu/about/search/index.php/search_dean.php
-_________https://www.ics.uci.edu/about/search
-*********http://www.informatics.uci.edu/support/provide-projects
-*********https://www.ics.uci.edu/about
-_________https://www.ics.uci.edu/about/search/index.php/search_support.php
-*********https://www.ics.uci.edu/about/kfflab/index.php
-_________https://www.ics.uci.edu/about/search/index.php/search_payroll.php
-_________https://www.ics.uci.edu/about/search/index.php/search_dept_in4matx-staff.php
-*********http://www.cs.uci.edu
-*********http://www.stat.uci.edu
-_________https://www.ics.uci.edu/community/news
-_________https://www.ics.uci.edu/about/search/index.php/search_dept_cs-staff.php
-*********https://www.ics.uci.edu/about/search/index.php
+NOW EXTRACTING - http://www.ics.uci.edu/ugrad/livechat.php
+http://www.ics.uci.edu/ugrad/livechat.php/policies/Course_Outside_UCI.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Add_Drop_ChangeOption.php
 *********https://www.ics.uci.edu/accessibility
-_________https://www.ics.uci.edu/about/search/index.php/search_oai.php
+*********http://www.cs.uci.edu
+_________http://www.ics.uci.edu/ugrad/livechat.php/mailto:ucounsel@uci.edu
+*********http://www.stat.uci.edu
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Laptop_ComputerUse.php
+http://www.ics.uci.edu/ugrad/livechat.php/sao/index.php
+http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php
+*********https://www.ics.uci.edu/about/kfflab/index.php
+http://www.ics.uci.edu/ugrad/livechat.php/degrees/Second_BA.php
+_________https://www.ics.uci.edu/community/news
+_________http://www.ics.uci.edu/ugrad/livechat.php/sao/Course_updates.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Academic_Honesty.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/index.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/sao/SAO_Events.php
+*********https://www.ics.uci.edu/about/facilities/index.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Withdrawal_Readmission.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/CS199_IN4MATX199.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Minors.php
+*********https://www.ics.uci.edu/about/search/index.php
+*********http://www.informatics.uci.edu/support/provide-projects
+*********https://www.ics.uci.edu/employment
 *********http://www.informatics.uci.edu
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/Double_Majors.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php
+*********http://www.ics.uci.edu/social
+*********https://www.ics.uci.edu/about/about_safety.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Academic_Standing.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/degrees/index.php
+*********http://www.ics.uci.edu/ugrad/livechat.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/QA_Petitions.php
+http://www.ics.uci.edu/ugrad/livechat.php/courses/index.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/QA_Graduation.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Grade_Options.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/advising/ICS New Student Welcome.php
+_________http://www.ics.uci.edu/ugrad/livechat.php/advising/ICS Credit by Exam Fall.php
+https://www.ics.uci.edu/ugrad
+_________http://www.ics.uci.edu/ugrad/livechat.php/policies/Change_of_Major.php
+*********https://www.ics.uci.edu/about/visit/index.php
 *********https://www.ics.uci.edu/about/about_contact.php
-_________https://www.ics.uci.edu/about/search/index.php/search_business.php
-Number of repeated urls: 30
-New number in queue: 132
-Number of newly added links: 0
-Number of unique so far: 149
-2020-04-24 17:30:25.532584
+_________http://www.ics.uci.edu/ugrad/livechat.php/sao/Concurrent_Enrollment.php
+Number of repeated urls: 36
+New number in queue: 135
+Number of newly added links: 6
+Number of unique so far: 152
+2020-04-24 17:51:44.748202

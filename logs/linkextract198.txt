@@ -1,33 +1,32 @@
-NOW EXTRACTING - https://www.stat.uci.edu/jessica-utts-an-ambassador-for-statistics
-*********https://www.stat.uci.edu
-*********https://www.stat.uci.edu/chairs-message
-*********https://www.stat.uci.edu/what-is-statistics
-*********https://www.stat.uci.edu/contact-the-department
-*********https://www.stat.uci.edu/tutoring-resources
-*********https://www.stat.uci.edu/faculty
-*********https://www.stat.uci.edu/research
-*********https://www.stat.uci.edu/m-s-ph-d-in-statistics
-*********http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
-*********https://www.stat.uci.edu/grad-student-directory
-*********https://www.stat.uci.edu/statistics-internships-employment-opportunities
-*********https://www.stat.uci.edu/employers-of-statistics-grad-students
-*********https://www.stat.uci.edu/slider/b-s-in-data-science
-*********https://www.stat.uci.edu/minor-in-statistics
-*********http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
-*********http://www.stat.uci.edu/news
-*********https://www.stat.uci.edu/seminar-series
-*********https://www.stat.uci.edu/statistics-ph-d-student-receives-enar-distinguished-student-paper-award
-*********https://www.stat.uci.edu/two-statistics-ph-d-students-receive-honorable-mentions-in-nsf-grfp
-*********https://www.stat.uci.edu/nsf-announces-2020-graduate-research-fellows
-*********https://www.stat.uci.edu/amstat-news-celebrating-rising-undergraduate-women-in-statistics-and-data-science
-*********https://www.stat.uci.edu/statistics-ph-d-student-mary-ryan-receives-public-impact-fellowship
-*********https://www.stat.uci.edu/professor-berrocal-elected-chair-of-the-section-in-environmental-sciences-of-the-isba
-*********https://www.stat.uci.edu/staff-spotlight-rosemary-bustas-journey-from-chemistry-to-statistics-to-scotland-and-beyond
-*********http://www.stat.uci.edu/news
-*********https://www.ics.uci.edu
-_________https://www.stat.uci.edu/jessica-utts-an-ambassador-for-statistics/mailto:communications@ics.uci.edu
-Number of repeated urls: 27
-New number in queue: 261
+NOW EXTRACTING - https://www.ics.uci.edu/ugrad/policies/Academic_Standing.php
+*********https://www.ics.uci.edu/about/facilities/index.php
+*********https://www.ics.uci.edu/about/about_safety.php
+*********https://www.ics.uci.edu/employment
+*********http://www.ics.uci.edu/social
+*********https://www.ics.uci.edu/ugrad/policies
+*********https://www.ics.uci.edu/about/visit/index.php
+_________https://www.ics.uci.edu/ugrad/policies/Academic_Standing.php/CS199_IN4MATX199.php
+*********http://www.informatics.uci.edu/support/provide-projects
+_________https://www.ics.uci.edu/ugrad/policies/Academic_Standing.php/Grade_Options.php
+*********https://www.ics.uci.edu/about/kfflab/index.php
+_________https://www.ics.uci.edu/ugrad/policies/Academic_Standing.php/Change_of_Major.php
+*********https://www.ics.uci.edu/ugrad/policies/Academic_Standing.php
+_________https://www.ics.uci.edu/ugrad/policies/Academic_Standing.php/Academic_Standing.php
+_________https://www.ics.uci.edu/ugrad/policies/Academic_Standing.php/Withdrawal_Readmission.php
+_________https://www.ics.uci.edu/ugrad/policies/Academic_Standing.php/Course_Outside_UCI.php
+*********http://www.cs.uci.edu
+*********http://www.stat.uci.edu
+_________https://www.ics.uci.edu/community/news
+_________https://www.ics.uci.edu/ugrad/policies/Academic_Standing.php/Add_Drop_ChangeOption.php
+*********https://www.ics.uci.edu/about/search/index.php
+_________https://www.ics.uci.edu/ugrad/policies/Academic_Standing.php/Laptop_ComputerUse.php
+*********https://www.ics.uci.edu/ugrad
+*********https://www.ics.uci.edu/accessibility
+_________https://www.ics.uci.edu/ugrad/policies/Academic_Standing.php/Academic_Honesty.php
+*********http://www.informatics.uci.edu
+*********https://www.ics.uci.edu/about/about_contact.php
+Number of repeated urls: 26
+New number in queue: 836
 Number of newly added links: 0
-Number of unique so far: 460
-2020-04-24 14:49:01.431080
+Number of unique so far: 1035
+2020-04-24 18:37:14.438411

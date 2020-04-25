@@ -1,31 +1,22 @@
-NOW EXTRACTING - http://www.cs.uci.edu
-https://www.cs.uci.edu/graduate-computer-science-programs
-https://www.cs.uci.edu/computer-science-team-develops-coronavirustwittermap
-https://www.cs.uci.edu/uci-news-uci-computer-scientists-breathe-life-into-venice-biennale-installations
-https://www.cs.uci.edu/contact
-https://www.cs.uci.edu/faculty
-https://www.cs.uci.edu/chemical-engineering-news-exploring-chemical-space-can-ai-take-us-where-no-human-has-gone-before-pierre-baldi-quoted
+NOW EXTRACTING - https://www.ics.uci.edu/about/kfflab/index.php
+*********https://www.ics.uci.edu/about/kfflab/index.php
+*********https://www.ics.uci.edu/about/visit/index.php
+*********https://www.ics.uci.edu/community/news
+*********https://www.ics.uci.edu/about/about_safety.php
+*********http://www.informatics.uci.edu/support/provide-projects
+https://www.ics.uci.edu/about
+_________https://www.ics.uci.edu/about/kfflab
 *********http://www.cs.uci.edu
-https://www.cs.uci.edu/uci-news-coronavirus-twitter-map-developed-at-uci-displays-social-media-reactions-to-covid-19-chen-li-quoted
-https://www.cs.uci.edu/undergraduate-programs
-*********https://www.ics.uci.edu
-http://www.cs.uci.edu/mailto:communications@ics.uci.edu
-https://www.cs.uci.edu/cs-research-areas
-https://www.cs.uci.edu/research-centers
-http://www.cs.uci.edu/professor-of-teaching-in-computer-science
-https://www.cs.uci.edu/about-the-department
-http://www.cs.uci.edu/distinguished-lecture-series
-https://www.cs.uci.edu/just-code-it-introduces-middle-schools-girls-to-computer-science
-https://www.cs.uci.edu/uci-led-project-seeks-to-combat-wildfires
-https://www.cs.uci.edu/uci-researchers-deep-learning-algorithm-solves-rubiks-cube-faster-than-any-human
-https://www.cs.uci.edu/current-graduate-students
-_________http://www.ics.uci.edu
-_________http://www.cs.uci.edu/research-areas
-https://www.cs.uci.edu/2020-hall-of-fame-celebration-honors-achievement-and-opportunity
-https://www.cs.uci.edu/uci-news-uci-and-disney-research-scientists-develop-ai-enhanced-video-compression-model-stephan-mandt-quoted
-https://www.cs.uci.edu/job-opportunities
-Number of repeated urls: 4
-New number in queue: 41
-Number of newly added links: 21
-Number of unique so far: 44
-2020-04-24 17:37:39.429197
+*********http://www.ics.uci.edu/social
+*********http://www.informatics.uci.edu
+*********https://www.ics.uci.edu/accessibility
+*********https://www.ics.uci.edu/about/search/index.php
+*********http://www.stat.uci.edu
+*********https://www.ics.uci.edu/employment
+*********https://www.ics.uci.edu/about/about_contact.php
+*********https://www.ics.uci.edu/about/facilities/index.php
+Number of repeated urls: 15
+New number in queue: 20
+Number of newly added links: 1
+Number of unique so far: 23
+2020-04-24 18:01:25.179448

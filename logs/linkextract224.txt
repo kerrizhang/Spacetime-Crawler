@@ -1,25 +1,77 @@
-NOW EXTRACTING - http://www.ics.uci.edu/~jutts/201-F13
-_________http://www.stat.uci.edu
-*********http://www.ics.uci.edu/~jutts
-*********http://www.ics.uci.edu/~lab/students/acct_activate.php
-*********http://www.ics.uci.edu/~lab/lab_schedule/index.php
-_________http://www.ics.uci.edu/~jutts/201-F13/HighwaySign.txt
-http://www.ics.uci.edu/~jutts/201-F13/CH01PR27.txt
-http://www.ics.uci.edu/~jutts/201-F13/CH03PR18.txt
-http://www.ics.uci.edu/~jutts/201-F13/CH03PR15.txt
-http://www.ics.uci.edu/~jutts/201-F13/UCD.txt
-http://www.ics.uci.edu/~jutts/201-F13/CH06PR15.txt
-*********http://www.ics.uci.edu/~jutts/201-F13/CH03PR18.txt
-*********http://www.ics.uci.edu/~jutts/201-F13/CH03PR15.txt
-*********http://www.ics.uci.edu/~jutts/201-F13/UCD.txt
-*********http://www.ics.uci.edu/~jutts/201-F13/CH06PR15.txt
-_________http://www.ics.uci.edu/~jutts/201-F13/PhysicalData.txt
-*********http://www.ics.uci.edu/~jutts/201-F13/CH01PR27.txt
-_________http://www.ics.uci.edu/~jutts/201-F13/Nov20Hmwk.txt
-http://www.ics.uci.edu/~jutts/201-F13/Student0405.txt
-http://www.ics.uci.edu/~jutts/201-F13/student0405.txt
-Number of repeated urls: 12
-New number in queue: 506
-Number of newly added links: 7
-Number of unique so far: 731
-2020-04-24 14:56:32.012570
+NOW EXTRACTING - http://www.informatics.uci.edu/explore/faculty-profiles/bonnie-nardi
+*********https://www.informatics.uci.edu/research/areas-of-expertise
+_________http://www.informatics.uci.edu/explore/faculty-profiles/bonnie-nardi/mailto:nardi@ics.uci.edu
+*********https://www.informatics.uci.edu/grad/mswe
+*********https://www.informatics.uci.edu/explore/department-vision
+*********https://www.informatics.uci.edu/grad/phd-software-engineering
+*********https://www.informatics.uci.edu/undergrad/upcoming-course-schedule
+*********https://www.informatics.uci.edu/explore/history-of-the-department
+*********https://www.informatics.uci.edu/undergrad/student-profiles
+*********https://www.informatics.uci.edu/impact/undergraduate-alumni-spotlights
+*********https://www.informatics.uci.edu/undergrad/bs-information-computer-science
+*********https://www.informatics.uci.edu/support/support-students
+*********https://www.informatics.uci.edu/explore/visiting-the-department
+*********https://www.informatics.uci.edu/very-top-footer-menu-items/contact
+*********https://www.informatics.uci.edu/admissions/student-life
+*********https://www.informatics.uci.edu/very-top-footer-menu-items/news
+*********https://www.informatics.uci.edu/support/collaborate-on-research
+*********https://www.informatics.uci.edu/grad/student-groups
+*********https://www.informatics.uci.edu/grad/upcoming-course-schedule
+*********https://www.informatics.uci.edu/admissions/coming-from-abroad
+*********https://www.informatics.uci.edu/research/example-research-projects
+*********https://www.informatics.uci.edu/admissions/graduate-application-process
+*********https://www.informatics.uci.edu/impact/outreach
+*********https://www.informatics.uci.edu/explore/facts-figures
+*********https://www.informatics.uci.edu/grad/policies
+*********https://www.informatics.uci.edu/undergrad/minors
+*********https://www.informatics.uci.edu/support/become-a-mentor
+*********https://www.informatics.uci.edu/support/share-your-talent
+_________https://www.informatics.uci.edu
+*********https://www.informatics.uci.edu/undergrad/courses
+*********https://www.informatics.uci.edu/research/phd-research
+_________https://www.informatics.uci.edu/support/provide-projects
+*********https://www.informatics.uci.edu/undergrad/student-groups
+*********https://www.informatics.uci.edu/research/undergraduate-research
+*********https://www.informatics.uci.edu/impact/community-engagement
+*********https://www.informatics.uci.edu/very-top-footer-menu-items/people
+*********https://www.informatics.uci.edu/research/masters-research
+*********https://www.informatics.uci.edu/explore/faculty-profiles
+*********https://www.informatics.uci.edu/grad/mhcid
+*********https://www.informatics.uci.edu/grad/diversity-ambassador
+*********https://www.informatics.uci.edu/research/gifts-grants
+_________https://www.informatics.uci.edu/explore/faculty-profiles/gary-olson
+*********https://www.informatics.uci.edu/grad/phd-informatics
+*********https://www.informatics.uci.edu/undergrad/policies
+*********https://www.informatics.uci.edu/explore/blogs-we-author
+*********https://www.informatics.uci.edu/grad/student-profiles
+*********https://www.informatics.uci.edu/undergrad/bs-computer-game-science
+*********https://www.informatics.uci.edu/undergrad/bs-business-information-management
+*********https://www.informatics.uci.edu/research/labs-centers
+*********https://www.informatics.uci.edu/admissions/housing
+*********https://www.informatics.uci.edu/explore/books-we-have-written
+*********https://www.informatics.uci.edu/grad/ms-informatics
+*********https://www.informatics.uci.edu/undergrad/bs-software-engineering
+*********https://www.informatics.uci.edu/admissions/undergraduate-application-process
+*********https://www.informatics.uci.edu/undergrad/special-opportunities
+*********https://www.informatics.uci.edu/support/champion-research
+*********https://www.informatics.uci.edu/research/past-dissertations
+*********https://www.informatics.uci.edu/support/become-a-corporate-partner
+*********https://www.informatics.uci.edu/support/set-future-agenda
+*********https://www.informatics.uci.edu/grad/overview
+*********https://www.informatics.uci.edu/impact/graduate-alumni-spotlights
+_________http://www.informatics.uci.edu/explore/faculty-profiles/bonnie-nardi/mailto:ichair@ics.uci.edu
+*********https://www.informatics.uci.edu/impact/research-that-matters
+_________https://www.informatics.uci.edu/grad/courses
+*********https://www.informatics.uci.edu/explore/chairs-welcome
+*********https://www.informatics.uci.edu/explore/books-we-read
+_________https://www.informatics.uci.edu/undergrad/bs-informatics
+_________http://www.ics.uci.edu
+_________https://www.informatics.uci.edu/explore/faculty-profiles/melissa-mazmanian
+*********https://www.informatics.uci.edu/explore/department-seminars
+*********https://www.informatics.uci.edu/very-top-footer-menu-items/site-map
+*********https://www.informatics.uci.edu/grad/ms-software-engineering
+Number of repeated urls: 71
+New number in queue: 816
+Number of newly added links: 0
+Number of unique so far: 1041
+2020-04-24 18:40:11.250858

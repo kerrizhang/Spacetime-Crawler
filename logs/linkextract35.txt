@@ -1,50 +1,24 @@
-NOW EXTRACTING - http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php
-*********https://www.ics.uci.edu/about/facilities/index.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/courses/index.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/policies/Academic_Standing.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/policies/Withdrawal_Readmission.php
-*********https://www.ics.uci.edu/about/about_safety.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/policies/Laptop_ComputerUse.php
-*********https://www.ics.uci.edu/employment
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/mailto:ucounsel@uci.edu
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/degrees/Second_BA.php
-_________https://www.ics.uci.edu/ugrad/livechat.php/resources
-*********http://www.ics.uci.edu/social
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/advising/ICS Credit by Exam Fall.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/policies/Academic_Honesty.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/degrees/index.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/QA_Petitions.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/policies/CS199_IN4MATX199.php
-*********https://www.ics.uci.edu/about/visit/index.php
-*********http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/sao/index.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/resources/index.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/sao/Course_updates.php
-*********http://www.informatics.uci.edu/support/provide-projects
-*********https://www.ics.uci.edu/about/kfflab/index.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/policies/Change_of_Major.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/advising/ICS New Student Welcome.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/QA_Graduation.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/sao/Concurrent_Enrollment.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/policies/Add_Drop_ChangeOption.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/resources/Title_IX_Resources.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/index.php
+NOW EXTRACTING - https://www.cs.uci.edu/about-the-department
+*********https://www.cs.uci.edu/graduate-computer-science-programs
+*********https://www.cs.uci.edu/computer-science-team-develops-coronavirustwittermap
+*********https://www.cs.uci.edu/contact
+*********https://www.cs.uci.edu/faculty
+*********https://www.cs.uci.edu/chemical-engineering-news-exploring-chemical-space-can-ai-take-us-where-no-human-has-gone-before-pierre-baldi-quoted
 *********http://www.cs.uci.edu
-*********http://www.stat.uci.edu
-_________https://www.ics.uci.edu/community/news
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/policies/Course_Outside_UCI.php
-*********https://www.ics.uci.edu/about/search/index.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/degrees/Double_Majors.php
-*********https://www.ics.uci.edu/ugrad
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/policies/Grade_Options.php
-*********https://www.ics.uci.edu/accessibility
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/degrees/Minors.php
-*********http://www.informatics.uci.edu
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/Title_IX_Resources.php/sao/SAO_Events.php
-_________https://www.ics.uci.edu/ugrad/livechat.php
-*********https://www.ics.uci.edu/about/about_contact.php
-Number of repeated urls: 44
-New number in queue: 150
+*********https://www.cs.uci.edu/uci-news-coronavirus-twitter-map-developed-at-uci-displays-social-media-reactions-to-covid-19-chen-li-quoted
+*********https://www.cs.uci.edu/undergraduate-programs
+*********https://www.ics.uci.edu
+_________https://www.cs.uci.edu/about-the-department/mailto:communications@ics.uci.edu
+*********https://www.cs.uci.edu/cs-research-areas
+*********https://www.cs.uci.edu/research-centers
+*********https://www.cs.uci.edu/about-the-department
+*********https://www.cs.uci.edu/just-code-it-introduces-middle-schools-girls-to-computer-science
+*********https://www.cs.uci.edu/current-graduate-students
+_________http://www.ics.uci.edu
+*********https://www.cs.uci.edu/2020-hall-of-fame-celebration-honors-achievement-and-opportunity
+*********https://www.cs.uci.edu/job-opportunities
+Number of repeated urls: 18
+New number in queue: 488
 Number of newly added links: 0
-Number of unique so far: 186
-2020-04-24 17:32:47.023806
+Number of unique so far: 524
+2020-04-24 18:19:24.068368

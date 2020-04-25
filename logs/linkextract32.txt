@@ -1,50 +1,73 @@
-NOW EXTRACTING - http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php
-*********https://www.ics.uci.edu/about/facilities/index.php
-http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/policies/Laptop_ComputerUse.php
-*********http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/policies/Course_Outside_UCI.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/advising/ICS New Student Welcome.php
-*********https://www.ics.uci.edu/about/about_safety.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/policies/Change_of_Major.php
-*********https://www.ics.uci.edu/employment
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/policies/CS199_IN4MATX199.php
-_________https://www.ics.uci.edu/ugrad/livechat.php/resources
-http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/courses/index.php
-*********http://www.ics.uci.edu/social
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/advising/ICS Credit by Exam Fall.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/policies/Academic_Standing.php
-*********https://www.ics.uci.edu/about/visit/index.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/QA_Graduation.php
-http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/degrees/Double_Majors.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/policies/Withdrawal_Readmission.php
-*********http://www.informatics.uci.edu/support/provide-projects
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/degrees/index.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/policies/Academic_Honesty.php
-*********https://www.ics.uci.edu/about/kfflab/index.php
-http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/resources/Title_IX_Resources.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/sao/index.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/policies/Grade_Options.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/policies/Add_Drop_ChangeOption.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/QA_Petitions.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/index.php
+NOW EXTRACTING - https://www.cs.uci.edu/cs-research-areas
+*********https://www.cs.uci.edu/faculty
 *********http://www.cs.uci.edu
-*********http://www.stat.uci.edu
-_________https://www.ics.uci.edu/community/news
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/sao/Course_updates.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/degrees/Minors.php
-*********https://www.ics.uci.edu/about/search/index.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/resources/index.php
-*********https://www.ics.uci.edu/ugrad
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/sao/Concurrent_Enrollment.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/degrees/Second_BA.php
-*********https://www.ics.uci.edu/accessibility
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/mailto:ucounsel@uci.edu
-*********http://www.informatics.uci.edu
-_________https://www.ics.uci.edu/ugrad/livechat.php
-*********https://www.ics.uci.edu/about/about_contact.php
-_________http://www.ics.uci.edu/ugrad/livechat.php/resources/index.php/sao/SAO_Events.php
-Number of repeated urls: 40
-New number in queue: 148
-Number of newly added links: 4
-Number of unique so far: 181
-2020-04-24 17:32:03.492463
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=xhx
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=majumder
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=marios
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=vazirani
+*********https://www.cs.uci.edu/just-code-it-introduces-middle-schools-girls-to-computer-science
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=sudderth
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=klefstad
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=isaac
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=swjun
+*********https://www.cs.uci.edu/computer-science-team-develops-coronavirustwittermap
+*********https://www.cs.uci.edu/contact
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=iharris
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=sjarecki
+*********https://www.cs.uci.edu/undergraduate-programs
+*********https://www.cs.uci.edu/research-centers
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=smehrotr
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=eppstein
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=fowlkes
+*********https://www.cs.uci.edu/about-the-department
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=nalini
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=mjcarey
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=aihler
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=sjordan
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=mandt
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=dechter
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=goodrich
+*********https://www.cs.uci.edu/graduate-computer-science-programs
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=levorato
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=dutt
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=chenli
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=gtsudik
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=ardalan
+*********https://www.cs.uci.edu/uci-news-coronavirus-twitter-map-developed-at-uci-displays-social-media-reactions-to-covid-19-chen-li-quoted
+https://www.ics.uci.edu/faculty/area/#
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=aveidenb
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=elzarki
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=dhirschb
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=lbic
+_________https://www.cs.uci.edu/cs-research-areas/mailto:communications@ics.uci.edu
+*********https://www.cs.uci.edu/current-graduate-students
+_________http://www.ics.uci.edu
+*********https://www.cs.uci.edu/2020-hall-of-fame-celebration-honors-achievement-and-opportunity
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=pfbaldi
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=emj
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=aburtsev
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=anicolau
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=rickl
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=mbdillen
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=ssirani
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=sgagomas
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=sameer
+*********https://www.cs.uci.edu/chemical-engineering-news-exploring-chemical-space-can-ai-take-us-where-no-human-has-gone-before-pierre-baldi-quoted
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=franz
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=givargis
+*********https://www.ics.uci.edu
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=pjsmyth
+*********https://www.cs.uci.edu/cs-research-areas
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=shz
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=ebozorgz
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=rcjain
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=whayes
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=aregan
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=alfchen
+_________https://www.ics.uci.edu/faculty/profiles/view_faculty.php?ucinetid=gopi
+*********https://www.cs.uci.edu/job-opportunities
+Number of repeated urls: 66
+New number in queue: 489
+Number of newly added links: 1
+Number of unique so far: 522
+2020-04-24 18:18:43.795526

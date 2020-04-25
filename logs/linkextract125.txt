@@ -1,36 +1,38 @@
-NOW EXTRACTING - https://www.stat.uci.edu/2018/01
-*********https://www.stat.uci.edu
-*********https://www.stat.uci.edu/chairs-message
-*********https://www.stat.uci.edu/what-is-statistics
-*********https://www.stat.uci.edu/contact-the-department
-*********https://www.stat.uci.edu/tutoring-resources
-*********https://www.stat.uci.edu/faculty
-*********https://www.stat.uci.edu/research
-*********https://www.stat.uci.edu/m-s-ph-d-in-statistics
-*********http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
-*********https://www.stat.uci.edu/grad-student-directory
-*********https://www.stat.uci.edu/statistics-internships-employment-opportunities
-*********https://www.stat.uci.edu/employers-of-statistics-grad-students
-*********https://www.stat.uci.edu/slider/b-s-in-data-science
-*********https://www.stat.uci.edu/minor-in-statistics
-*********http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
-*********http://www.stat.uci.edu/news
-*********https://www.stat.uci.edu/seminar-series
-*********https://www.stat.uci.edu/lakeland-times-autism-numbers-spike-the-latest-call-to-action-stern-quoted
-*********https://www.stat.uci.edu/utts-discusses-statistics-for-good-governance-at-international-conference-in-sri-lanka
-*********http://www.ics.uci.edu/~jutts
-*********https://www.stat.uci.edu/2018-ics-projects-and-predictions
-*********https://www.stat.uci.edu/2018-ics-projects-and-predictions
-*********https://www.stat.uci.edu/nsf-announces-2020-graduate-research-fellows
-*********https://www.stat.uci.edu/amstat-news-celebrating-rising-undergraduate-women-in-statistics-and-data-science
-*********https://www.stat.uci.edu/statistics-ph-d-student-mary-ryan-receives-public-impact-fellowship
-*********https://www.stat.uci.edu/professor-berrocal-elected-chair-of-the-section-in-environmental-sciences-of-the-isba
-*********https://www.stat.uci.edu/staff-spotlight-rosemary-bustas-journey-from-chemistry-to-statistics-to-scotland-and-beyond
-*********http://www.stat.uci.edu/news
-*********https://www.ics.uci.edu
-_________https://www.stat.uci.edu/2018/01/mailto:communications@ics.uci.edu
-Number of repeated urls: 30
-New number in queue: 307
-Number of newly added links: 0
-Number of unique so far: 433
-2020-04-24 14:46:11.829517
+NOW EXTRACTING - https://www.ics.uci.edu/about/about_contact.php/search/search_communications.php
+_________https://www.ics.uci.edu/about/about_contact.php/search/search_communications.php/mailto:matt.miller@uci.edu
+https://www.ics.uci.edu/about/about_contact.php/search/search_communications.php/search/index.php
+*********http://www.informatics.uci.edu/support/provide-projects
+_________https://www.ics.uci.edu/about/about_contact.php/search/search_communications.php/about_deanmsg.php
+*********https://www.ics.uci.edu/community/news
+*********https://www.ics.uci.edu/about
+*********https://www.ics.uci.edu/employment
+*********http://www.informatics.uci.edu
+_________https://www.ics.uci.edu/about/about_contact.php/search/search_communications.php/about_contact.php
+_________https://www.ics.uci.edu/about/about_contact.php/search/search_communications.php/mailto:ucounsel@uci.edu
+_________https://www.ics.uci.edu/about/about_contact.php/search/search_communications.php/
+*********https://www.ics.uci.edu/accessibility
+_________https://www.ics.uci.edu/about/about_contact.php/search/search_communications.php/mailto:communications@ics.uci.edu
+*********https://www.ics.uci.edu/about/about_safety.php
+*********http://www.cs.uci.edu
+*********https://www.ics.uci.edu/about/about_contact.php
+*********http://www.ics.uci.edu/social
+*********https://www.ics.uci.edu/about/facilities/index.php
+*********https://www.ics.uci.edu/about/visit/index.php
+_________https://www.ics.uci.edu/about/about_contact.php/search/search_communications.php/about_mission.php
+*********https://www.ics.uci.edu/about/search/index.php
+_________https://www.ics.uci.edu/about/about_contact.php/search/search_communications.php/search/search_communications.php
+_________https://www.ics.uci.edu/about/about_contact.php/search/search_communications.php/about_meet_the_dean.php
+https://www.ics.uci.edu/about/about_contact.php/search/search_communications.php/visit/index.php
+_________https://www.ics.uci.edu/about/about_contact.php/search/search_communications.php/brenhall/index.php
+*********https://www.ics.uci.edu/about/kfflab/index.php
+_________https://www.ics.uci.edu/about/about_contact.php/search/search_communications.php/search/search_sao.php
+_________https://www.ics.uci.edu/about/about_contact.php/search
+*********http://www.stat.uci.edu
+https://www.ics.uci.edu/about/about_contact.php/search/search_communications.php/bren/index.php
+_________https://www.ics.uci.edu/about/about_contact.php/search/search_communications.php/about_safety.php
+_________https://www.ics.uci.edu/about/about_contact.php/search/search_communications.php/mailto:gcounsel@ics.uci.edu
+Number of repeated urls: 29
+New number in queue: 642
+Number of newly added links: 3
+Number of unique so far: 768
+2020-04-24 18:19:06.660733

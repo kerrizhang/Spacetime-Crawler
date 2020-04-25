@@ -1,6 +1,29 @@
-NOW EXTRACTING - https://www.ics.uci.edu/faculty/profiles
-Number of repeated urls: 0
-New number in queue: 339
+NOW EXTRACTING - https://www.ics.uci.edu/ugrad/resources/Title_IX_Resources.php
+*********https://www.ics.uci.edu/about/facilities/index.php
+_________https://www.ics.uci.edu/ugrad/resources/Title_IX_Resources.php/mailto:oeod@uci.edu
+*********https://www.ics.uci.edu/about/about_safety.php
+_________https://www.ics.uci.edu/ugrad/resources/Title_IX_Resources.php/Title_IX_Resources.php
+*********https://www.ics.uci.edu/employment
+_________https://www.ics.uci.edu/ugrad/resources/Title_IX_Resources.php/mailto:ucounsel@uci.edu
+*********http://www.ics.uci.edu/social
+*********https://www.ics.uci.edu/about/visit/index.php
+_________https://www.ics.uci.edu/ugrad/resources/Title_IX_Resources.php/tel:(949)%20824-5594
+_________https://www.ics.uci.edu/ugrad/resources/Title_IX_Resources.php/index.php
+*********http://www.informatics.uci.edu/support/provide-projects
+_________https://www.ics.uci.edu/ugrad/resources
+*********https://www.ics.uci.edu/about/kfflab/index.php
+*********https://www.ics.uci.edu/ugrad/resources/Title_IX_Resources.php
+*********http://www.cs.uci.edu
+*********http://www.stat.uci.edu
+_________https://www.ics.uci.edu/community/news
+*********https://www.ics.uci.edu/about/search/index.php
+_________https://www.ics.uci.edu/ugrad/resources/Title_IX_Resources.php/tel:(949)%20824-7037
+*********https://www.ics.uci.edu/ugrad
+*********https://www.ics.uci.edu/accessibility
+*********http://www.informatics.uci.edu
+*********https://www.ics.uci.edu/about/about_contact.php
+Number of repeated urls: 23
+New number in queue: 833
 Number of newly added links: 0
-Number of unique so far: 541
-2020-04-24 14:51:20.401261
+Number of unique so far: 1035
+2020-04-24 18:37:25.482652

@@ -1,6 +1,29 @@
-NOW EXTRACTING - http://www.ics.uci.edu/~wjohnson/mailto:wjohnson@uci.edu
-Number of repeated urls: 0
-New number in queue: 444
+NOW EXTRACTING - https://www.ics.uci.edu/ugrad/sao/index.php
+*********https://www.ics.uci.edu/about/facilities/index.php
+_________https://www.ics.uci.edu/ugrad/sao/index.php/SAO_Events.php
+*********https://www.ics.uci.edu/about/about_safety.php
+*********https://www.ics.uci.edu/employment
+_________https://www.ics.uci.edu/ugrad/sao/index.php/Concurrent_Enrollment.php
+*********http://www.ics.uci.edu/social
+*********https://www.ics.uci.edu/about/visit/index.php
+_________https://www.ics.uci.edu/ugrad/sao/index.php/Course_updates.php
+_________https://www.ics.uci.edu/ugrad/sao/index.php/mailto:ucounsel@uci.edu
+_________https://www.ics.uci.edu/ugrad/sao/index.php/index.php
+_________https://www.ics.uci.edu/ugrad/sao
+*********http://www.informatics.uci.edu/support/provide-projects
+*********https://www.ics.uci.edu/about/kfflab/index.php
+_________https://www.ics.uci.edu/ugrad/sao/index.php/Appts_Walk-Ins.php
+*********http://www.cs.uci.edu
+*********http://www.stat.uci.edu
+_________https://www.ics.uci.edu/community/news
+*********https://www.ics.uci.edu/about/search/index.php
+*********https://www.ics.uci.edu/ugrad/sao/index.php
+*********https://www.ics.uci.edu/ugrad
+*********https://www.ics.uci.edu/accessibility
+*********http://www.informatics.uci.edu
+*********https://www.ics.uci.edu/about/about_contact.php
+Number of repeated urls: 23
+New number in queue: 829
 Number of newly added links: 0
-Number of unique so far: 655
-2020-04-24 14:53:10.602596
+Number of unique so far: 1040
+2020-04-24 18:38:09.168718

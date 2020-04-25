@@ -1,13 +1,29 @@
-NOW EXTRACTING - http://www.ics.uci.edu/~babaks/research.html
-http://www.ics.uci.edu/~babaks/research.html/index.html
-http://www.ics.uci.edu/~babaks/research.html/research.html
-http://www.ics.uci.edu/~babaks/research.html/publication.html
-http://www.ics.uci.edu/~babaks/research.html/teaching.html
-http://www.ics.uci.edu/~babaks/research.html/activities.html
-http://www.ics.uci.edu/~babaks/research.html/codes.html
-http://www.ics.uci.edu/~babaks/research.html/mailto:babaks@uci.edu?subject=
-Number of repeated urls: 0
-New number in queue: 450
-Number of newly added links: 7
-Number of unique so far: 662
-2020-04-24 14:53:15.950791
+NOW EXTRACTING - https://www.ics.uci.edu/ugrad/resources/index.php
+_________https://www.ics.uci.edu/ugrad/resources/index.php/index.php
+*********https://www.ics.uci.edu/about/facilities/index.php
+*********https://www.ics.uci.edu/about/about_safety.php
+_________https://www.ics.uci.edu/ugrad/resources/index.php/Title_IX_Resources.php
+*********https://www.ics.uci.edu/employment
+*********http://www.ics.uci.edu/social
+_________https://www.ics.uci.edu/ugrad/resources/index.php/ICS_StudentOrgs.php
+*********https://www.ics.uci.edu/about/visit/index.php
+*********http://www.informatics.uci.edu/support/provide-projects
+_________https://www.ics.uci.edu/ugrad/resources
+*********https://www.ics.uci.edu/about/kfflab/index.php
+_________https://www.ics.uci.edu/ugrad/resources/index.php/ICS_StudentLife_nonTechOpps.php
+_________https://www.ics.uci.edu/ugrad/resources/index.php/Campus_Resources.php
+*********http://www.cs.uci.edu
+*********http://www.stat.uci.edu
+_________https://www.ics.uci.edu/community/news
+*********https://www.ics.uci.edu/about/search/index.php
+*********http://www.ics.uci.edu/community/scholarships/index.php
+*********https://www.ics.uci.edu/ugrad
+*********https://www.ics.uci.edu/accessibility
+*********http://www.informatics.uci.edu
+*********https://www.ics.uci.edu/ugrad/resources/index.php
+*********https://www.ics.uci.edu/about/about_contact.php
+Number of repeated urls: 23
+New number in queue: 828
+Number of newly added links: 0
+Number of unique so far: 1040
+2020-04-24 18:38:12.286979

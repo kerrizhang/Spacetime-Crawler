@@ -1,21 +1,25 @@
-NOW EXTRACTING - https://www.ics.uci.edu/accessibility
-*********https://www.ics.uci.edu/about/facilities/index.php
-*********https://www.ics.uci.edu/about/about_safety.php
-*********https://www.ics.uci.edu/employment
-*********http://www.ics.uci.edu/social
-_________https://www.ics.uci.edu/accessibility/mailto:f.font@uci.edu
-*********https://www.ics.uci.edu/about/visit/index.php
-*********http://www.informatics.uci.edu/support/provide-projects
-*********https://www.ics.uci.edu/about/kfflab/index.php
-*********http://www.stat.uci.edu
-*********http://www.cs.uci.edu
-_________https://www.ics.uci.edu/community/news
-*********https://www.ics.uci.edu/about/search/index.php
+NOW EXTRACTING - http://www.ics.uci.edu/community/news/view_news?id=1731
 *********https://www.ics.uci.edu/accessibility
+*********http://www.cs.uci.edu
+_________http://www.ics.uci.edu/community/news/view_news?id=1731/press/index.php
+*********http://www.stat.uci.edu
+*********https://www.ics.uci.edu/about/kfflab/index.php
+_________https://www.ics.uci.edu/community/news
+_________http://www.ics.uci.edu/community/news/view_news?id=1731/mailto:matt.miller@uci.edu
+*********https://www.ics.uci.edu/about/facilities/index.php
+*********https://www.ics.uci.edu/about/search/index.php
+*********http://www.informatics.uci.edu/support/provide-projects
+*********https://www.ics.uci.edu/employment
 *********http://www.informatics.uci.edu
+*********http://www.ics.uci.edu/social
+*********https://www.ics.uci.edu/about/about_safety.php
+_________https://www.ics.uci.edu/community
+_________http://www.ics.uci.edu/community/news/view_news?id=1731/index.php
+*********http://www.ics.uci.edu/community/news/view_news?id=1731
+*********https://www.ics.uci.edu/about/visit/index.php
 *********https://www.ics.uci.edu/about/about_contact.php
-Number of repeated urls: 15
-New number in queue: 131
+Number of repeated urls: 19
+New number in queue: 134
 Number of newly added links: 0
-Number of unique so far: 149
-2020-04-24 17:30:27.230504
+Number of unique so far: 152
+2020-04-24 17:52:23.315110

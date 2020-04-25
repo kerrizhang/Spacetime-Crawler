@@ -1,21 +1,21 @@
-NOW EXTRACTING - http://www.ics.uci.edu/social
-*********https://www.ics.uci.edu/about/facilities/index.php
-*********https://www.ics.uci.edu/about/about_safety.php
-*********https://www.ics.uci.edu/employment
-*********http://www.ics.uci.edu/social
-*********https://www.ics.uci.edu/about/visit/index.php
-*********http://www.informatics.uci.edu/support/provide-projects
-*********https://www.ics.uci.edu/about/kfflab/index.php
-_________https://www.ics.uci.edu/social
-*********http://www.stat.uci.edu
-*********http://www.cs.uci.edu
-_________https://www.ics.uci.edu/community/news
-*********https://www.ics.uci.edu/about/search/index.php
+NOW EXTRACTING - https://www.ics.uci.edu/accessibility/mailto:f.font@uci.edu
 *********https://www.ics.uci.edu/accessibility
+*********http://www.cs.uci.edu
+*********http://www.stat.uci.edu
+*********https://www.ics.uci.edu/about/kfflab/index.php
+_________https://www.ics.uci.edu/community/news
+*********https://www.ics.uci.edu/about/facilities/index.php
+*********https://www.ics.uci.edu/about/search/index.php
+*********http://www.informatics.uci.edu/support/provide-projects
+*********https://www.ics.uci.edu/employment
+*********https://www.ics.uci.edu/accessibility/mailto:f.font@uci.edu
 *********http://www.informatics.uci.edu
+*********https://www.ics.uci.edu/about/about_safety.php
+*********https://www.ics.uci.edu
+*********https://www.ics.uci.edu/about/visit/index.php
 *********https://www.ics.uci.edu/about/about_contact.php
 Number of repeated urls: 15
-New number in queue: 135
+New number in queue: 134
 Number of newly added links: 0
-Number of unique so far: 157
-2020-04-24 17:30:55.154426
+Number of unique so far: 156
+2020-04-24 17:55:00.925997

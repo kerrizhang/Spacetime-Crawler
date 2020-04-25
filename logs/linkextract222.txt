@@ -1,22 +1,77 @@
-NOW EXTRACTING - http://www.ics.uci.edu/~jutts/7-W13
-_________http://www.stat.uci.edu
-*********http://www.ics.uci.edu/~jutts
-http://www.ics.uci.edu/~jutts/statlinks.html
-http://www.ics.uci.edu/~lab/students/acct_activate.php
-http://www.ics.uci.edu/~lab/lab_schedule/index.php
-http://www.ics.uci.edu/~jutts/7-W13/ucdavis1.txt
-http://www.ics.uci.edu/~jutts/7-W13/oldfaithful.txt
-http://www.ics.uci.edu/~jutts/7-W13/pennstate.txt
-*********http://www.ics.uci.edu/~jutts/7-W13/oldfaithful.txt
-*********http://www.ics.uci.edu/~jutts/7-W13/pennstate.txt
-http://www.ics.uci.edu/~jutts/7-W13/Midterm1V1Key
-http://www.ics.uci.edu/~jutts/7-W13/Midterm1V2Key
-http://www.ics.uci.edu/~jutts/7-W13/Midterm2AKey
-http://www.ics.uci.edu/~jutts/7-W13/Midterm2BKey
-http://www.ics.uci.edu/~jutts/7-W13/FinalAKey
-http://www.ics.uci.edu/~jutts/7-W13/FinalBKey
-Number of repeated urls: 4
-New number in queue: 492
-Number of newly added links: 12
-Number of unique so far: 715
-2020-04-24 14:56:01.215666
+NOW EXTRACTING - http://www.informatics.uci.edu/explore/faculty-profiles/aaron-trammell
+*********https://www.informatics.uci.edu/research/areas-of-expertise
+*********https://www.informatics.uci.edu/grad/mswe
+*********https://www.informatics.uci.edu/explore/department-vision
+*********https://www.informatics.uci.edu/grad/phd-software-engineering
+*********https://www.informatics.uci.edu/undergrad/upcoming-course-schedule
+*********https://www.informatics.uci.edu/explore/history-of-the-department
+*********https://www.informatics.uci.edu/undergrad/student-profiles
+*********https://www.informatics.uci.edu/impact/undergraduate-alumni-spotlights
+*********https://www.informatics.uci.edu/undergrad/bs-information-computer-science
+*********https://www.informatics.uci.edu/support/support-students
+*********https://www.informatics.uci.edu/explore/visiting-the-department
+*********https://www.informatics.uci.edu/very-top-footer-menu-items/contact
+*********https://www.informatics.uci.edu/admissions/student-life
+*********https://www.informatics.uci.edu/very-top-footer-menu-items/news
+*********https://www.informatics.uci.edu/support/collaborate-on-research
+*********https://www.informatics.uci.edu/grad/student-groups
+*********https://www.informatics.uci.edu/grad/upcoming-course-schedule
+*********https://www.informatics.uci.edu/admissions/coming-from-abroad
+*********https://www.informatics.uci.edu/research/example-research-projects
+*********https://www.informatics.uci.edu/admissions/graduate-application-process
+*********https://www.informatics.uci.edu/impact/outreach
+*********https://www.informatics.uci.edu/explore/facts-figures
+*********https://www.informatics.uci.edu/grad/policies
+*********https://www.informatics.uci.edu/undergrad/minors
+*********https://www.informatics.uci.edu/support/become-a-mentor
+*********https://www.informatics.uci.edu/support/share-your-talent
+_________https://www.informatics.uci.edu
+*********https://www.informatics.uci.edu/undergrad/courses
+*********https://www.informatics.uci.edu/research/phd-research
+_________https://www.informatics.uci.edu/support/provide-projects
+*********https://www.informatics.uci.edu/undergrad/student-groups
+*********https://www.informatics.uci.edu/research/undergraduate-research
+*********https://www.informatics.uci.edu/impact/community-engagement
+*********https://www.informatics.uci.edu/very-top-footer-menu-items/people
+*********https://www.informatics.uci.edu/research/masters-research
+*********https://www.informatics.uci.edu/explore/faculty-profiles
+*********https://www.informatics.uci.edu/grad/mhcid
+*********https://www.informatics.uci.edu/grad/diversity-ambassador
+*********https://www.informatics.uci.edu/research/gifts-grants
+*********https://www.informatics.uci.edu/grad/phd-informatics
+*********https://www.informatics.uci.edu/undergrad/policies
+*********https://www.informatics.uci.edu/explore/blogs-we-author
+_________http://www.informatics.uci.edu/explore/faculty-profiles/aaron-trammell/mailto:ichair@ics.uci.edu
+*********https://www.informatics.uci.edu/grad/student-profiles
+*********https://www.informatics.uci.edu/undergrad/bs-computer-game-science
+*********https://www.informatics.uci.edu/undergrad/bs-business-information-management
+*********https://www.informatics.uci.edu/research/labs-centers
+_________https://www.informatics.uci.edu/explore/faculty-profiles/andre-van-der-hoek
+_________https://www.informatics.uci.edu/explore/faculty-profiles/bill-tomlinson
+*********https://www.informatics.uci.edu/admissions/housing
+*********https://www.informatics.uci.edu/explore/books-we-have-written
+*********https://www.informatics.uci.edu/grad/ms-informatics
+*********https://www.informatics.uci.edu/undergrad/bs-software-engineering
+*********https://www.informatics.uci.edu/admissions/undergraduate-application-process
+*********https://www.informatics.uci.edu/undergrad/special-opportunities
+*********https://www.informatics.uci.edu/support/champion-research
+*********https://www.informatics.uci.edu/research/past-dissertations
+*********https://www.informatics.uci.edu/support/become-a-corporate-partner
+*********https://www.informatics.uci.edu/support/set-future-agenda
+*********https://www.informatics.uci.edu/grad/overview
+*********https://www.informatics.uci.edu/impact/graduate-alumni-spotlights
+*********https://www.informatics.uci.edu/impact/research-that-matters
+_________https://www.informatics.uci.edu/grad/courses
+_________http://www.informatics.uci.edu/explore/faculty-profiles/aaron-trammell/mailto:trammell@uci.edu
+*********https://www.informatics.uci.edu/explore/chairs-welcome
+*********https://www.informatics.uci.edu/explore/books-we-read
+_________https://www.informatics.uci.edu/undergrad/bs-informatics
+_________http://www.ics.uci.edu
+*********https://www.informatics.uci.edu/explore/department-seminars
+*********https://www.informatics.uci.edu/very-top-footer-menu-items/site-map
+*********https://www.informatics.uci.edu/grad/ms-software-engineering
+Number of repeated urls: 71
+New number in queue: 818
+Number of newly added links: 0
+Number of unique so far: 1041
+2020-04-24 18:39:51.947936

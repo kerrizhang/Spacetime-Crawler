@@ -1,38 +1,46 @@
-NOW EXTRACTING - https://www.stat.uci.edu/conference-honors-statistics-professor-emeritus-wesley-johnson
-*********https://www.stat.uci.edu
-*********https://www.stat.uci.edu/chairs-message
-*********https://www.stat.uci.edu/what-is-statistics
-*********https://www.stat.uci.edu/contact-the-department
-*********https://www.stat.uci.edu/tutoring-resources
-*********https://www.stat.uci.edu/faculty
-*********https://www.stat.uci.edu/research
-*********https://www.stat.uci.edu/m-s-ph-d-in-statistics
-*********http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
-*********https://www.stat.uci.edu/grad-student-directory
-*********https://www.stat.uci.edu/statistics-internships-employment-opportunities
-*********https://www.stat.uci.edu/employers-of-statistics-grad-students
-*********https://www.stat.uci.edu/slider/b-s-in-data-science
-*********https://www.stat.uci.edu/minor-in-statistics
-*********http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
-*********http://www.stat.uci.edu/news
-*********https://www.stat.uci.edu/seminar-series
-_________https://www.ics.uci.edu/~wjohnson
-_________http://www.stat.uci.edu
-_________https://www.ics.uci.edu/~babaks
-*********http://www.ics.uci.edu/~jutts
-*********https://www.ics.uci.edu/~mguindan
-*********https://www.stat.uci.edu/ics-students-win-best-web-app-at-hacksc
-*********https://www.stat.uci.edu/renewed-funding-lets-hal-stern-continue-research-of-early-life-adversity-brain-development-with-the-uci-conte-center
-*********https://www.stat.uci.edu/nsf-announces-2020-graduate-research-fellows
-*********https://www.stat.uci.edu/amstat-news-celebrating-rising-undergraduate-women-in-statistics-and-data-science
-*********https://www.stat.uci.edu/statistics-ph-d-student-mary-ryan-receives-public-impact-fellowship
-*********https://www.stat.uci.edu/professor-berrocal-elected-chair-of-the-section-in-environmental-sciences-of-the-isba
-*********https://www.stat.uci.edu/staff-spotlight-rosemary-bustas-journey-from-chemistry-to-statistics-to-scotland-and-beyond
-*********http://www.stat.uci.edu/news
+NOW EXTRACTING - https://www.cs.uci.edu/current-graduate-students
+*********https://www.cs.uci.edu/chemical-engineering-news-exploring-chemical-space-can-ai-take-us-where-no-human-has-gone-before-pierre-baldi-quoted
+*********https://www.cs.uci.edu/computer-science-team-develops-coronavirustwittermap
+http://www.ics.uci.edu/grad/policies/GradPolicies_SexualHarassment.php
+http://www.ics.uci.edu/grad/policies/GradPolicies_EnrollmentStatus.php#FilingFee
+*********https://www.cs.uci.edu/graduate-computer-science-programs
+http://www.ics.uci.edu/grad/policies/GradPolicies_Grading.php
+http://www.ics.uci.edu/grad/policies/GradPolicies_CandidacyCommittee.php
+*********https://www.cs.uci.edu/job-opportunities
+http://www.ics.uci.edu/grad/policies/GradPolicies_CPT_OPT.php#CPT
+http://www.ics.uci.edu/grad/policies/GradPolicies_CommitteeMembers.php
+http://www.ics.uci.edu/computing/policy/index.php
+_________http://www.ics.uci.edu/grad/policies/GradPolicies_EnrollmentStatus.php#InAbsentia
+*********https://www.cs.uci.edu/cs-research-areas
+_________http://www.ics.uci.edu/grad/policies/GradPolicies_EnrollmentStatus.php#LOA
+*********https://www.cs.uci.edu/about-the-department
+http://www.ics.uci.edu/grad/policies/GradPolicies_PreviousMSdegree.php
+_________http://www.ics.uci.edu/grad/policies/GradPolicies_EnrollmentStatus.php#SummerEnroll
+_________http://www.ics.uci.edu/grad/policies/GradPolicies_CPT_OPT.php#OPT
+*********https://www.cs.uci.edu/2020-hall-of-fame-celebration-honors-achievement-and-opportunity
+http://www.ics.uci.edu/grad/policies/GradPolicies_CopyrightInfringement.php
+http://www.ics.uci.edu/grad/policies/GradPolicies_TransferCredit.php
+*********https://www.cs.uci.edu/faculty
+http://www.ics.uci.edu/grad/policies/GradPolicies_GradStudentReview.php
+*********https://www.cs.uci.edu/contact
+*********https://www.cs.uci.edu/uci-news-coronavirus-twitter-map-developed-at-uci-displays-social-media-reactions-to-covid-19-chen-li-quoted
+http://www.ics.uci.edu/grad/policies/GradPolicies_ComprehensiveExam.php
+_________http://www.ics.uci.edu
 *********https://www.ics.uci.edu
-_________https://www.stat.uci.edu/conference-honors-statistics-professor-emeritus-wesley-johnson/mailto:communications@ics.uci.edu
-Number of repeated urls: 32
-New number in queue: 293
-Number of newly added links: 0
-Number of unique so far: 436
-2020-04-24 14:46:45.526207
+_________http://www.ics.uci.edu/grad/policies/GradPolicies_EnrollmentStatus.php#PartTime
+http://www.ics.uci.edu/grad/policies/GradPolicies_CAResidency.php
+*********https://www.cs.uci.edu/just-code-it-introduces-middle-schools-girls-to-computer-science
+*********https://www.cs.uci.edu/undergraduate-programs
+*********https://www.cs.uci.edu/research-centers
+http://www.ics.uci.edu/grad/policies/GradPolicies_ResidencyReqt.php
+*********https://www.cs.uci.edu/current-graduate-students
+_________https://www.ics.uci.edu/computing
+_________http://www.ics.uci.edu/computing/policy/ethics.php
+http://www.ics.uci.edu/grad/policies/GradPolicies_AdvanceCandidacy.php#AdvanceMS
+_________https://www.cs.uci.edu/current-graduate-students/mailto:communications@ics.uci.edu
+*********http://www.cs.uci.edu
+Number of repeated urls: 25
+New number in queue: 807
+Number of newly added links: 15
+Number of unique so far: 950
+2020-04-24 18:21:09.425767

@@ -1,84 +1,31 @@
-NOW EXTRACTING - https://www.informatics.uci.edu/impact/undergraduate-alumni-spotlights
-*********https://www.informatics.uci.edu/research/areas-of-expertise
-*********https://www.informatics.uci.edu/grad/mswe
-*********https://www.informatics.uci.edu/explore/department-vision
-*********https://www.informatics.uci.edu/grad/phd-software-engineering
-*********https://www.informatics.uci.edu/undergrad/upcoming-course-schedule
-_________https://www.informatics.uci.edu/impact/undergraduate-alumni-spotlights/mailto:ichair@ics.uci.edu
-*********https://www.informatics.uci.edu/explore/history-of-the-department
-*********https://www.informatics.uci.edu/undergrad/student-profiles
-https://www.informatics.uci.edu/impact/undergraduate-alumni-spotlights/johnson-liu
-*********https://www.informatics.uci.edu/impact/undergraduate-alumni-spotlights
-*********https://www.informatics.uci.edu/undergrad/bs-information-computer-science
-*********https://www.informatics.uci.edu/support/support-students
-*********https://www.informatics.uci.edu/explore/visiting-the-department
-*********https://www.informatics.uci.edu/very-top-footer-menu-items/contact
-*********https://www.informatics.uci.edu/admissions/student-life
-*********https://www.informatics.uci.edu/very-top-footer-menu-items/news
-*********https://www.informatics.uci.edu/support/collaborate-on-research
-*********https://www.informatics.uci.edu/grad/student-groups
-*********https://www.informatics.uci.edu/grad/upcoming-course-schedule
-*********https://www.informatics.uci.edu/admissions/coming-from-abroad
-*********https://www.informatics.uci.edu/research/example-research-projects
-*********https://www.informatics.uci.edu/admissions/graduate-application-process
-*********https://www.informatics.uci.edu/impact/outreach
-https://www.informatics.uci.edu/impact/undergraduate-alumni-spotlights/aylwin-villanueva
-*********https://www.informatics.uci.edu/explore/facts-figures
-*********https://www.informatics.uci.edu/grad/policies
-*********https://www.informatics.uci.edu/undergrad/minors
-*********https://www.informatics.uci.edu/support/become-a-mentor
-https://www.informatics.uci.edu/impact/undergraduate-alumni-spotlights/alex-kaiser
-*********https://www.informatics.uci.edu/support/share-your-talent
-_________https://www.informatics.uci.edu
-*********https://www.informatics.uci.edu/undergrad/courses
-*********https://www.informatics.uci.edu/research/phd-research
-_________https://www.informatics.uci.edu/support/provide-projects
-https://www.informatics.uci.edu/impact/undergraduate-alumni-spotlights/1921-2
-*********https://www.informatics.uci.edu/undergrad/student-groups
-*********https://www.informatics.uci.edu/research/undergraduate-research
-*********https://www.informatics.uci.edu/impact/community-engagement
-*********https://www.informatics.uci.edu/very-top-footer-menu-items/people
-*********https://www.informatics.uci.edu/research/masters-research
-*********https://www.informatics.uci.edu/explore/faculty-profiles
-*********https://www.informatics.uci.edu/grad/mhcid
-https://www.informatics.uci.edu/impact/undergraduate-alumni-spotlights/aurora-bedford
-*********https://www.informatics.uci.edu/grad/diversity-ambassador
-*********https://www.informatics.uci.edu/research/gifts-grants
-*********https://www.informatics.uci.edu/grad/phd-informatics
-*********https://www.informatics.uci.edu/undergrad/policies
-*********https://www.informatics.uci.edu/explore/blogs-we-author
-*********https://www.informatics.uci.edu/grad/student-profiles
-*********https://www.informatics.uci.edu/undergrad/bs-computer-game-science
-*********https://www.informatics.uci.edu/undergrad/bs-business-information-management
-*********https://www.informatics.uci.edu/research/labs-centers
-*********https://www.informatics.uci.edu/admissions/housing
-*********https://www.informatics.uci.edu/explore/books-we-have-written
-*********https://www.informatics.uci.edu/grad/ms-informatics
-*********https://www.informatics.uci.edu/undergrad/bs-software-engineering
-*********https://www.informatics.uci.edu/admissions/undergraduate-application-process
-https://www.informatics.uci.edu/impact/undergraduate-alumni-spotlights/danielle-yu
-*********https://www.informatics.uci.edu/undergrad/special-opportunities
-*********https://www.informatics.uci.edu/support/champion-research
-https://www.informatics.uci.edu/impact/undergraduate-alumni-spotlights/alex-khou
-*********https://www.informatics.uci.edu/research/past-dissertations
-https://www.informatics.uci.edu/impact/undergraduate-alumni-spotlights/johnny-thoi
-*********https://www.informatics.uci.edu/support/become-a-corporate-partner
-*********https://www.informatics.uci.edu/support/set-future-agenda
-*********https://www.informatics.uci.edu/grad/overview
-*********https://www.informatics.uci.edu/impact/graduate-alumni-spotlights
-*********https://www.informatics.uci.edu/impact/research-that-matters
-_________https://www.informatics.uci.edu/grad/courses
-*********https://www.informatics.uci.edu/explore/chairs-welcome
-*********https://www.informatics.uci.edu/explore/books-we-read
-_________https://www.informatics.uci.edu/undergrad/bs-informatics
-https://www.informatics.uci.edu/impact/undergraduate-alumni-spotlights/jordan-sinclair
-_________http://www.ics.uci.edu
-*********https://www.informatics.uci.edu/explore/department-seminars
-*********https://www.informatics.uci.edu/very-top-footer-menu-items/site-map
-https://www.informatics.uci.edu/impact/undergraduate-alumni-spotlights/justin-lara
-*********https://www.informatics.uci.edu/grad/ms-software-engineering
-Number of repeated urls: 68
-New number in queue: 220
-Number of newly added links: 10
-Number of unique so far: 266
-2020-04-24 17:37:03.719611
+NOW EXTRACTING - https://www.stat.uci.edu/slider/b-s-in-data-science
+*********https://www.stat.uci.edu/slider/b-s-in-data-science
+*********https://www.stat.uci.edu/statistics-ph-d-student-mary-ryan-receives-public-impact-fellowship
+*********https://www.stat.uci.edu/faculty
+*********https://www.stat.uci.edu/minor-in-statistics
+*********http://www.stat.uci.edu/news
+*********https://www.stat.uci.edu/tutoring-resources
+*********https://www.stat.uci.edu/m-s-ph-d-in-statistics
+*********http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Lower-Division&department=STATS&program=ALL
+*********https://www.ics.uci.edu
+*********https://www.stat.uci.edu/statistics-internships-employment-opportunities
+*********https://www.stat.uci.edu/grad-student-directory
+*********https://www.stat.uci.edu/amstat-news-celebrating-rising-undergraduate-women-in-statistics-and-data-science
+_________https://www.stat.uci.edu
+_________https://www.stat.uci.edu/slider/b-s-in-data-science/mailto:communications@ics.uci.edu
+*********https://www.stat.uci.edu/staff-spotlight-rosemary-bustas-journey-from-chemistry-to-statistics-to-scotland-and-beyond
+*********http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL
+*********https://www.stat.uci.edu/research
+*********https://www.stat.uci.edu/professor-berrocal-elected-chair-of-the-section-in-environmental-sciences-of-the-isba
+*********https://www.stat.uci.edu/employers-of-statistics-grad-students
+*********https://www.stat.uci.edu/what-is-statistics
+*********https://www.stat.uci.edu/contact-the-department
+*********https://www.stat.uci.edu/nsf-announces-2020-graduate-research-fellows
+*********https://www.stat.uci.edu/seminar-series
+_________https://www.stat.uci.edu/slider/b-s-in-data-science/mailto:ucounsel@uci.edu
+*********https://www.stat.uci.edu/chairs-message
+Number of repeated urls: 25
+New number in queue: 493
+Number of newly added links: 0
+Number of unique so far: 539
+2020-04-24 18:22:28.308530
