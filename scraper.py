@@ -231,6 +231,9 @@ def simhash(url):
     resp = url_dict[url]
     if (resp == None):
         print("This url has an empty response: " + url)
+        g = open("logs/errors.txt", "a+")
+        g.write(url + "\n")
+        g.close()
         failedlinks.append(url)
         return [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     txt = resp.raw_response
@@ -292,6 +295,9 @@ def computeWordFrequencies(tokens):
 
 
 if __name__ == '__main__':
+    g = open("logs/errors.txt", "a+")
+    g.write("lmao" + "\n")
+    g.close()
     f = open("stopwords.txt")
     for line in f:
         stopwords.append(line.strip("\n"))

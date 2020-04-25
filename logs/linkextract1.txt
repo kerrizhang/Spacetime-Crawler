@@ -1,30 +1,21 @@
-NOW EXTRACTING - https://www.ics.uci.edu/about/about_safety.php
-_________https://www.ics.uci.edu/about/about_safety.php/about_safety.php
-*********https://www.ics.uci.edu/about/about_safety.php
-*********https://www.ics.uci.edu/community/news
-*********https://www.ics.uci.edu/about/search/index.php
-_________https://www.ics.uci.edu/about/about_safety.php/search/index.php
-_________https://www.ics.uci.edu/about/about_safety.php/about_deanmsg.php
-_________https://www.ics.uci.edu/about/about_safety.php/about_contact.php
-*********https://www.ics.uci.edu/about/visit/index.php
-http://www.ics.uci.edu/social
+NOW EXTRACTING - https://www.ics.uci.edu/accessibility
 *********https://www.ics.uci.edu/accessibility
-_________https://www.ics.uci.edu/about/about_safety.php/bren/index.php
-https://www.ics.uci.edu/about
-_________https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php
-_________https://www.ics.uci.edu/about/about_safety.php/about_meet_the_dean.php
-_________https://www.ics.uci.edu/about/about_safety.php/visit/index.php
-*********http://www.stat.uci.edu
-_________https://www.ics.uci.edu/about/about_contact.php
+*********https://www.ics.uci.edu/about/search/index.php
+_________http://www.ics.uci.edu/social
+_________https://www.ics.uci.edu/about/facilities/index.php
+_________https://www.ics.uci.edu/accessibility/mailto:f.font@uci.edu
 *********http://www.cs.uci.edu
-*********https://www.ics.uci.edu/about/facilities/index.php
+*********https://www.ics.uci.edu/about/visit/index.php
+*********http://www.stat.uci.edu
+*********https://www.ics.uci.edu/about/kfflab/index.php
+*********https://www.ics.uci.edu/employment
 *********http://www.informatics.uci.edu/support/provide-projects
-_________https://www.ics.uci.edu/employment
-_________https://www.ics.uci.edu/about/about_safety.php/about_mission.php
-_________https://www.ics.uci.edu/about/kfflab/index.php
+_________https://www.ics.uci.edu/community/news
+_________https://www.ics.uci.edu/about/about_contact.php
+*********https://www.ics.uci.edu/about/about_safety.php
 *********http://www.informatics.uci.edu
-Number of repeated urls: 22
-New number in queue: 16
-Number of newly added links: 2
-Number of unique so far: 18
-2020-04-24 19:59:17.217651
+Number of repeated urls: 15
+New number in queue: 17
+Number of newly added links: 0
+Number of unique so far: 19
+2020-04-24 20:02:08.295979
