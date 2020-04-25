@@ -55,6 +55,7 @@ def scraper(url, resp):
                         else:
                             repeats = repeats + 1
                             print("this is content repeat: " + item)  # UNCOMMENT TO SEE CONTENT REPEATS
+                            uniqueurls.append(item)
                             # print(simhash(item))
                     else:
                         print("Simhash had a 2")
