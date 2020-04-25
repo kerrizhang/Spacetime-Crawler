@@ -190,9 +190,7 @@ def is_valid(url):
             return True
         if parsed.scheme not in set(["http", "https"]):
             return False
-        if parsed.netloc not in set(
-                ["ics.uci.edu", "www.ics.uci.edu", "cs.uci.edu", "www.cs.uci.edu", "informatics.uci.edu",
-                 "www.informatics.uci.edu", "stat.uci.edu", "www.stat.uci.edu"]):
+        if ("ics.uci.edu" not in parsed.netloc or "cs.uci.edu" not in parsed.netloc or "informatics.uci.edu" not in parsed.netloc or "stat.uci.edu" not in parsed.netloc):
             return False
 
         return not re.match(
