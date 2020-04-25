@@ -214,7 +214,7 @@ def simhash(url):
 
     except:
         print("Beautiful soup failed")
-        return []
+        return [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
 
 def tokenize(text):
@@ -249,9 +249,9 @@ if __name__ == '__main__':
     responseObj4 = get_response(url4)
 
     scraper(url, responseObj)
-    scraper(url, responseObj2)
-    scraper(url, responseObj3)
-    scraper(url, responseObj4)
+    scraper(url2, responseObj2)
+    scraper(url3, responseObj3)
+    scraper(url4, responseObj4)
     
     print("TOTAL Unique links: " + str(len(uniquelinks)))
     print("FAILED LINKSSS: " + str(failedlinks))
