@@ -1,36 +1,36 @@
 NOW EXTRACTING - https://www.ics.uci.edu/about/search/index.php
-_________https://www.ics.uci.edu/about/search/index.php/search_payroll.php
+_________https://www.ics.uci.edu/about/search/index.php/search_support.php
 *********https://www.ics.uci.edu/accessibility
-_________https://www.ics.uci.edu/about/search
 _________https://www.ics.uci.edu/about/visit/index.php
-*********http://www.ics.uci.edu/social
-_________https://www.ics.uci.edu/about/search/index.php/search_dept_cs-staff.php
+_________https://www.ics.uci.edu/about/search/index.php/search_oai.php
+_________https://www.ics.uci.edu/about/search/index.php/search_sao.php
 _________https://www.ics.uci.edu/about/search/index.php/search_facilities.php
-_________https://www.ics.uci.edu/about/search/index.php/index.php
-*********https://www.ics.uci.edu/about/kfflab/index.php
-_________http://www.stat.uci.edu
-_________https://www.ics.uci.edu/about/search/index.php/search_dept_in4matx-staff.php
-*********https://www.ics.uci.edu/about/search/index.php
-*********https://www.ics.uci.edu/about
-*********https://www.ics.uci.edu/employment
+_________https://www.ics.uci.edu/about
 _________https://www.ics.uci.edu/about/search/index.php/search_communications.php
 *********https://www.ics.uci.edu/about/about_contact.php
-_________https://www.ics.uci.edu/about/search/index.php/search_business.php
-_________https://www.ics.uci.edu/community/news
-_________http://www.cs.uci.edu
-_________https://www.ics.uci.edu/about/search/index.php/search_support.php
-*********https://www.ics.uci.edu/about/about_safety.php
-_________https://www.ics.uci.edu/about/facilities/index.php
 _________https://www.ics.uci.edu/about/search/index.php/search_dept_stats-staff.php
+*********http://www.ics.uci.edu/social
+*********https://www.ics.uci.edu/about/kfflab/index.php
+*********https://www.ics.uci.edu/about/search/index.php
+_________https://www.ics.uci.edu/about/search/index.php/search_business.php
 *********http://www.informatics.uci.edu
-_________https://www.ics.uci.edu/about/search/index.php/search_dean.php
-_________https://www.ics.uci.edu/about/search/index.php/search_external.php
-_________https://www.ics.uci.edu/about/search/index.php/search_sao.php
-_________http://www.informatics.uci.edu/support/provide-projects
+_________https://www.ics.uci.edu/about/facilities/index.php
 _________https://www.ics.uci.edu/about/search/index.php/search_graduate.php
-_________https://www.ics.uci.edu/about/search/index.php/search_oai.php
+_________https://www.ics.uci.edu/about/search/index.php/search_dean.php
+_________https://www.ics.uci.edu/about/search/index.php/search_payroll.php
+*********http://www.cs.uci.edu
+_________https://www.ics.uci.edu/about/search/index.php/search_dept_in4matx-staff.php
+*********https://www.ics.uci.edu/employment
+_________https://www.ics.uci.edu/about/search/index.php/index.php
+*********http://www.informatics.uci.edu/support/provide-projects
+_________https://www.ics.uci.edu/about/search/index.php/search_external.php
+_________https://www.ics.uci.edu/about/search/index.php/search_dept_cs-staff.php
+*********http://www.stat.uci.edu
+_________https://www.ics.uci.edu/community/news
+*********https://www.ics.uci.edu/about/about_safety.php
+_________https://www.ics.uci.edu/about/search
 Number of repeated urls: 30
-New number in queue: 11
+New number in queue: 12
 Number of newly added links: 0
-Number of unique so far: 19
-2020-04-24 19:34:08.254778
+Number of unique so far: 20
+2020-04-24 21:36:29.293340

@@ -1,25 +1,24 @@
-NOW EXTRACTING - https://www.ics.uci.edu/community/news/view_news?id=1742
-*********https://www.ics.uci.edu/accessibility
-_________https://www.ics.uci.edu/about/visit/index.php
-*********http://www.ics.uci.edu/social
-_________https://www.ics.uci.edu/community/news/view_news?id=1742/press/index.php
-*********https://www.ics.uci.edu/about/kfflab/index.php
-_________http://www.stat.uci.edu
-*********https://www.ics.uci.edu/community/news/view_news?id=1742
+NOW EXTRACTING - https://www.ics.uci.edu/community/news
 *********https://www.ics.uci.edu/about/search/index.php
-*********https://www.ics.uci.edu/employment
+*********http://www.ics.uci.edu/social
 *********https://www.ics.uci.edu/about/about_contact.php
-_________https://www.ics.uci.edu/community/news
-_________http://www.cs.uci.edu
-*********https://www.ics.uci.edu/about/about_safety.php
-_________https://www.ics.uci.edu/about/facilities/index.php
+*********https://www.ics.uci.edu/about/kfflab/index.php
+*********https://www.ics.uci.edu/about/facilities/index.php
+_________https://www.ics.uci.edu/community/news/index.php
+*********http://www.cs.uci.edu
 *********http://www.informatics.uci.edu
-_________https://www.ics.uci.edu/community
-_________https://www.ics.uci.edu/community/news/view_news?id=1742/index.php
-_________http://www.informatics.uci.edu/support/provide-projects
-_________https://www.ics.uci.edu/community/news/view_news?id=1742/mailto:matt.miller@uci.edu
-Number of repeated urls: 19
-New number in queue: 13
-Number of newly added links: 0
-Number of unique so far: 19
-2020-04-24 19:33:51.547148
+https://www.ics.uci.edu/community/news/mailto:matt.miller@uci.edu
+*********https://www.ics.uci.edu/community
+*********https://www.ics.uci.edu/accessibility
+_________https://www.ics.uci.edu/community/news/press/index.php
+*********https://www.ics.uci.edu/community/news
+*********https://www.ics.uci.edu/employment
+*********http://www.stat.uci.edu
+*********https://www.ics.uci.edu/about/about_safety.php
+*********https://www.ics.uci.edu/about/visit/index.php
+*********http://www.informatics.uci.edu/support/provide-projects
+Number of repeated urls: 17
+New number in queue: 17
+Number of newly added links: 1
+Number of unique so far: 23
+2020-04-24 21:39:18.837231

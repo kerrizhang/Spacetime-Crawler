@@ -19,7 +19,6 @@ import os
 linkqueue = []
 uniquelinks = []
 failedlinks = []
-uniqueurls = []
 stopwords = []
 url_dict = dict()
 
@@ -31,7 +30,6 @@ def scraper(url, resp):
     #     url = url[:index]
 
     linkqueue.append(url)
-    uniqueurls.append(url)
     url_dict[url] = resp
     uniquelinks.append(simhash(url))
 
@@ -55,25 +53,30 @@ def scraper(url, resp):
         f.write("NOW EXTRACTING - " + nextlink + "\n")
 
         for item in newlinks:
-            if item not in uniqueurls:
+            if item not in url_dict:
                 # print("----------" + item)
                 if is_valid(item) and resp.status == 200:
                     if item not in url_dict:
                         url_dict[item] = get_response(item)
-                    item_simhash = simhash(item)
-                    if item_simhash not in uniquelinks:
-                        linkqueue.append(item)
-                        uniquelinks.append(item_simhash)
-                        uniqueurls.append(item)
-                        newadded = newadded + 1
-                        f.write(item + "\n")
-                        print("new link! " + item)  # UNCOMMENT TO PRINT OUT NEW LINKS
-                        # print(simhash(item))
+                    if url_dict[item] != None:
+                        item_simhash = simhash(item)
+                        if item_simhash not in uniquelinks:
+                            linkqueue.append(item)
+                            uniquelinks.append(item_simhash)
+                            newadded = newadded + 1
+                            f.write(item + "\n")
+                            print("new link! " + item)  # UNCOMMENT TO PRINT OUT NEW LINKS
+                            # print(simhash(item))
+                        else:
+                            repeats = repeats + 1
+                            f.write("_________" + item + "\n")
+                            print("this is content repeat: " + item)  # UNCOMMENT TO SEE CONTENT REPEATS
+                            # print(simhash(item))
                     else:
-                        repeats = repeats + 1
-                        f.write("_________" + item + "\n")
-                        print("this is content repeat: " + item)  # UNCOMMENT TO SEE CONTENT REPEATS
-                        # print(simhash(item))
+                        g = open("logs/errors.txt", "a+")
+                        g.write(item + "\n")
+                        g.close()
+                        failedlinks.append(item)
                 elif is_valid(item):
                     print("Error: Status code was ", resp.status)
             else:
@@ -104,9 +107,7 @@ def extract_next_links(url, input_response):
 
     # resp = requests.get(url)
     # txt = resp.text
-
     txt = input_response.raw_response
-
     soup = BeautifulSoup(txt, "html.parser")
 
     for link in soup.findAll('a'):
@@ -144,6 +145,8 @@ def extract_next_links(url, input_response):
     for item in extracted_links:
         if "#" in item:
             hash_set.add(item[:item.find('#')])
+        elif "/pdf/" in item:
+            pass
         else:
             hash_set.add(item)
 
@@ -211,11 +214,16 @@ def is_valid(url):
 def get_response(url):
     try:
         resp = requests.get(url)
+        # if "/pdf" not in resp.headers.get("content_type"):
+        #     resp_dict = {'url': url, 'status': resp.status_code, 'response': pickle.dumps(resp.text.encode())}
+        #     return response.Response(resp_dict)
+        # else:
+        #     return None
         resp_dict = {'url': url, 'status': resp.status_code, 'response': pickle.dumps(resp.text.encode())}
-
         return response.Response(resp_dict)
     except:
         print("Could not get response for URL")
+        return None
 
 
 def similarity(l1, l2):
@@ -235,7 +243,7 @@ def simhash(url):
         g.write(url + "\n")
         g.close()
         failedlinks.append(url)
-        return [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        return [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     txt = resp.raw_response
     # print(html2text.html2text(txt))
     soup = BeautifulSoup(txt, "html.parser")
@@ -295,16 +303,16 @@ def computeWordFrequencies(tokens):
 
 
 if __name__ == '__main__':
-    g = open("logs/errors.txt", "a+")
-    g.write("lmao" + "\n")
-    g.close()
+    f = open("logs/errors.txt", "w")
+    f.write("\n")
+    f.close()
     f = open("stopwords.txt")
     for line in f:
         stopwords.append(line.strip("\n"))
     f.close()
 
-    url = "https://www.ics.uci.edu"
-    print(get_response(url))
+    url = "https://www.ics.uci.edu/software"
+    #print(get_response("http://www.informatics.uci.edu/files/pdf/InformaticsBrochure-March2018"))
     if not os.path.exists('logs'):
         os.makedirs('logs')
     # url = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni"
@@ -316,6 +324,12 @@ if __name__ == '__main__':
     # responseObj = response.Response(resp_dict)
 
     responseObj = get_response(url)
+    if responseObj != None:
+        scraper(url, responseObj)
+    else:
+        g = open("logs/errors.txt", "a+")
+        g.write(url + "\n")
+        g.close()
 
     # print(simhash(url2))
     # print(simhash(url))
@@ -328,7 +342,7 @@ if __name__ == '__main__':
     # print(responseObj.raw_response)
     # print(responseObj.status)
 
-    scraper(url, responseObj)
+
     print("TOTAL Unique links: " + str(len(uniquelinks)))
     print("FAILED LINKSSS: " + str(failedlinks))
 
