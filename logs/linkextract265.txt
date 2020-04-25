@@ -1,0 +1,9 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~smyth/courses/stats5
+*********http://www.ics.uci.edu/~smyth
+http://www.ics.uci.edu/~smyth/courses/stats5/onlineslides
+http://www.ics.uci.edu/~smyth/courses/stats5/Forms
+Number of repeated urls: 1
+New number in queue: 531
+Number of newly added links: 2
+Number of unique so far: 797
+2020-04-24 14:58:41.462814

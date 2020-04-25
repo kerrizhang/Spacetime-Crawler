@@ -1,0 +1,6 @@
+NOW EXTRACTING - https://www.ics.uci.edu/faculty/profiles
+Number of repeated urls: 0
+New number in queue: 339
+Number of newly added links: 0
+Number of unique so far: 541
+2020-04-24 14:51:20.401261

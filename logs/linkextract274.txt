@@ -1,0 +1,31 @@
+NOW EXTRACTING - https://www.cs.uci.edu/contact
+*********http://www.cs.uci.edu
+_________http://www.ics.uci.edu
+*********https://www.cs.uci.edu/about-the-department
+*********https://www.cs.uci.edu/contact
+*********https://www.cs.uci.edu/faculty
+*********https://www.cs.uci.edu/cs-research-areas
+*********https://www.cs.uci.edu/research-centers
+*********https://www.cs.uci.edu/graduate-computer-science-programs
+*********https://www.cs.uci.edu/current-graduate-students
+*********https://www.cs.uci.edu/undergraduate-programs
+*********https://www.cs.uci.edu/job-opportunities
+_________https://www.cs.uci.edu/contact/mailto: %63%73%40ic%73.%75%63%69.edu
+_________https://www.cs.uci.edu/contact/mailto: %75co%75n%73el%40i%63s.u%63i%2e%65d%75
+_________https://www.cs.uci.edu/contact/mailto: %67%63%6funsel@%69cs%2euci.%65d%75
+_________https://www.cs.uci.edu/contact/mailto:%20hbyrnes@uci.edu
+_________https://www.cs.uci.edu/contact/mailto:%20mlcarril@ics.uci.edu
+_________https://www.cs.uci.edu/contact/mailto:%20ckennedy@ics.uci.edu
+_________https://www.cs.uci.edu/contact/mailto:%20mstasik@ics.uci.edu
+*********https://www.cs.uci.edu/uci-news-coronavirus-twitter-map-developed-at-uci-displays-social-media-reactions-to-covid-19-chen-li-quoted
+*********https://www.cs.uci.edu/chemical-engineering-news-exploring-chemical-space-can-ai-take-us-where-no-human-has-gone-before-pierre-baldi-quoted
+*********https://www.cs.uci.edu/2020-hall-of-fame-celebration-honors-achievement-and-opportunity
+*********https://www.cs.uci.edu/just-code-it-introduces-middle-schools-girls-to-computer-science
+*********https://www.cs.uci.edu/computer-science-team-develops-coronavirustwittermap
+*********https://www.ics.uci.edu
+_________https://www.cs.uci.edu/contact/mailto:communications@ics.uci.edu
+Number of repeated urls: 25
+New number in queue: 533
+Number of newly added links: 0
+Number of unique so far: 808
+2020-04-24 14:59:15.763938

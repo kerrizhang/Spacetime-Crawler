@@ -1,0 +1,12 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~smyth/papers.html
+http://www.ics.uci.edu/~smyth/papers.html/index.html
+http://www.ics.uci.edu/~smyth/papers.html/papers.html
+http://www.ics.uci.edu/~smyth/papers.html/research_group.html
+http://www.ics.uci.edu/~smyth/papers.html/projects.html
+http://www.ics.uci.edu/~smyth/papers.html/psmyth_short_bio.html
+http://www.ics.uci.edu/~smyth/papers.html/padhraic_smyth_contact.html
+Number of repeated urls: 0
+New number in queue: 506
+Number of newly added links: 6
+Number of unique so far: 762
+2020-04-24 14:57:49.470040

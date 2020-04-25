@@ -1,0 +1,27 @@
+NOW EXTRACTING - https://www.ics.uci.edu/community/news/view_news?id=1738
+https://www.ics.uci.edu/community/news/view_news?id=1637
+*********https://www.ics.uci.edu/accessibility
+*********http://www.cs.uci.edu
+*********http://www.stat.uci.edu
+*********https://www.ics.uci.edu/community/news/view_news?id=1738
+*********https://www.ics.uci.edu/about/kfflab/index.php
+_________https://www.ics.uci.edu/community/news/view_news?id=1738/index.php
+_________https://www.ics.uci.edu/community/news
+*********https://www.ics.uci.edu/about/facilities/index.php
+_________https://www.ics.uci.edu/community/news/view_news?id=1738/mailto:matt.miller@uci.edu
+*********https://www.ics.uci.edu/about/search/index.php
+*********http://www.informatics.uci.edu/support/provide-projects
+*********https://www.ics.uci.edu/employment
+*********http://www.informatics.uci.edu
+*********http://www.ics.uci.edu/social
+*********https://www.ics.uci.edu/about/about_safety.php
+_________https://www.ics.uci.edu/community/news/view_news?id=1738/press/index.php
+_________https://www.ics.uci.edu/community
+*********https://www.ics.uci.edu
+*********https://www.ics.uci.edu/about/visit/index.php
+*********https://www.ics.uci.edu/about/about_contact.php
+Number of repeated urls: 20
+New number in queue: 62
+Number of newly added links: 1
+Number of unique so far: 68
+2020-04-24 17:41:04.323808

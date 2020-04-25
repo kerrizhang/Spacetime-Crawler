@@ -1,0 +1,7 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~jutts/Jobs.htm
+*********http://www.ics.uci.edu/~jutts
+Number of repeated urls: 1
+New number in queue: 521
+Number of newly added links: 0
+Number of unique so far: 754
+2020-04-24 14:57:36.062402

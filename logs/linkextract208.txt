@@ -1,0 +1,12 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~dgillen/teaching.html
+http://www.ics.uci.edu/~dgillen/teaching.html/index.html
+_________http://www.ics.uci.edu/~dgillen/teaching.html/experience.html
+_________http://www.ics.uci.edu/~dgillen/teaching.html/research.html
+_________http://www.ics.uci.edu/~dgillen/teaching.html/lab-members.html
+_________http://www.ics.uci.edu/~dgillen/teaching.html/publications.html
+http://www.ics.uci.edu/~dgillen/teaching.html/teaching.html
+Number of repeated urls: 4
+New number in queue: 352
+Number of newly added links: 2
+Number of unique so far: 561
+2020-04-24 14:51:42.047300

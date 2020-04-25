@@ -1,0 +1,36 @@
+NOW EXTRACTING - https://www.ics.uci.edu/about/search/index.php
+*********https://www.ics.uci.edu/accessibility
+*********http://www.cs.uci.edu
+_________https://www.ics.uci.edu/about/search/index.php/index.php
+*********http://www.stat.uci.edu
+*********https://www.ics.uci.edu/about/kfflab/index.php
+_________https://www.ics.uci.edu/community/news
+_________https://www.ics.uci.edu/about/search/index.php/search_oai.php
+*********https://www.ics.uci.edu/about/facilities/index.php
+_________https://www.ics.uci.edu/about/search/index.php/search_external.php
+*********https://www.ics.uci.edu/about
+_________https://www.ics.uci.edu/about/search/index.php/search_dept_cs-staff.php
+*********https://www.ics.uci.edu/about/search/index.php
+*********http://www.informatics.uci.edu/support/provide-projects
+*********https://www.ics.uci.edu/employment
+*********http://www.informatics.uci.edu
+*********http://www.ics.uci.edu/social
+*********https://www.ics.uci.edu/about/about_safety.php
+_________https://www.ics.uci.edu/about/search/index.php/search_dean.php
+_________https://www.ics.uci.edu/about/search/index.php/search_dept_stats-staff.php
+_________https://www.ics.uci.edu/about/search/index.php/search_communications.php
+_________https://www.ics.uci.edu/about/search/index.php/search_business.php
+_________https://www.ics.uci.edu/about/search
+_________https://www.ics.uci.edu/about/search/index.php/search_payroll.php
+_________https://www.ics.uci.edu/about/search/index.php/search_graduate.php
+_________https://www.ics.uci.edu/about/search/index.php/search_sao.php
+_________https://www.ics.uci.edu/about/search/index.php/search_facilities.php
+_________https://www.ics.uci.edu/about/search/index.php/search_dept_in4matx-staff.php
+*********https://www.ics.uci.edu/about/visit/index.php
+_________https://www.ics.uci.edu/about/search/index.php/search_support.php
+*********https://www.ics.uci.edu/about/about_contact.php
+Number of repeated urls: 30
+New number in queue: 60
+Number of newly added links: 0
+Number of unique so far: 69
+2020-04-24 17:43:07.743015

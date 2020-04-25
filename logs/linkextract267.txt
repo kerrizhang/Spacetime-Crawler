@@ -1,0 +1,7 @@
+NOW EXTRACTING - https://www.ics.uci.edu/~sudderth/projects
+http://www.ics.uci.edu/~ihler/code/kde.html
+Number of repeated urls: 0
+New number in queue: 531
+Number of newly added links: 1
+Number of unique so far: 799
+2020-04-24 14:58:48.668120

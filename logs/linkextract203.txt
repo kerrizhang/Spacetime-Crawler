@@ -1,0 +1,23 @@
+NOW EXTRACTING - http://www.ics.uci.edu/social
+*********http://www.ics.uci.edu/social
+*********http://www.ics.uci.edu/social
+*********http://www.cs.uci.edu
+*********http://www.informatics.uci.edu
+_________http://www.stat.uci.edu
+*********http://www.informatics.uci.edu/support/provide-projects
+*********http://www.ics.uci.edu/social
+_________https://www.ics.uci.edu/social
+*********https://www.ics.uci.edu/about/search/index.php
+*********https://www.ics.uci.edu/employment
+*********https://www.ics.uci.edu/about/kfflab/index.php
+*********https://www.ics.uci.edu/about/facilities/index.php
+_________https://www.ics.uci.edu/community/news
+*********https://www.ics.uci.edu/about/visit/index.php
+*********https://www.ics.uci.edu/accessibility
+*********https://www.ics.uci.edu/about/about_safety.php
+*********https://www.ics.uci.edu/about/about_contact.php
+Number of repeated urls: 17
+New number in queue: 337
+Number of newly added links: 0
+Number of unique so far: 541
+2020-04-24 14:51:24.778824

@@ -1,0 +1,13 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~babaks/activities.html
+http://www.ics.uci.edu/~babaks/activities.html/index.html
+_________http://www.ics.uci.edu/~babaks/activities.html/research.html
+_________http://www.ics.uci.edu/~babaks/activities.html/publication.html
+_________http://www.ics.uci.edu/~babaks/activities.html/teaching.html
+http://www.ics.uci.edu/~babaks/activities.html/activities.html
+http://www.ics.uci.edu/~babaks/activities.html/codes.html
+http://www.ics.uci.edu/~babaks/activities.html/mailto:babaks@uci.edu?subject=
+Number of repeated urls: 3
+New number in queue: 464
+Number of newly added links: 4
+Number of unique so far: 679
+2020-04-24 14:53:34.002530

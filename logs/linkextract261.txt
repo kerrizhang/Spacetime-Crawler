@@ -1,0 +1,10 @@
+NOW EXTRACTING - https://www.ics.uci.edu/~jihyunp
+*********http://www.cs.uci.edu
+_________https://www.ics.uci.edu/~smyth
+*********https://www.ics.uci.edu/~jihyunp
+_________http://www.ics.uci.edu
+Number of repeated urls: 4
+New number in queue: 518
+Number of newly added links: 0
+Number of unique so far: 780
+2020-04-24 14:58:15.393930

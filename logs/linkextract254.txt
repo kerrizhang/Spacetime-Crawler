@@ -1,0 +1,7 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~zhaoxia/publications/GGWald_manuscript/index.htm
+http://www.ics.uci.edu/~zhaoxia/publications/GGWald_manuscript/index.htm/SourceCode
+Number of repeated urls: 0
+New number in queue: 501
+Number of newly added links: 1
+Number of unique so far: 756
+2020-04-24 14:57:45.061676

@@ -1,0 +1,23 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~jutts/8
+_________http://www.stat.uci.edu
+*********http://www.ics.uci.edu/~jutts
+*********http://www.ics.uci.edu/~jutts/statlinks.html
+*********http://www.ics.uci.edu/~lab/students/acct_activate.php
+*********http://www.ics.uci.edu/~lab/lab_schedule/index.php
+http://www.ics.uci.edu/~jutts/8/readme.html
+_________http://www.ics.uci.edu/~jutts/8/ucdavis1.txt
+http://www.ics.uci.edu/~jutts/8/rainfall.txt
+_________http://www.ics.uci.edu/~jutts/8/oldfaithful.txt
+http://www.ics.uci.edu/~jutts/8/deprived.txt
+_________http://www.ics.uci.edu/~jutts/8/oldfaithful.txt
+http://www.ics.uci.edu/~jutts/8/Midterm1bKey
+http://www.ics.uci.edu/~jutts/8/Midterm1aKey
+http://www.ics.uci.edu/~jutts/8/Midterm2aKey
+http://www.ics.uci.edu/~jutts/8/Midterm2bKey
+http://www.ics.uci.edu/~jutts/8/Midterm2cKey
+http://www.ics.uci.edu/~jutts/8/Midterm2dKey
+Number of repeated urls: 8
+New number in queue: 512
+Number of newly added links: 9
+Number of unique so far: 740
+2020-04-24 14:57:23.607325

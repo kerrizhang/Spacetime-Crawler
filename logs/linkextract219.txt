@@ -1,0 +1,22 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~sternh/courses/210
+*********http://www.ics.uci.edu/~sternh
+http://www.ics.uci.edu/~sternh/courses/210/bank.R
+http://www.ics.uci.edu/~sternh/courses/210/randomize.html
+http://www.ics.uci.edu/~sternh/courses/210/randomize.Rmd
+http://www.ics.uci.edu/~sternh/courses/210/rainfall.R
+http://www.ics.uci.edu/~sternh/courses/210/senic_anova.R
+http://www.ics.uci.edu/~sternh/courses/210/univadmit_regr.R
+http://www.ics.uci.edu/~sternh/courses/210/realestate.R
+http://www.ics.uci.edu/~sternh/courses/210/creatinine_nonlin.R
+http://www.ics.uci.edu/~sternh/courses/210/realestate_wls.R
+http://www.ics.uci.edu/~sternh/courses/210/money_corr.R
+http://www.ics.uci.edu/~sternh/courses/210/copier_lav.R
+http://www.ics.uci.edu/~sternh/courses/210/oreghomes_leaps.R
+http://www.ics.uci.edu/~sternh/courses/210/paragraphdata.R
+*********http://www.ics.uci.edu/~sternh
+_________http://www.stat.uci.edu
+Number of repeated urls: 3
+New number in queue: 479
+Number of newly added links: 13
+Number of unique so far: 699
+2020-04-24 14:53:59.974493

@@ -1,10 +1,12 @@
 import re
 from bs4 import BeautifulSoup
 import requests
+import urllib.robotparser
 import requests.exceptions
 import urllib.request
 from urllib.parse import urlsplit
 from urllib.parse import urlparse
+from urlparse import urljoin
 import json
 from utils import response
 import pickle
@@ -90,7 +92,7 @@ def scraper(url, resp):
 def extract_next_links(url, input_response):
     print("NOW EXTRACTING " + url)
     # Implementation requred.
-    extracted_links = []
+    extracted_links = set()
     
     # resp = requests.get(url)
     # txt = resp.text
@@ -117,39 +119,53 @@ def extract_next_links(url, input_response):
 
             if link_href[0:1] == "/":
                 if link_href[1:2] == "/":
-                    extracted_links.append("http:" + link_href)
+                    extracted_links.add("http:" + link_href)
                 else:
                     if(url[len(url) - 1:] == "/"):
-                        extracted_links.append(urlparse(url).netloc + link_href[1:])
+                        extracted_links.add(urlparse(url).netloc + link_href[1:])
                     else:
-                        extracted_links.append(urlparse(url).netloc + link_href)
+                        extracted_links.add(urlparse(url).netloc + link_href)
             elif link_href[0:1] == "#":
                 pass
             elif link_href[0:2] == "..":
-                extracted_links.append(urlparse(url).netloc + link_href[2:])
+                extracted_links.add(urlparse(url).netloc + link_href[2:])
             elif link_href[0:4] == "http":
-                extracted_links.append(link_href)
+                extracted_links.add(link_href)
             else:
-                extracted_links.append(url + "/" + link_href)
+                extracted_links.add(url + "/" + link_href)
 
 
-
-    for i, e in enumerate(extracted_links):
-        if "#" in e:
-            extracted_links[i] = extracted_links[i][:e.find('#')]
+    #for i, e in enumerate(extracted_links):
+        #if "#" in e:
+            #extracted_links[i] = extracted_links[i][:e.find('#')]
 
         # if "?" in link:
         #     #print("QUESTION MARK ?????????????????")
         #     link = link[:link.find("?")]
 
-    for i, e in enumerate(extracted_links):
+    e_list = list(extracted_links)
+    for i, e in enumerate(e_list):
         if e[len(e) - 1:] == "/":
-            extracted_links[i] = e[:len(e) - 1]
+            e_list[i] = e[:len(e) - 1]
+    extracted_links = set(e_list)
+
+    rp = urllib.robotparser.RobotFileParser()
+    final_links = set()
+
+    #sitemaps_list = rp.site_maps()
+    #print(sitemaps_list)
+    for link in extracted_links:
+        rp.set_url(urlparse.urljoin(urlparse(url).netloc, "/robots.txt"))
+        #rp.set_url("http://www.ics.uci.edu/robots.txt")
+        rp.read()
+    #    rp.crawl_delay("*")
+        if rp.can_fetch("*", link):
+            final_links.add(link)
 
 
 
-
-    return extracted_links
+    #return extracted_links
+    return final_links
 
 
 

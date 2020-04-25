@@ -1,0 +1,9 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~jutts/st390
+http://www.ics.uci.edu/~jutts/st390/mailto:jmutts@ucdavis.edu
+http://www.ics.uci.edu/~jutts/st390/mailto:yhagar@wald.ucdavis.edu
+http://www.ics.uci.edu/~jutts/st390/webtips.htm
+Number of repeated urls: 0
+New number in queue: 518
+Number of newly added links: 3
+Number of unique so far: 748
+2020-04-24 14:57:30.414886

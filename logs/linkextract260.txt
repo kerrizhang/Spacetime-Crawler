@@ -1,0 +1,34 @@
+NOW EXTRACTING - https://www.ics.uci.edu/community/news/view_news?id=1720
+*********https://www.ics.uci.edu/community/news/view_news?id=1720
+*********https://www.ics.uci.edu/community/news/view_news?id=1720
+*********http://www.cs.uci.edu
+*********http://www.informatics.uci.edu
+_________http://www.stat.uci.edu
+*********http://www.informatics.uci.edu/support/provide-projects
+*********https://www.ics.uci.edu/community/news/view_news?id=1720
+_________https://www.ics.uci.edu/community
+_________https://www.ics.uci.edu/community/news
+*********https://www.ics.uci.edu
+*********https://www.ics.uci.edu/~sudderth
+_________https://www.ics.uci.edu/~mjcarey
+_________https://www.ics.uci.edu/~smyth
+*********https://www.ics.uci.edu/~sharad
+*********https://www.ics.uci.edu/~ihler
+_________https://www.ics.uci.edu/community/news/view_news?id=1720/index.php
+_________https://www.ics.uci.edu/community/news/view_news?id=1720/press/index.php
+_________https://www.ics.uci.edu/community/news/view_news?id=1720/mailto:matt.miller@uci.edu
+*********http://www.ics.uci.edu/social
+*********https://www.ics.uci.edu/about/search/index.php
+*********https://www.ics.uci.edu/employment
+*********https://www.ics.uci.edu/about/kfflab/index.php
+*********https://www.ics.uci.edu/about/facilities/index.php
+_________https://www.ics.uci.edu/community/news
+*********https://www.ics.uci.edu/about/visit/index.php
+*********https://www.ics.uci.edu/accessibility
+*********https://www.ics.uci.edu/about/about_safety.php
+*********https://www.ics.uci.edu/about/about_contact.php
+Number of repeated urls: 28
+New number in queue: 519
+Number of newly added links: 0
+Number of unique so far: 780
+2020-04-24 14:58:13.817391

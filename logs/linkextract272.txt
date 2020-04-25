@@ -1,0 +1,16 @@
+NOW EXTRACTING - https://www.ics.uci.edu/~ihler
+_________https://www.ics.uci.edu/~ihler/index.html
+https://www.ics.uci.edu/~ihler/pubs.html
+https://www.ics.uci.edu/~ihler/code/index.html
+https://www.ics.uci.edu/~ihler/bio.html
+https://www.ics.uci.edu/~ihler/personal
+http://www.ics.uci.edu/~qliu1/nips13_workshop
+_________http://www.ics.uci.edu/~sforouza
+http://www.ics.uci.edu/~qliu1
+http://www.ics.uci.edu/~ajfrank
+*********http://www.ics.uci.edu/~johutchi
+Number of repeated urls: 3
+New number in queue: 535
+Number of newly added links: 7
+Number of unique so far: 808
+2020-04-24 14:58:59.941049

@@ -1,0 +1,6 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~babaks/mailto:babaks@uci.edu?subject=
+Number of repeated urls: 0
+New number in queue: 468
+Number of newly added links: 0
+Number of unique so far: 686
+2020-04-24 14:53:46.313013

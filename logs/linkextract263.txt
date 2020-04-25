@@ -1,0 +1,12 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~smyth/courses/cs274
+*********http://www.ics.uci.edu/~smyth
+http://www.ics.uci.edu/~smyth/courses/cs274/syllabus.html
+http://www.ics.uci.edu/~smyth/courses/cs274/notes.html
+http://www.ics.uci.edu/~smyth/courses/cs274/piazza.com/uci/winter2020/cs274a/home
+http://www.ics.uci.edu/~smyth/courses/cs274/homeworks/hw6_materials
+http://www.ics.uci.edu/~smyth/courses/academic_integrity
+Number of repeated urls: 1
+New number in queue: 523
+Number of newly added links: 5
+Number of unique so far: 787
+2020-04-24 14:58:31.164334

@@ -1,0 +1,6 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~jutts/azpsi.html
+Number of repeated urls: 0
+New number in queue: 516
+Number of newly added links: 0
+Number of unique so far: 754
+2020-04-24 14:57:37.911547

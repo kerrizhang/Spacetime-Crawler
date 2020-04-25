@@ -1,0 +1,10 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~jutts/GAISE/index.html
+http://www.ics.uci.edu/~jutts/GAISE/index.html/mailto:%20brian.smith@mcgill.ca
+http://www.ics.uci.edu/~jutts/GAISE/index.html/mailto:%20delma001@umn.edu
+http://www.ics.uci.edu/~jutts/GAISE/index.html/mailto:%20jmutts@ucdavis.edu
+http://www.ics.uci.edu/~jutts/GAISE/index.html/GAISE.pps
+Number of repeated urls: 0
+New number in queue: 481
+Number of newly added links: 4
+Number of unique so far: 703
+2020-04-24 14:55:05.905420

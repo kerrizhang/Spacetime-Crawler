@@ -1,0 +1,15 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~babaks/teaching.html
+http://www.ics.uci.edu/~babaks/teaching.html/index.html
+_________http://www.ics.uci.edu/~babaks/teaching.html/research.html
+_________http://www.ics.uci.edu/~babaks/teaching.html/publication.html
+http://www.ics.uci.edu/~babaks/teaching.html/teaching.html
+http://www.ics.uci.edu/~babaks/teaching.html/activities.html
+http://www.ics.uci.edu/~babaks/teaching.html/codes.html
+http://www.ics.uci.edu/~babaks/teaching.html/file://51EA073C5D8E43FF82CE61E49ACC37E5//file
+http://www.ics.uci.edu/~babaks/BWR/Home.html
+http://www.ics.uci.edu/~babaks/teaching.html/mailto:babaks@uci.edu?subject=
+Number of repeated urls: 2
+New number in queue: 461
+Number of newly added links: 7
+Number of unique so far: 675
+2020-04-24 14:53:27.251251

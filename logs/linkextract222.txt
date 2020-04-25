@@ -1,0 +1,22 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~jutts/7-W13
+_________http://www.stat.uci.edu
+*********http://www.ics.uci.edu/~jutts
+http://www.ics.uci.edu/~jutts/statlinks.html
+http://www.ics.uci.edu/~lab/students/acct_activate.php
+http://www.ics.uci.edu/~lab/lab_schedule/index.php
+http://www.ics.uci.edu/~jutts/7-W13/ucdavis1.txt
+http://www.ics.uci.edu/~jutts/7-W13/oldfaithful.txt
+http://www.ics.uci.edu/~jutts/7-W13/pennstate.txt
+*********http://www.ics.uci.edu/~jutts/7-W13/oldfaithful.txt
+*********http://www.ics.uci.edu/~jutts/7-W13/pennstate.txt
+http://www.ics.uci.edu/~jutts/7-W13/Midterm1V1Key
+http://www.ics.uci.edu/~jutts/7-W13/Midterm1V2Key
+http://www.ics.uci.edu/~jutts/7-W13/Midterm2AKey
+http://www.ics.uci.edu/~jutts/7-W13/Midterm2BKey
+http://www.ics.uci.edu/~jutts/7-W13/FinalAKey
+http://www.ics.uci.edu/~jutts/7-W13/FinalBKey
+Number of repeated urls: 4
+New number in queue: 492
+Number of newly added links: 12
+Number of unique so far: 715
+2020-04-24 14:56:01.215666

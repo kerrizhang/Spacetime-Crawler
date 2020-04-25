@@ -1,0 +1,6 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~yamingy/cocktail_demo1.r
+Number of repeated urls: 0
+New number in queue: 513
+Number of newly added links: 0
+Number of unique so far: 754
+2020-04-24 14:57:38.809947

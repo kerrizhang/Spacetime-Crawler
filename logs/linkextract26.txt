@@ -1,0 +1,32 @@
+NOW EXTRACTING - https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php
+*********https://www.ics.uci.edu/about/facilities/index.php
+_________https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php/about_mission.php
+*********https://www.ics.uci.edu/about/about_safety.php
+_________https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php/about_contact.php
+*********https://www.ics.uci.edu/employment
+_________https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php/about_deanmsg.php
+*********http://www.ics.uci.edu/social
+_________https://www.ics.uci.edu/about/about_safety.php/brenhall
+_________https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php/about_meet_the_dean.php
+*********https://www.ics.uci.edu/about/visit/index.php
+*********http://www.informatics.uci.edu/support/provide-projects
+*********https://www.ics.uci.edu/about
+*********https://www.ics.uci.edu/about/kfflab/index.php
+_________https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php/visit/index.php
+_________https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php/search/index.php
+*********http://www.cs.uci.edu
+*********http://www.stat.uci.edu
+_________https://www.ics.uci.edu/community/news
+*********https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php
+*********https://www.ics.uci.edu/about/search/index.php
+https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php/brenhall/index.php
+_________https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php/about_safety.php
+*********https://www.ics.uci.edu/accessibility
+_________https://www.ics.uci.edu/about/about_safety.php/brenhall/index.php/bren/index.php
+*********http://www.informatics.uci.edu
+*********https://www.ics.uci.edu/about/about_contact.php
+Number of repeated urls: 25
+New number in queue: 145
+Number of newly added links: 1
+Number of unique so far: 172
+2020-04-24 17:31:22.649644

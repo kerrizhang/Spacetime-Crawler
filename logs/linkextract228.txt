@@ -1,0 +1,15 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~jutts/st108
+http://www.ics.uci.edu/~jutts/st108/mailto:jmutts@ucdavis.edu
+_________http://www.ics.uci.edu/~jutts/st108/wtheightm.txt
+http://www.ics.uci.edu/~jutts/st108/ 
+
+https://listproc.ucdavis.edu/class-secure/200710/sta108-f07
+_________http://www.ics.uci.edu/~jutts/st108/wtheightm.txt
+http://www.ics.uci.edu/~jutts/st108/GPA.txt
+http://www.ics.uci.edu/~jutts/st108/Nov19HW.txt
+http://www.ics.uci.edu/~jutts/st108/CH10HWData.txt
+Number of repeated urls: 2
+New number in queue: 516
+Number of newly added links: 5
+Number of unique so far: 745
+2020-04-24 14:57:28.169292

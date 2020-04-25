@@ -1,0 +1,9 @@
+NOW EXTRACTING - https://www.ics.uci.edu/~sudderth/bnpCVPR12
+https://www.ics.uci.edu/~sudderth/bnpCVPR12/materials.html
+https://www.ics.uci.edu/~sudderth/bnpCVPR12/resources.html
+*********https://www.ics.uci.edu/~sudderth/bnpCVPR12/materials.html
+Number of repeated urls: 1
+New number in queue: 530
+Number of newly added links: 2
+Number of unique so far: 801
+2020-04-24 14:58:51.174910

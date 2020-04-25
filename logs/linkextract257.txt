@@ -1,0 +1,14 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~smyth/projects.html
+http://www.ics.uci.edu/~smyth/projects.html/index.html
+_________http://www.ics.uci.edu/~smyth/projects.html/papers.html
+_________http://www.ics.uci.edu/~smyth/projects.html/research_group.html
+http://www.ics.uci.edu/~smyth/projects.html/projects.html
+http://www.ics.uci.edu/~smyth/projects.html/psmyth_short_bio.html
+http://www.ics.uci.edu/~smyth/projects.html/padhraic_smyth_contact.html
+_________https://www.ics.uci.edu/~smyth/research_group.html
+*********https://www.cs.uci.edu/multidisciplinary-graduate-training-program-advances-wildfire-prediction-research
+Number of repeated urls: 4
+New number in queue: 517
+Number of newly added links: 4
+Number of unique so far: 775
+2020-04-24 14:58:02.039151

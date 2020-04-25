@@ -1,0 +1,8 @@
+NOW EXTRACTING - https://www.ics.uci.edu/~sudderth/bio
+*********http://www.cs.uci.edu
+*********https://www.stat.uci.edu
+Number of repeated urls: 2
+New number in queue: 529
+Number of newly added links: 0
+Number of unique so far: 801
+2020-04-24 14:58:51.768165

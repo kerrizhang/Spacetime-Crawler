@@ -1,0 +1,19 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~smyth/research_group.html
+http://www.ics.uci.edu/~smyth/research_group.html/index.html
+_________http://www.ics.uci.edu/~smyth/research_group.html/papers.html
+http://www.ics.uci.edu/~smyth/research_group.html/research_group.html
+http://www.ics.uci.edu/~smyth/research_group.html/projects.html
+http://www.ics.uci.edu/~smyth/research_group.html/psmyth_short_bio.html
+http://www.ics.uci.edu/~smyth/research_group.html/padhraic_smyth_contact.html
+*********https://www.ics.uci.edu/~galbraic
+*********https://www.ics.uci.edu/~jihyunp
+http://www.ics.uci.edu/~nnavarol
+http://www.ics.uci.edu/~asuncion
+http://www.ics.uci.edu/~johutchi
+http://www.ics.uci.edu/~sgaffney
+_________http://www.ics.uci.edu/~ihler
+Number of repeated urls: 4
+New number in queue: 514
+Number of newly added links: 9
+Number of unique so far: 771
+2020-04-24 14:57:57.979703

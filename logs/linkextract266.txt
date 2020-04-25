@@ -1,0 +1,9 @@
+NOW EXTRACTING - https://www.ics.uci.edu/~sudderth/group
+http://www.cs.uci.edu/events/seminar-series
+*********http://www.cs.uci.edu/distinguished-lecture-series
+_________http://www.stat.uci.edu/seminar-series
+Number of repeated urls: 2
+New number in queue: 531
+Number of newly added links: 1
+Number of unique so far: 798
+2020-04-24 14:58:46.797311

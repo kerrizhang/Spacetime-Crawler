@@ -1,0 +1,6 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~jutts/UnderstandingP-Values
+Number of repeated urls: 0
+New number in queue: 478
+Number of newly added links: 0
+Number of unique so far: 699
+2020-04-24 14:55:02.809438

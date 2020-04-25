@@ -1,0 +1,26 @@
+NOW EXTRACTING - https://www.ics.uci.edu/employment/employ_distinguished.php
+*********https://www.ics.uci.edu/about/facilities/index.php
+*********https://www.ics.uci.edu/about/about_safety.php
+*********https://www.ics.uci.edu/employment
+*********http://www.ics.uci.edu/social
+*********https://www.ics.uci.edu/about/visit/index.php
+_________https://www.ics.uci.edu/employment/employ_distinguished.php/employ_lecturer.php
+_________https://www.ics.uci.edu/employment/employ_distinguished.php/employ_distinguished.php
+_________https://www.ics.uci.edu/employment/employ_distinguished.php/staff.php
+*********http://www.informatics.uci.edu/support/provide-projects
+*********https://www.ics.uci.edu/about/kfflab/index.php
+_________https://www.ics.uci.edu/employment/employ_distinguished.php/mailto:icsdean@ics.uci.edu
+_________https://www.ics.uci.edu/employment/employ_distinguished.php/employ_faculty.php
+*********http://www.stat.uci.edu
+*********http://www.cs.uci.edu
+_________https://www.ics.uci.edu/community/news
+*********https://www.ics.uci.edu/about/search/index.php
+*********https://www.ics.uci.edu/accessibility
+*********http://www.informatics.uci.edu
+*********https://www.ics.uci.edu/employment/employ_distinguished.php
+*********https://www.ics.uci.edu/about/about_contact.php
+Number of repeated urls: 20
+New number in queue: 141
+Number of newly added links: 0
+Number of unique so far: 172
+2020-04-24 17:31:34.953692

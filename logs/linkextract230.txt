@@ -1,0 +1,8 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~jutts/st13v-06
+http://www.ics.uci.edu/~jutts/st13v-06/mailto:cschupp@wald.ucdavis.edu
+http://www.ics.uci.edu/~jutts/st13v-06/mailto:jmutts@ucdavis.edu
+Number of repeated urls: 0
+New number in queue: 519
+Number of newly added links: 2
+Number of unique so far: 750
+2020-04-24 14:57:32.416868

@@ -1,0 +1,7 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~sternh/mailto:sternh@
+uci.edu
+Number of repeated urls: 0
+New number in queue: 467
+Number of newly added links: 0
+Number of unique so far: 686
+2020-04-24 14:53:46.902464
