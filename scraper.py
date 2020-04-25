@@ -18,7 +18,9 @@ failedlinks = []
 uniqueurls = set()
 stopwords = []
 commonwordsdict = dict()
+subdomains = dict()
 longestlength = 0
+
 
 
 def scraper(url, resp):
@@ -49,6 +51,16 @@ def scraper(url, resp):
                 tempcheck = item[:-1]
             if tempcheck not in uniqueurls:
                 if is_valid(item) and resp.status == 200:
+
+                    ####### SUBDOMAIN 
+                    subd = urlparse(item).netloc
+                    if subd in subdomains:
+                        subdomains[subd] += 1
+                        print("Subdomain ", subd, ": ", subdomains[subd] )
+                    else:
+                        subdomains[subd] = 1
+                        print("New subdomain " + subd)
+
                     temp = simhash(item)
                     item_simhash = temp[0]
                     worddict = temp[1]
@@ -171,10 +183,10 @@ def is_valid(url):
                 + r"|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower())
         return False
 
-
     except TypeError:
         print("TypeError for ", parsed)
         # raise
+
 
 
 def get_response(url):
@@ -257,22 +269,27 @@ def computeWordFrequencies(tokens):
 
 
 if __name__ == '__main__':
-    is_valid("http://www.vision.ics.uci.edu")
     url = "http://www.vision.ics.uci.edu"
     url2 = "https://www.cs.uci.edu"
     url3 = "https://www.informatics.uci.edu"
     url4 = "https://www.stat.uci.edu"
 
+    #urltest = "http://www.vision.ics.uci.edu"
+    urltest = "http://www.ics.uci.edu/about"
 
-    responseObj = get_response(url)
-    responseObj2 = get_response(url2)
-    responseObj3 = get_response(url3)
-    responseObj4 = get_response(url4)
 
-    scraper(url, responseObj)
-    scraper(url2, responseObj2)
-    scraper(url3, responseObj3)
-    scraper(url4, responseObj4)
+    # responseObj = get_response(url)
+    # responseObj2 = get_response(url2)
+    # responseObj3 = get_response(url3)
+    # responseObj4 = get_response(url4)
+
+    # scraper(url, responseObj)
+    # scraper(url2, responseObj2)
+    # scraper(url3, responseObj3)
+    # scraper(url4, responseObj4)
     
-    print("TOTAL Unique links: " + str(len(uniquelinks)))
-    print("FAILED LINKSSS: " + str(failedlinks))
+    # print("TOTAL Unique links: " + str(len(uniquelinks)))
+    # print("FAILED LINKSSS: " + str(failedlinks))
+
+    responseObj = get_response(urltest)
+    scraper(urltest, responseObj)
