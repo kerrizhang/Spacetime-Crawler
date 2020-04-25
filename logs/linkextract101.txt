@@ -1,0 +1,12 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~gbowker
+_________http://www.ics.uci.edu/~gbowker/ http://www.slis.indiana.edu/TIS
+http://www.ics.uci.edu/~gbowker/actnet.html
+http://www.ics.uci.edu/~gbowker/classification
+http://www.ics.uci.edu/~gbowker/pubs.htm
+_________http://www.ics.uci.edu/~gbowker/mailto:gbowker@uci.edu
+http://www.ics.uci.edu/~gbowker/records.html
+Number of repeated urls: 2
+New number in queue: 152
+Number of newly added links: 4
+Number of unique so far: 254
+2020-04-24 22:36:36.202173

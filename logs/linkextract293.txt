@@ -1,0 +1,9 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~wjohnson
+*********http://www.ics.uci.edu/statistics
+_________http://www.ics.uci.edu/~wjohnson/mailto:wjohnson@uci.edu
+http://www.ics.uci.edu/~wjohnson/BIDA/BIDABook.html
+Number of repeated urls: 2
+New number in queue: 344
+Number of newly added links: 1
+Number of unique so far: 638
+2020-04-24 23:03:10.335025

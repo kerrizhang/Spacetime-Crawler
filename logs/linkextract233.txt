@@ -1,0 +1,9 @@
+NOW EXTRACTING - https://www.ics.uci.edu/~iftekha/publication/an-empirical-investigation-into-merge-conflicts-and-their-effect-on-software-quality
+*********https://www.ics.uci.edu/~iftekha/publication/planning-for-untangling-predicting-the-difficulty-of-merge-conflicts
+*********https://www.ics.uci.edu/~iftekha/publication/land-of-lost-knowledge-an-initial-investigation-into-projects-lost-knowledge
+https://www.ics.uci.edu/~iftekha/publication/an-empirical-investigation-into-merge-conflicts-and-their-effect-on-software-quality/mailto:?subject=An%20empirical%20investigation%20into%20merge%20conflicts%20and%20their%20effect%20on%20software%20quality&body=https%3a%2f%2fwww.ics.uci.edu%2f~iftekha%2fpublication%2fan-empirical-investigation-into-merge-conflicts-and-their-effect-on-software-quality%2f
+Number of repeated urls: 2
+New number in queue: 262
+Number of newly added links: 1
+Number of unique so far: 496
+2020-04-24 22:57:58.075255

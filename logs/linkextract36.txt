@@ -1,0 +1,28 @@
+NOW EXTRACTING - http://www.ics.uci.edu
+http://www.ics.uci.edu/community/news
+http://www.ics.uci.edu/community/news/view_news?id=1731
+_________https://www.ics.uci.edu/community/news
+*********http://www.cs.uci.edu
+https://www.ics.uci.edu/about/search/index.php
+https://www.ics.uci.edu/about/about_safety.php
+https://www.ics.uci.edu/about/about_contact.php
+_________https://www.ics.uci.edu/about/facilities/index.php
+http://www.ics.uci.edu/community/news/view_news?id=1740
+http://www.ics.uci.edu/ugrad/livechat.php
+_________https://www.ics.uci.edu/community/news/view_news?id=1742
+*********http://www.informatics.uci.edu
+*********http://www.ics.uci.edu
+_________http://www.informatics.uci.edu/support/provide-projects
+https://www.ics.uci.edu/community/news/view_news?id=1738
+https://www.ics.uci.edu/community/news/view_news?id=1714
+http://www.ics.uci.edu/community/news/view_news?id=1709
+_________https://www.ics.uci.edu/about/visit/index.php
+https://www.ics.uci.edu/accessibility
+*********http://www.stat.uci.edu
+https://www.ics.uci.edu/employment
+_________https://www.ics.uci.edu/about/kfflab/index.php
+Number of repeated urls: 10
+New number in queue: 90
+Number of newly added links: 12
+Number of unique so far: 127
+2020-04-24 22:27:17.219133

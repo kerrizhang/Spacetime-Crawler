@@ -1,0 +1,38 @@
+NOW EXTRACTING - http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse.php
+_________http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse.php/Add_Drop_ChangeOption.php
+*********http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse.php
+_________http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse.php/Course_Outside_UCI.php
+_________http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse.php/mailto:finaid@uci.edu
+_________https://www.ics.uci.edu/ugrad/policies
+_________http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse.php/Computer_Copyrights.php
+_________http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse.php/Change_of_Major.php
+*********https://www.ics.uci.edu/community/news
+_________http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse.php/Laptop_ComputerUse.php
+_________http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse.php/CS199_IN4MATX199.php
+*********http://www.cs.uci.edu
+*********https://www.ics.uci.edu/about/search/index.php
+*********https://www.ics.uci.edu/about/about_safety.php
+*********https://www.ics.uci.edu/about/about_contact.php
+*********https://www.ics.uci.edu/about/facilities/index.php
+*********https://www.ics.uci.edu/ugrad
+_________http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse.php/Grade_Options.php
+_________http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse.php/Computer_Ethics.php
+*********http://www.informatics.uci.edu
+_________http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse.php/Computer_RemoteAccess.php
+*********http://www.ics.uci.edu/social
+_________http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse.php/Computer_Acct_Backup.php
+*********http://www.informatics.uci.edu/support/provide-projects
+_________http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse.php/Withdrawal_Readmission.php
+*********https://www.ics.uci.edu/about/visit/index.php
+*********https://www.ics.uci.edu/accessibility
+*********http://www.stat.uci.edu
+_________http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse.php/Academic_Standing.php
+_________http://www.ics.uci.edu/computing/account/new.php
+*********https://www.ics.uci.edu/employment
+_________http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse.php/Academic_Honesty.php
+*********https://www.ics.uci.edu/about/kfflab/index.php
+Number of repeated urls: 32
+New number in queue: 272
+Number of newly added links: 0
+Number of unique so far: 431
+2020-04-24 22:54:39.688661

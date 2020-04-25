@@ -1,0 +1,8 @@
+NOW EXTRACTING - https://www.ics.uci.edu/~pattis/ICS-33/index.html
+https://www.ics.uci.edu/~pattis/ICS-33/index.html/frameindex.html
+_________https://www.ics.uci.edu/~pattis/ICS-33/index.html/mailto:pattis@ics.uci.edu
+Number of repeated urls: 1
+New number in queue: 242
+Number of newly added links: 1
+Number of unique so far: 440
+2020-04-24 22:56:09.497183

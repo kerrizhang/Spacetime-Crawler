@@ -1,0 +1,14 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~babaks
+http://www.ics.uci.edu/~babaks/teaching.html
+_________https://www.ics.uci.edu/community/news/view_news?id=1595
+http://www.ics.uci.edu/~babaks/activities.html
+http://www.ics.uci.edu/~babaks/research.html
+http://www.ics.uci.edu/~babaks/publication.html
+_________http://www.ics.uci.edu/~babaks/mailto:babaks@uci.edu?subject=
+http://www.ics.uci.edu/~babaks/codes.html
+_________http://www.ics.uci.edu/~babaks/index.html
+Number of repeated urls: 3
+New number in queue: 317
+Number of newly added links: 5
+Number of unique so far: 608
+2020-04-24 23:02:11.366852

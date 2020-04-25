@@ -1,0 +1,34 @@
+NOW EXTRACTING - http://www.ics.uci.edu/ugrad/policies/CS199_IN4MATX199.php
+*********https://www.ics.uci.edu/ugrad/policies
+_________http://www.ics.uci.edu/ugrad/policies/CS199_IN4MATX199.php/Grade_Options.php
+*********https://www.ics.uci.edu/community/news
+_________http://www.ics.uci.edu/ugrad/policies/CS199_IN4MATX199.php/CS199_IN4MATX199.php
+_________http://www.ics.uci.edu/faculty/area/index.php
+*********http://www.cs.uci.edu
+_________http://www.ics.uci.edu/ugrad/policies/CS199_IN4MATX199.php/Withdrawal_Readmission.php
+*********https://www.ics.uci.edu/about/search/index.php
+*********https://www.ics.uci.edu/about/about_safety.php
+*********https://www.ics.uci.edu/about/about_contact.php
+*********https://www.ics.uci.edu/about/facilities/index.php
+*********https://www.ics.uci.edu/ugrad
+_________http://www.ics.uci.edu/ugrad/policies/CS199_IN4MATX199.php/Academic_Standing.php
+_________http://www.ics.uci.edu/ugrad/policies/CS199_IN4MATX199.php/Add_Drop_ChangeOption.php
+*********http://www.informatics.uci.edu
+*********http://www.ics.uci.edu/social
+*********http://www.informatics.uci.edu/support/provide-projects
+_________http://www.ics.uci.edu/ugrad/policies/CS199_IN4MATX199.php/Academic_Honesty.php
+*********http://www.ics.uci.edu/ugrad/QA_Petitions
+*********https://www.ics.uci.edu/about/visit/index.php
+*********https://www.ics.uci.edu/accessibility
+*********http://www.stat.uci.edu
+_________http://www.ics.uci.edu/ugrad/policies/CS199_IN4MATX199.php/Change_of_Major.php
+*********https://www.ics.uci.edu/employment
+_________http://www.ics.uci.edu/ugrad/policies/CS199_IN4MATX199.php/Laptop_ComputerUse.php
+*********http://www.ics.uci.edu/ugrad/policies/CS199_IN4MATX199.php
+_________http://www.ics.uci.edu/ugrad/policies/CS199_IN4MATX199.php/Course_Outside_UCI.php
+*********https://www.ics.uci.edu/about/kfflab/index.php
+Number of repeated urls: 28
+New number in queue: 263
+Number of newly added links: 0
+Number of unique so far: 431
+2020-04-24 22:55:18.412352

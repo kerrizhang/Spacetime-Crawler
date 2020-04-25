@@ -1,0 +1,6 @@
+NOW EXTRACTING - https://www.ics.uci.edu/~iftekha/mailto:iftekha@uci.edu
+Number of repeated urls: 0
+New number in queue: 264
+Number of newly added links: 0
+Number of unique so far: 490
+2020-04-24 22:57:55.412908

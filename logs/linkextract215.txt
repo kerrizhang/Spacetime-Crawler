@@ -1,0 +1,8 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~ziv/diss/abstractpaper/abstractpaper.html
+_________http://www.ics.uci.edu/~ziv/diss/abstractpaper/abstractpaper.html/node1.html
+_________http://www.ics.uci.edu/~ziv/diss/abstractpaper/abstractpaper.html/node2.html
+Number of repeated urls: 2
+New number in queue: 260
+Number of newly added links: 0
+Number of unique so far: 476
+2020-04-24 22:57:11.879113

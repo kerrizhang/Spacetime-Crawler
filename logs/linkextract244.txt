@@ -1,0 +1,13 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~kay/pubs/index.html
+http://www.ics.uci.edu/~kay/pubs/writing.html
+http://www.ics.uci.edu/~kay/pubs/bandwagons.html
+http://www.ics.uci.edu/~kay/pubs/intro-ed-res-dept.html
+http://www.ics.uci.edu/~kay/pubs/teaching-support-new-fac.html
+http://www.ics.uci.edu/~kay/necc/index.html
+http://www.ics.uci.edu/~kay/pubs/uclahonors.html
+http://www.ics.uci.edu/~kay/pubs/managing-large-courses.html
+Number of repeated urls: 0
+New number in queue: 265
+Number of newly added links: 7
+Number of unique so far: 510
+2020-04-24 22:58:06.906374

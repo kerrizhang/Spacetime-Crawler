@@ -1,0 +1,6 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~andre/callto://awvanderhoek
+Number of repeated urls: 0
+New number in queue: 309
+Number of newly added links: 0
+Number of unique so far: 574
+2020-04-24 23:00:14.846620

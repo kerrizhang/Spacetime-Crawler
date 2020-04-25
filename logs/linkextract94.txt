@@ -1,0 +1,15 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~taylor
+http://www.ics.uci.edu/%7Eshendric
+http://www.ics.uci.edu/%7Esgirish
+http://www.ics.uci.edu/~pkammer
+http://www.ics.uci.edu/~taylor/Classes.htm
+http://www.ics.uci.edu/%7Ejie
+_________http://www.ics.uci.edu/about/visit/index.php
+http://www.ics.uci.edu/~taylor/Publications.htm
+http://www.ics.uci.edu/%7Efielding
+*********http://www.ics.uci.edu
+Number of repeated urls: 2
+New number in queue: 118
+Number of newly added links: 7
+Number of unique so far: 213
+2020-04-24 22:36:04.484601

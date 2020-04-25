@@ -1,0 +1,21 @@
+NOW EXTRACTING - https://www.ics.uci.edu/accessibility
+*********https://www.ics.uci.edu/community/news
+*********http://www.cs.uci.edu
+*********https://www.ics.uci.edu/about/search/index.php
+*********https://www.ics.uci.edu/about/about_safety.php
+*********https://www.ics.uci.edu/about/about_contact.php
+*********https://www.ics.uci.edu/about/facilities/index.php
+*********http://www.informatics.uci.edu
+*********http://www.ics.uci.edu/social
+*********http://www.informatics.uci.edu/support/provide-projects
+*********https://www.ics.uci.edu/about/visit/index.php
+*********https://www.ics.uci.edu/accessibility
+*********http://www.stat.uci.edu
+*********https://www.ics.uci.edu/employment
+*********https://www.ics.uci.edu/about/kfflab/index.php
+_________https://www.ics.uci.edu/accessibility/mailto:f.font@uci.edu
+Number of repeated urls: 15
+New number in queue: 150
+Number of newly added links: 0
+Number of unique so far: 276
+2020-04-24 22:38:09.123948

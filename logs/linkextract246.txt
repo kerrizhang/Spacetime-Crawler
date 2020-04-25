@@ -1,0 +1,8 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~kay/college.html
+_________http://www.ics.uci.edu/~kay/college.html/mailto:kay@uci.edu
+*********http://www.ics.uci.edu/~kay/college-advice
+Number of repeated urls: 2
+New number in queue: 266
+Number of newly added links: 0
+Number of unique so far: 513
+2020-04-24 22:58:10.617413

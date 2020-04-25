@@ -1,0 +1,6 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~ziv/resume.html
+Number of repeated urls: 0
+New number in queue: 267
+Number of newly added links: 0
+Number of unique so far: 488
+2020-04-24 22:57:54.416602

@@ -1,0 +1,12 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~kay/labtutors
+*********http://www.ics.uci.edu/~kay
+*********http://www.ics.uci.edu/~kay/labtutor.html
+*********http://www.ics.uci.edu/~kay/teachingics.html
+*********http://www.ics.uci.edu/~pattis
+*********http://www.ics.uci.edu
+_________http://www.ics.uci.edu/~kay/labtutors/mailto:kay@uci.edu
+Number of repeated urls: 6
+New number in queue: 303
+Number of newly added links: 0
+Number of unique so far: 552
+2020-04-24 22:59:30.962749

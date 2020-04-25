@@ -1,0 +1,7 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~taylor/Publications.htm
+_________http://www.ics.uci.edu/~taylor/Publications.htm/�http://doi.acm.org/10.1145/64135.65004
+Number of repeated urls: 1
+New number in queue: 262
+Number of newly added links: 0
+Number of unique so far: 474
+2020-04-24 22:56:41.420988

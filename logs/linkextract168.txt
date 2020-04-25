@@ -1,0 +1,29 @@
+NOW EXTRACTING - http://www.ics.uci.edu/ugrad/sao/index.php
+_________http://www.ics.uci.edu/ugrad/sao/index.php/SAO_Events.php
+_________http://www.ics.uci.edu/ugrad/sao/index.php/Concurrent_Enrollment.php
+*********https://www.ics.uci.edu/community/news
+_________http://www.ics.uci.edu/ugrad/sao/index.php/Course_updates.php
+*********http://www.cs.uci.edu
+_________http://www.ics.uci.edu/ugrad/sao/index.php/index.php
+*********https://www.ics.uci.edu/about/search/index.php
+*********https://www.ics.uci.edu/about/about_safety.php
+_________http://www.ics.uci.edu/ugrad/sao/index.php/Appts_Walk-Ins.php
+*********https://www.ics.uci.edu/ugrad/sao
+*********https://www.ics.uci.edu/about/about_contact.php
+_________http://www.ics.uci.edu/ugrad/sao/index.php/mailto:ucounsel@uci.edu
+*********https://www.ics.uci.edu/about/facilities/index.php
+*********https://www.ics.uci.edu/ugrad
+*********http://www.informatics.uci.edu
+*********http://www.ics.uci.edu/social
+*********http://www.informatics.uci.edu/support/provide-projects
+*********https://www.ics.uci.edu/about/visit/index.php
+*********https://www.ics.uci.edu/accessibility
+*********http://www.stat.uci.edu
+*********https://www.ics.uci.edu/employment
+*********http://www.ics.uci.edu/ugrad/sao/index.php
+*********https://www.ics.uci.edu/about/kfflab/index.php
+Number of repeated urls: 23
+New number in queue: 262
+Number of newly added links: 0
+Number of unique so far: 431
+2020-04-24 22:55:22.647060

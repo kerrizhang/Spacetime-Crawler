@@ -1,0 +1,9 @@
+NOW EXTRACTING - https://www.ics.uci.edu/~iftekha/publication/a-case-study-of-motivations-for-corporate-contribution-to-foss
+_________https://www.ics.uci.edu/~iftekha/publication/a-case-study-of-motivations-for-corporate-contribution-to-foss/mailto:?subject=A%20Case%20Study%20of%20Motivations%20for%20Corporate%20Contribution%20to%20FOSS&body=https%3a%2f%2fwww.ics.uci.edu%2f~iftekha%2fpublication%2fa-case-study-of-motivations-for-corporate-contribution-to-foss%2f
+*********https://www.ics.uci.edu/~iftekha/publication/towards-understanding-code-readability-and-its-impact-on-design-quality
+*********https://www.ics.uci.edu/~iftekha/publication/an-empirical-examination-of-the-relationship-between-code-smells-and-merge-conflicts
+Number of repeated urls: 3
+New number in queue: 262
+Number of newly added links: 0
+Number of unique so far: 494
+2020-04-24 22:57:57.435964

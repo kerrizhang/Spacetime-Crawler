@@ -1,0 +1,20 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~ziv
+http://www.ics.uci.edu/~ziv/diss/conclusionpaper/conclusionpaper.html
+http://www.ics.uci.edu/~ziv/diss/abstractpaper/abstractpaper.html
+*********http://www.ics.uci.edu/~djr
+http://www.ics.uci.edu/Arcadia/atUCI.html
+_________http://www.ics.uci.edu/WWWdocs/localFAQ.html
+http://www.ics.uci.edu/~ziv/ooad/classes/index.htm
+_________http://www.ics.uci.edu/~ivan
+http://www.ics.uci.edu/~ziv/diss/intropaper/intropaper.html
+_________http://www.ics.uci.edu/icse97
+http://www.ics.uci.edu/~neno/interests.html
+http://www.ics.uci.edu/~ziv/resume.html
+*********http://www.ics.uci.edu
+http://www.ics.uci.edu/~ziv/mailto:ziv@ics.uci.edu
+_________http://www.ics.uci.edu/~ziv/ooad/intro_to_se/index.htm
+Number of repeated urls: 6
+New number in queue: 125
+Number of newly added links: 8
+Number of unique so far: 222
+2020-04-24 22:36:11.796054

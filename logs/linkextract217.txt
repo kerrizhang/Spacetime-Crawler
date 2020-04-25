@@ -1,0 +1,25 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~ziv/ooad/classes/index.htm
+_________http://www.ics.uci.edu/~ziv/ooad/classes/index.htm/sld015.htm
+_________http://www.ics.uci.edu/~ziv/ooad/classes/index.htm/sld011.htm
+_________http://www.ics.uci.edu/~ziv/ooad/classes/index.htm/sld001.htm
+_________http://www.ics.uci.edu/~ziv/ooad/classes/index.htm/sld012.htm
+_________http://www.ics.uci.edu/~ziv/ooad/classes/index.htm/sld017.htm
+_________http://www.ics.uci.edu/~ziv/ooad/classes/index.htm/sld014.htm
+_________http://www.ics.uci.edu/~ziv/ooad/classes/index.htm/sld002.htm
+_________http://www.ics.uci.edu/~ziv/ooad/classes/index.htm/sld010.htm
+_________http://www.ics.uci.edu/~ziv/ooad/classes/index.htm/sld013.htm
+_________http://www.ics.uci.edu/~ziv/ooad/classes/index.htm/sld004.htm
+_________http://www.ics.uci.edu/~ziv/ooad/classes/index.htm/sld016.htm
+_________http://www.ics.uci.edu/~ziv/ooad/classes/index.htm/sld008.htm
+_________http://www.ics.uci.edu/~ziv/ooad/classes/index.htm/sld007.htm
+_________http://www.ics.uci.edu/~ziv/ooad/classes/index.htm/sld005.htm
+_________http://www.ics.uci.edu/~ziv/ooad/classes/index.htm/sld006.htm
+_________http://www.ics.uci.edu/~ziv/ooad/classes/index.htm/sld003.htm
+_________http://www.ics.uci.edu/~ziv/ooad/classes/index.htm/sld019.htm
+_________http://www.ics.uci.edu/~ziv/ooad/classes/index.htm/sld018.htm
+_________http://www.ics.uci.edu/~ziv/ooad/classes/index.htm/sld009.htm
+Number of repeated urls: 19
+New number in queue: 267
+Number of newly added links: 0
+Number of unique so far: 485
+2020-04-24 22:57:51.199172

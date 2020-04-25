@@ -1,0 +1,9 @@
+NOW EXTRACTING - https://www.ics.uci.edu/~iftekha/publication/can-testedness-be-effectively-measured
+https://www.ics.uci.edu/~iftekha/publication/can-testedness-be-effectively-measured/mailto:?subject=Can%20Testedness%20be%20Effectively%20Measured%3f&body=https%3a%2f%2fwww.ics.uci.edu%2f~iftekha%2fpublication%2fcan-testedness-be-effectively-measured%2f
+*********https://www.ics.uci.edu/~iftekha/publication/understanding-code-smells-in-android-applications
+*********https://www.ics.uci.edu/~iftekha/publication/mutation-reduction-strategies-considered-harmful
+Number of repeated urls: 2
+New number in queue: 261
+Number of newly added links: 1
+Number of unique so far: 501
+2020-04-24 22:58:00.750107

@@ -1,0 +1,9 @@
+NOW EXTRACTING - https://www.ics.uci.edu/~iftekha/publication/planning-for-untangling-predicting-the-difficulty-of-merge-conflicts
+*********https://www.ics.uci.edu/~iftekha/publication/accessibility-issues-in-android-apps-state-of-affairs-sentiments-and-ways-forward
+_________https://www.ics.uci.edu/~iftekha/publication/planning-for-untangling-predicting-the-difficulty-of-merge-conflicts/mailto:?subject=Planning%20for%20Untangling%3a%20Predicting%20the%20Difficulty%20of%20Merge%20Conflicts.&body=https%3a%2f%2fwww.ics.uci.edu%2f~iftekha%2fpublication%2fplanning-for-untangling-predicting-the-difficulty-of-merge-conflicts%2f
+*********https://www.ics.uci.edu/~iftekha/publication/an-empirical-investigation-into-merge-conflicts-and-their-effect-on-software-quality
+Number of repeated urls: 3
+New number in queue: 263
+Number of newly added links: 0
+Number of unique so far: 490
+2020-04-24 22:57:55.767957

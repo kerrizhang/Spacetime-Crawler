@@ -1,0 +1,32 @@
+NOW EXTRACTING - http://www.ics.uci.edu/ugrad/policies/Academic_Honesty.php
+_________http://www.ics.uci.edu/ugrad/policies/Academic_Honesty.php/CS199_IN4MATX199.php
+*********https://www.ics.uci.edu/ugrad/policies
+_________http://www.ics.uci.edu/ugrad/policies/Academic_Honesty.php/Course_Outside_UCI.php
+*********https://www.ics.uci.edu/community/news
+*********http://www.ics.uci.edu/ugrad/policies/Academic_Honesty.php
+*********http://www.cs.uci.edu
+_________http://www.ics.uci.edu/ugrad/policies/Academic_Honesty.php/Withdrawal_Readmission.php
+*********https://www.ics.uci.edu/about/search/index.php
+*********https://www.ics.uci.edu/about/about_safety.php
+*********https://www.ics.uci.edu/about/about_contact.php
+_________http://www.ics.uci.edu/ugrad/policies/Academic_Honesty.php/Add_Drop_ChangeOption.php
+_________http://www.ics.uci.edu/ugrad/policies/Academic_Honesty.php/Grade_Options.php
+*********https://www.ics.uci.edu/about/facilities/index.php
+*********https://www.ics.uci.edu/ugrad
+_________http://www.ics.uci.edu/ugrad/policies/Academic_Honesty.php/Laptop_ComputerUse.php
+_________http://www.ics.uci.edu/ugrad/policies/Academic_Honesty.php/Academic_Honesty.php
+*********http://www.informatics.uci.edu
+*********http://www.ics.uci.edu/social
+*********http://www.informatics.uci.edu/support/provide-projects
+*********https://www.ics.uci.edu/about/visit/index.php
+*********https://www.ics.uci.edu/accessibility
+*********http://www.stat.uci.edu
+_________http://www.ics.uci.edu/ugrad/policies/Academic_Honesty.php/Academic_Standing.php
+*********https://www.ics.uci.edu/employment
+_________http://www.ics.uci.edu/ugrad/policies/Academic_Honesty.php/Change_of_Major.php
+*********https://www.ics.uci.edu/about/kfflab/index.php
+Number of repeated urls: 26
+New number in queue: 271
+Number of newly added links: 0
+Number of unique so far: 431
+2020-04-24 22:54:45.731430

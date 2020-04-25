@@ -1,0 +1,10 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~gmark/Home_page/Welcome.html
+http://www.ics.uci.edu/~gmark/Home_page/Welcome.html/Media_reports.html
+http://www.ics.uci.edu/~gmark/Home_page/Welcome.html/Videos_of_talks.html
+_________http://www.ics.uci.edu/~gmark/Home_page/Welcome.html/Publications.html
+http://www.ics.uci.edu/~gmark/Home_page/Welcome.html/Students.html
+Number of repeated urls: 1
+New number in queue: 247
+Number of newly added links: 3
+Number of unique so far: 438
+2020-04-24 22:56:03.361291

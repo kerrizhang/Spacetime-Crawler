@@ -1,0 +1,29 @@
+NOW EXTRACTING - http://www.ics.uci.edu/ugrad/resources/index.php
+*********https://www.ics.uci.edu/community/news
+*********http://www.ics.uci.edu/community/scholarships/index.php
+_________http://www.ics.uci.edu/ugrad/resources/index.php/Campus_Resources.php
+*********http://www.cs.uci.edu
+*********https://www.ics.uci.edu/about/search/index.php
+*********https://www.ics.uci.edu/about/about_safety.php
+*********https://www.ics.uci.edu/about/about_contact.php
+*********https://www.ics.uci.edu/about/facilities/index.php
+_________http://www.ics.uci.edu/ugrad/resources/index.php/ICS_StudentOrgs.php
+_________http://www.ics.uci.edu/ugrad/resources/index.php/index.php
+*********https://www.ics.uci.edu/ugrad
+_________http://www.ics.uci.edu/ugrad/resources/index.php/Title_IX_Resources.php
+*********http://www.informatics.uci.edu
+*********http://www.ics.uci.edu/social
+_________https://www.ics.uci.edu/ugrad/resources
+*********http://www.informatics.uci.edu/support/provide-projects
+_________http://www.ics.uci.edu/ugrad/resources/index.php/ICS_StudentLife_nonTechOpps.php
+*********https://www.ics.uci.edu/about/visit/index.php
+*********https://www.ics.uci.edu/accessibility
+*********http://www.stat.uci.edu
+*********https://www.ics.uci.edu/employment
+*********http://www.ics.uci.edu/ugrad/resources/index.php
+*********https://www.ics.uci.edu/about/kfflab/index.php
+Number of repeated urls: 23
+New number in queue: 261
+Number of newly added links: 0
+Number of unique so far: 431
+2020-04-24 22:55:26.912871

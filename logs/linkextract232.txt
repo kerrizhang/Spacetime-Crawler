@@ -1,0 +1,9 @@
+NOW EXTRACTING - https://www.ics.uci.edu/~iftekha/publication/understanding-code-smells-in-android-applications
+*********https://www.ics.uci.edu/~iftekha/publication/can-testedness-be-effectively-measured
+https://www.ics.uci.edu/~iftekha/publication/understanding-code-smells-in-android-applications/mailto:?subject=Understanding%20Code%20Smells%20in%20Android%20Applications&body=https%3a%2f%2fwww.ics.uci.edu%2f~iftekha%2fpublication%2funderstanding-code-smells-in-android-applications%2f
+*********https://www.ics.uci.edu/~iftekha/publication/does-the-choice-of-mutation-tool-matter
+Number of repeated urls: 2
+New number in queue: 262
+Number of newly added links: 1
+Number of unique so far: 495
+2020-04-24 22:57:57.761064

@@ -1,0 +1,17 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~ziv/diss/conclusionpaper/conclusionpaper.html
+http://www.ics.uci.edu/~ziv/diss/conclusionpaper/conclusionpaper.html/node6.html
+_________http://www.ics.uci.edu/~ziv/diss/conclusionpaper/conclusionpaper.html/node11.html
+_________http://www.ics.uci.edu/~ziv/diss/conclusionpaper/conclusionpaper.html/node4.html
+_________http://www.ics.uci.edu/~ziv/diss/conclusionpaper/conclusionpaper.html/node1.html
+_________http://www.ics.uci.edu/~ziv/diss/conclusionpaper/conclusionpaper.html/node9.html
+_________http://www.ics.uci.edu/~ziv/diss/conclusionpaper/conclusionpaper.html/node10.html
+_________http://www.ics.uci.edu/~ziv/diss/conclusionpaper/conclusionpaper.html/node7.html
+_________http://www.ics.uci.edu/~ziv/diss/conclusionpaper/conclusionpaper.html/node2.html
+_________http://www.ics.uci.edu/~ziv/diss/conclusionpaper/conclusionpaper.html/node8.html
+_________http://www.ics.uci.edu/~ziv/diss/conclusionpaper/conclusionpaper.html/node5.html
+_________http://www.ics.uci.edu/~ziv/diss/conclusionpaper/conclusionpaper.html/node3.html
+Number of repeated urls: 10
+New number in queue: 261
+Number of newly added links: 1
+Number of unique so far: 476
+2020-04-24 22:57:10.960576

@@ -1,0 +1,18 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~emilyo/teaching.html
+http://www.ics.uci.edu/~emilyo/teaching/ics139ws2014/index.html
+http://www.ics.uci.edu/~emilyo/teaching/info122w2014/index.html
+_________http://www.ics.uci.edu/~emilyo/teaching/info43f2015
+http://www.ics.uci.edu/~emilyo/teaching/info122w2015/index.html
+_________http://www.ics.uci.edu/~emilyo/teaching/ics139wf2015/index.html
+*********http://www.ics.uci.edu/~emilyo/research.html
+*********http://www.ics.uci.edu/~emilyo/publications.html
+*********http://www.ics.uci.edu/~emilyo
+_________http://www.ics.uci.edu/~emilyo/teaching/info43f2014
+*********http://www.ics.uci.edu/~emilyo/teaching.html
+_________http://www.ics.uci.edu/~emilyo/teaching/info43s2015
+*********http://www.ics.uci.edu/~emilyo/contact.html
+Number of repeated urls: 9
+New number in queue: 309
+Number of newly added links: 3
+Number of unique so far: 577
+2020-04-24 23:00:26.438371

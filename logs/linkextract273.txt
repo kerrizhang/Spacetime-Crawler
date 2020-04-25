@@ -1,0 +1,13 @@
+NOW EXTRACTING - http://www.ics.uci.edu/community/events/competition/teams.php
+_________http://www.ics.uci.edu/community/events/competition/teams.php/past.php
+_________http://www.ics.uci.edu/community/events/competition/teams.php/rules.php
+_________http://www.ics.uci.edu/community/events/competition/teams.php/teams.php
+_________http://www.ics.uci.edu/community/events/competition/teams.php/schedule.php
+_________http://www.ics.uci.edu/community/events/competition/teams.php/sponsors.php
+_________http://www.ics.uci.edu/community/events/competition/teams.php/.
+_________http://www.ics.uci.edu/community/events/competition/teams.php/judges.php
+Number of repeated urls: 7
+New number in queue: 303
+Number of newly added links: 0
+Number of unique so far: 577
+2020-04-24 23:00:58.319498

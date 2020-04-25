@@ -1,0 +1,13 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~emilyo
+*********http://www.ics.uci.edu/informatics
+_________http://www.ics.uci.edu/~emilyo/research.html
+http://www.ics.uci.edu/~emilyo/publications.html
+*********http://www.ics.uci.edu
+http://www.ics.uci.edu/~emilyo/teaching.html
+_________http://www.ics.uci.edu/~emilyo/index.html
+_________http://www.ics.uci.edu/~emilyo/contact.html
+Number of repeated urls: 5
+New number in queue: 160
+Number of newly added links: 2
+Number of unique so far: 268
+2020-04-24 22:36:51.054004

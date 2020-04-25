@@ -1,0 +1,18 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~kay
+*********http://www.ics.uci.edu/computerscience
+http://www.ics.uci.edu/~kay/choosing.courses.html
+_________http://www.ics.uci.edu/~kay/mailto:kay@uci.edu
+http://www.ics.uci.edu/~kay/recommendations.html
+http://www.ics.uci.edu/~kay/pubs/index.html
+*********http://www.ics.uci.edu/informatics
+http://www.ics.uci.edu/~kay/teachingics.html
+http://www.ics.uci.edu/~kay/college.html
+http://www.ics.uci.edu/~kay/courses/previous.html
+*********http://www.ics.uci.edu
+http://www.ics.uci.edu/~kay/labtutors
+http://www.ics.uci.edu/~kay/college-advice
+Number of repeated urls: 4
+New number in queue: 149
+Number of newly added links: 8
+Number of unique so far: 250
+2020-04-24 22:36:31.118765

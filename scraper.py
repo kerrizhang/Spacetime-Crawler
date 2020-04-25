@@ -1,28 +1,29 @@
 import re
 from bs4 import BeautifulSoup
 import requests
-import urllib.robotparser
 import requests.exceptions
 import urllib.request
 from urllib.parse import urlsplit
 from urllib.parse import urlparse
-from urllib.parse import urljoin
-# from urlparse import urljoin
 import json
 from utils import response
 import pickle
-import datetime
-import os
 
 # from collections import deque
 
 linkqueue = []
 uniquelinks = []
 failedlinks = []
+uniqueurls = []
 stopwords = []
-url_dict = dict()
+
 
 def scraper(url, resp):
+    f = open("stopwords.txt")
+    for line in f:
+        stopwords.append(line.strip("\n"))
+    f.close()
+
     if url[len(url) - 1:] == "/":
         url = url[:len(url) - 1]
     # if "?" in str(url):
@@ -30,9 +31,8 @@ def scraper(url, resp):
     #     url = url[:index]
 
     linkqueue.append(url)
-    url_dict[url] = resp
     uniquelinks.append(simhash(url))
-
+    uniqueurls.append(url)
     # links = extract_next_links(url, resp)
     #
     # for item in links:
@@ -42,46 +42,37 @@ def scraper(url, resp):
     #             uniquelinks.add(item)
 
     # print(linkqueue)
-    filenumber = 0
     while len(linkqueue) > 0:
         nextlink = linkqueue.pop(0)
-        newlinks = extract_next_links(nextlink, url_dict[nextlink])
+        newlinks = extract_next_links(nextlink, get_response(nextlink))
 
         repeats = 0
         newadded = 0
-        f = open("logs/linkextract" + str(filenumber) + ".txt", "w")
-        f.write("NOW EXTRACTING - " + nextlink + "\n")
 
         for item in newlinks:
-            if item not in url_dict:
+            if item not in uniqueurls:
                 # print("----------" + item)
                 if is_valid(item) and resp.status == 200:
-                    if item not in url_dict:
-                        url_dict[item] = get_response(item)
-                    if url_dict[item] != None:
-                        item_simhash = simhash(item)
+
+                    item_simhash = simhash(item)
+                    if item_simhash[0] != 2:
                         if item_simhash not in uniquelinks:
                             linkqueue.append(item)
                             uniquelinks.append(item_simhash)
+                            uniqueurls.append(item)
                             newadded = newadded + 1
-                            f.write(item + "\n")
                             print("new link! " + item)  # UNCOMMENT TO PRINT OUT NEW LINKS
                             # print(simhash(item))
                         else:
                             repeats = repeats + 1
-                            f.write("_________" + item + "\n")
                             print("this is content repeat: " + item)  # UNCOMMENT TO SEE CONTENT REPEATS
                             # print(simhash(item))
                     else:
-                        g = open("logs/errors.txt", "a+")
-                        g.write(item + "\n")
-                        g.close()
-                        failedlinks.append(item)
+                        print("Simhash had a 2")
                 elif is_valid(item):
                     print("Error: Status code was ", resp.status)
             else:
                 repeats = repeats + 1
-                f.write("*********" + item + '\n')
                 print("this is a url  repeat: " + item)  # UNCOMMENT TO SEE URL REPEATS
 
         print("Number of repeated urls: " + str(repeats))
@@ -89,25 +80,23 @@ def scraper(url, resp):
         print("Number of newly added links: " + str(newadded))
         print("Number of unique so far: " + str(len(uniquelinks)))
         print(
-            "_______________________________________________________________________________________________________________________")
-        filenumber = filenumber + 1
-        f.write("Number of repeated urls: " + str(repeats) + "\n")
-        f.write("New number in queue: " + str(len(linkqueue)) + "\n")
-        f.write("Number of newly added links: " + str(newadded) + "\n")
-        f.write("Number of unique so far: " + str(len(uniquelinks)) + "\n")
-        f.write(str(datetime.datetime.now()) + "\n")
-        f.close()
+            "_____________________________________________________________________________________________________________________")
     # return [link for link in links if is_valid(link)]
 
 
 def extract_next_links(url, input_response):
     print("NOW EXTRACTING " + url)
     # Implementation requred.
-    extracted_links = set()
+    extracted_links = []
 
     # resp = requests.get(url)
     # txt = resp.text
+
+    if input_response == None:
+        return []
+
     txt = input_response.raw_response
+
     soup = BeautifulSoup(txt, "html.parser")
 
     for link in soup.findAll('a'):
@@ -125,103 +114,73 @@ def extract_next_links(url, input_response):
 
             if link_href[0:1] == "/":
                 if link_href[1:2] == "/":
-                    extracted_links.add("http:" + link_href)
+                    extracted_links.append("http:" + link_href)
                 else:
                     if (url[len(url) - 1:] == "/"):
-                        extracted_links.add(urlparse(url).netloc + link_href[1:])
+                        extracted_links.append(urlparse(url).netloc + link_href[1:])
                     else:
-                        extracted_links.add(urlparse(url).netloc + link_href)
+                        extracted_links.append(urlparse(url).netloc + link_href)
             elif link_href[0:1] == "#":
                 pass
             elif link_href[0:2] == "..":
-                extracted_links.add(urlparse(url).netloc + link_href[2:])
+                extracted_links.append(urlparse(url).netloc + link_href[2:])
             elif link_href[0:4] == "http":
-                extracted_links.add(link_href)
+                extracted_links.append(link_href)
             else:
-                extracted_links.add(url + "/" + link_href)
+                extracted_links.append(url + "/" + link_href)
 
+    for i, e in enumerate(extracted_links):
+        if "#" in e:
+            extracted_links[i] = extracted_links[i][:e.find('#')]
 
-    hash_set = set()
-    for item in extracted_links:
-        if "#" in item:
-            hash_set.add(item[:item.find('#')])
-        elif "/pdf/" in item:
-            pass
-        else:
-            hash_set.add(item)
+        # if "?" in link:
+        #     #print("QUESTION MARK ?????????????????")
+        #     link = link[:link.find("?")]
 
-    #print(hash_set)
-    extracted_links = set()
-    for item in hash_set:
-        if item[len(item) - 1:] == "/":
-            extracted_links.add(item[:len(item) - 1])
-        else:
-            extracted_links.add(item)
+    for i, e in enumerate(extracted_links):
+        if e[len(e) - 1:] == "/":
+            extracted_links[i] = e[:len(e) - 1]
 
-    '''
-    rp = urllib.robotparser.RobotFileParser()
-
-    final_links = set()
-
-
-    for link in extracted_links:
-        #print(link)
-        base_url = "http://" + urlparse(link).netloc
-        print(base_url)
-        rp.set_url(urljoin(base_url, "/robots.txt"))
-        # rp.set_url("http://www.ics.uci.edu/robots.txt")
-        rp.read()
-        #    rp.crawl_delay("*")
-        if rp.can_fetch("*", link):
-            final_links.add(link)
-        #if rp.site_maps() != None:
-
-            #print(sitemaps_list)
-    '''
     return extracted_links
-    #return final_links
 
 
 def is_valid(url):
     try:
+        if "/pdf/" in url or "mailto:" in url or "@" in url:
+            return False
         parsed = urlparse(url)
         if parsed.netloc == "" and str(parsed.path)[0:len(
                 "today.uci.edu/department/information_computer_sciences")] == "today.uci.edu/department/information_computer_sciences":
             return True
         if parsed.scheme not in set(["http", "https"]):
             return False
-        if ("ics.uci.edu" not in parsed.netloc or "cs.uci.edu" not in parsed.netloc or "informatics.uci.edu" not in parsed.netloc or "stat.uci.edu" not in parsed.netloc):
-            return False
-
-        return not re.match(
-            r".*\.(css|js|bmp|gif|jpe?g|ico"
-            + r"|png|tiff?|mid|mp2|mp3|mp4"
-            + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
-            + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
-            + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
-            + r"|epub|dll|cnf|tgz|sha1"
-            + r"|thmx|mso|arff|rtf|jar|csv"
-            + r"|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower())
+        if (
+                "ics.uci.edu" in parsed.netloc or "cs.uci.edu" in parsed.netloc or "informatics.uci.edu" in parsed.netloc or "stat.uci.edu" in parsed.netloc):
+            return not re.match(
+                r".*\.(css|js|bmp|gif|jpe?g|ico"
+                + r"|png|tiff?|mid|mp2|mp3|mp4"
+                + r"|wav|avi|mov|mpeg|ram|m4v|mkv|ogg|ogv|pdf"
+                + r"|ps|eps|tex|ppt|pptx|doc|docx|xls|xlsx|names"
+                + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
+                + r"|epub|dll|cnf|tgz|sha1"
+                + r"|thmx|mso|arff|rtf|jar|csv"
+                + r"|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower())
+        return False
 
 
     except TypeError:
         print("TypeError for ", parsed)
-        raise
+        # raise
 
 
 def get_response(url):
     try:
         resp = requests.get(url)
-        # if "/pdf" not in resp.headers.get("content_type"):
-        #     resp_dict = {'url': url, 'status': resp.status_code, 'response': pickle.dumps(resp.text.encode())}
-        #     return response.Response(resp_dict)
-        # else:
-        #     return None
         resp_dict = {'url': url, 'status': resp.status_code, 'response': pickle.dumps(resp.text.encode())}
+
         return response.Response(resp_dict)
     except:
         print("Could not get response for URL")
-        return None
 
 
 def similarity(l1, l2):
@@ -233,15 +192,12 @@ def similarity(l1, l2):
 
 
 def simhash(url):
-    #print(url_dict)
-    resp = url_dict[url]
+    # print(url_dict)
+    resp = get_response(url)
     if (resp == None):
         print("This url has an empty response: " + url)
-        g = open("logs/errors.txt", "a+")
-        g.write(url + "\n")
-        g.close()
         failedlinks.append(url)
-        return [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        return [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     txt = resp.raw_response
     # print(html2text.html2text(txt))
     soup = BeautifulSoup(txt, "html.parser")
@@ -268,7 +224,7 @@ def simhash(url):
             # print(add)
         final.append(add)
     # return final
-    #print(final)
+    # print(final)
 
     ans = []
     for i in final:
@@ -277,6 +233,8 @@ def simhash(url):
         else:
             ans.append(0)
     return ans
+
+    # print(text)
 
 
 def tokenize(text):
@@ -301,19 +259,8 @@ def computeWordFrequencies(tokens):
 
 
 if __name__ == '__main__':
+    url = "https://www.ics.uci.edu"
 
-    f = open("stopwords.txt")
-    for line in f:
-        stopwords.append(line.strip("\n"))
-    f.close()
-
-    url = "https://www.informatics.uci.edu"
-    #print(get_response("http://www.informatics.uci.edu/files/pdf/InformaticsBrochure-March2018"))
-    if not os.path.exists('logs'):
-        os.makedirs('logs')
-    f = open("logs/errors.txt", "w")
-    f.write("\n")
-    f.close()
     # url = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni"
     # url2 = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/involved"
 
@@ -323,12 +270,6 @@ if __name__ == '__main__':
     # responseObj = response.Response(resp_dict)
 
     responseObj = get_response(url)
-    if responseObj != None:
-        scraper(url, responseObj)
-    else:
-        g = open("logs/errors.txt", "a+")
-        g.write(url + "\n")
-        g.close()
 
     # print(simhash(url2))
     # print(simhash(url))
@@ -341,7 +282,7 @@ if __name__ == '__main__':
     # print(responseObj.raw_response)
     # print(responseObj.status)
 
-
+    scraper(url, responseObj)
     print("TOTAL Unique links: " + str(len(uniquelinks)))
     print("FAILED LINKSSS: " + str(failedlinks))
 

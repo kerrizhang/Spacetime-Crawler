@@ -1,0 +1,53 @@
+NOW EXTRACTING - http://www.ics.uci.edu/ugrad
+http://www.ics.uci.edu/ugrad/policies/Laptop_ComputerUse.php
+_________http://www.ics.uci.edu/ugrad/degrees/Double_Majors.php
+_________http://www.ics.uci.edu/ugrad/resources/Title_IX_Resources.php
+*********https://www.ics.uci.edu/community/news
+http://www.ics.uci.edu/ugrad/policies/Academic_Honesty.php
+http://www.ics.uci.edu/ugrad/degrees/index.php
+_________http://www.ics.uci.edu/ugrad/policies/Change_of_Major.php
+_________http://www.ics.uci.edu/ugrad/advising/ICS Credit by Exam Fall.php
+http://www.ics.uci.edu/ugrad/sao/Appts_Walk-Ins.php
+*********http://www.cs.uci.edu
+http://www.ics.uci.edu/ugrad/sao/Course_updates.php
+*********https://www.ics.uci.edu/about/search/index.php
+_________http://www.ics.uci.edu/ugrad/policies/Course_Outside_UCI.php
+*********https://www.ics.uci.edu/about/about_safety.php
+*********https://www.ics.uci.edu/about/about_contact.php
+http://www.ics.uci.edu/ugrad/mailto:ucounsel@uci
+_________http://www.ics.uci.edu/ugrad/sao/SAO_Events.php
+*********https://www.ics.uci.edu/about/facilities/index.php
+http://www.ics.uci.edu/ugrad/sao/Concurrent_Enrollment.php
+http://www.ics.uci.edu/ugrad/policies/Academic_Standing.php
+_________http://www.ics.uci.edu/ugrad/policies/Grade_Options.php
+_________https://www.ics.uci.edu/ugrad
+_________http://www.ics.uci.edu/ugrad/mailto:adsa@ics.uci.edu
+_________http://www.ics.uci.edu/ugrad/courses/index.php
+*********http://www.ics.uci.edu/ugrad/livechat.php
+_________http://www.ics.uci.edu/ugrad/advising/ICS New Student Welcome.php
+_________http://www.ics.uci.edu/ugrad/QA_Petitions.php
+_________http://www.ics.uci.edu/ugrad/mailto:ucounsel@uci.edu
+_________http://www.ics.uci.edu/ugrad/QA_Graduation.php
+*********http://www.informatics.uci.edu
+http://www.ics.uci.edu/social
+*********http://www.informatics.uci.edu/support/provide-projects
+_________http://www.ics.uci.edu/ugrad/degrees/Second_BA.php
+_________http://www.ics.uci.edu/ugrad/degrees/Minors.php
+_________https://www.ics.uci.edu/ugrad/livechat
+*********https://www.ics.uci.edu/about/visit/index.php
+*********https://www.ics.uci.edu/accessibility
+*********http://www.ics.uci.edu/ugrad
+*********http://www.stat.uci.edu
+_________http://www.ics.uci.edu/ugrad/index.php
+_________http://www.ics.uci.edu/ugrad/policies/Withdrawal_Readmission.php
+*********https://www.ics.uci.edu/employment
+http://www.ics.uci.edu/ugrad/policies/CS199_IN4MATX199.php
+http://www.ics.uci.edu/ugrad/sao/index.php
+http://www.ics.uci.edu/ugrad/resources/index.php
+*********https://www.ics.uci.edu/about/kfflab/index.php
+_________http://www.ics.uci.edu/ugrad/policies/Add_Drop_ChangeOption.php
+Number of repeated urls: 35
+New number in queue: 122
+Number of newly added links: 12
+Number of unique so far: 170
+2020-04-24 22:29:50.173036

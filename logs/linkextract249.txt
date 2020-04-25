@@ -1,0 +1,6 @@
+NOW EXTRACTING - http://www.ics.uci.edu/~kay/college-advice
+Number of repeated urls: 0
+New number in queue: 302
+Number of newly added links: 0
+Number of unique so far: 552
+2020-04-24 22:59:30.989715

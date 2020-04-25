@@ -1,0 +1,12 @@
+NOW EXTRACTING - https://www.ics.uci.edu/~magda
+http://www.ics.uci.edu/%7Emagda/Papers.html
+http://www.ics.uci.edu/%7Emagda/Ghana.html
+http://www.ics.uci.edu/%7Emagda/Games.html
+http://www.ics.uci.edu/%7Emagda/courses.html
+*********http://www.ics.uci.edu
+https://www.ics.uci.edu/~magda/mailto:elzarki@uci.edu
+Number of repeated urls: 1
+New number in queue: 114
+Number of newly added links: 5
+Number of unique so far: 206
+2020-04-24 22:35:57.487341
