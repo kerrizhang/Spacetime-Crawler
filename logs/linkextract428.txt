@@ -1,8 +1,0 @@
-NOW EXTRACTING - http://www.ics.uci.edu/~zhaoxia
-http://www.ics.uci.edu/~zhaoxia/publications/publications.htm
-http://www.ics.uci.edu/~zhaoxia/publications/GGWald_manuscript/index.htm
-Number of repeated urls: 0
-New number in queue: 1245
-Number of newly added links: 2
-Number of unique so far: 1674
-2020-04-24 19:23:26.856694

@@ -1,9 +1,0 @@
-NOW EXTRACTING - https://www.ics.uci.edu/~seal/projects/mu_droid
-https://www.ics.uci.edu/~seal/projects/mu_droid/./tool.html
-http://www.ics.uci.edu/~seal
-_________http://www.ics.uci.edu
-Number of repeated urls: 1
-New number in queue: 1188
-Number of newly added links: 2
-Number of unique so far: 1539
-2020-04-24 19:14:29.416998

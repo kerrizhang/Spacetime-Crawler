@@ -1,7 +1,0 @@
-NOW EXTRACTING - http://www.ics.uci.edu/~zhengkai
-http://www.ics.uci.edu/~zhengkai/biography_kai_zheng.txt
-Number of repeated urls: 0
-New number in queue: 1211
-Number of newly added links: 1
-Number of unique so far: 1575
-2020-04-24 19:15:55.126328

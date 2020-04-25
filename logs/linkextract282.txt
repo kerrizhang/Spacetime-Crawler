@@ -1,8 +1,0 @@
-NOW EXTRACTING - https://www.ics.uci.edu/~lopes
-*********https://www.informatics.uci.edu/grad/phd-software-engineering
-*********https://www.informatics.uci.edu/grad/ms-software-engineering
-Number of repeated urls: 2
-New number in queue: 1124
-Number of newly added links: 0
-Number of unique so far: 1407
-2020-04-24 18:57:35.295308

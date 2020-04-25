@@ -303,18 +303,19 @@ def computeWordFrequencies(tokens):
 
 
 if __name__ == '__main__':
-    f = open("logs/errors.txt", "w")
-    f.write("\n")
-    f.close()
+
     f = open("stopwords.txt")
     for line in f:
         stopwords.append(line.strip("\n"))
     f.close()
 
-    url = "https://www.ics.uci.edu"
+    url = "https://www.informatics.uci.edu"
     #print(get_response("http://www.informatics.uci.edu/files/pdf/InformaticsBrochure-March2018"))
     if not os.path.exists('logs'):
         os.makedirs('logs')
+    f = open("logs/errors.txt", "w")
+    f.write("\n")
+    f.close()
     # url = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/community/alumni"
     # url2 = "http://www.ics.uci.edu/ugrad/courses/listing.php?year=2016&level=Graduate&department=STATS&program=ALL/about/about_factsfigures.php/involved"
 
