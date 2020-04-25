@@ -83,42 +83,48 @@ def extract_next_links(url, input_response):
 
     txt = input_response.raw_response
 
-    soup = BeautifulSoup(txt, "html.parser")
+    try:
+        soup = BeautifulSoup(txt, "html.parser")
 
-    for link in soup.findAll('a'):
-        link_href = link.get('href')
-        if link_href == None:
-            pass
-        else:
-            if link_href[len(link_href) - 1:] == "/":
-                link_href = link_href[:len(link_href) - 1]
-
-            if link_href[0:1] == "/":
-                if link_href[1:2] == "/":
-                    extracted_links.append("http:" + link_href)
-                else:
-                    if (url[len(url) - 1:] == "/"):
-                        extracted_links.append(urlparse(url).netloc + link_href[1:])
-                    else:
-                        extracted_links.append(urlparse(url).netloc + link_href)
-            elif link_href[0:1] == "#":
+        for link in soup.findAll('a'):
+            link_href = link.get('href')
+            if link_href == None:
                 pass
-            elif link_href[0:2] == "..":
-                extracted_links.append(urlparse(url).netloc + link_href[2:])
-            elif link_href[0:4] == "http":
-                extracted_links.append(link_href)
             else:
-                extracted_links.append(url + "/" + link_href)
+                if link_href[len(link_href) - 1:] == "/":
+                    link_href = link_href[:len(link_href) - 1]
 
-    for i, e in enumerate(extracted_links):
-        if "#" in e:
-            extracted_links[i] = extracted_links[i][:e.find('#')]
+                if link_href[0:1] == "/":
+                    if link_href[1:2] == "/":
+                        extracted_links.append("http:" + link_href)
+                    else:
+                        if (url[len(url) - 1:] == "/"):
+                            extracted_links.append(urlparse(url).netloc + link_href[1:])
+                        else:
+                            extracted_links.append(urlparse(url).netloc + link_href)
+                elif link_href[0:1] == "#":
+                    pass
+                elif link_href[0:2] == "..":
+                    extracted_links.append(urlparse(url).netloc + link_href[2:])
+                elif link_href[0:4] == "http":
+                    extracted_links.append(link_href)
+                else:
+                    extracted_links.append(url + "/" + link_href)
 
-    for i, e in enumerate(extracted_links):
-        if e[len(e) - 1:] == "/":
-            extracted_links[i] = e[:len(e) - 1]
+        for i, e in enumerate(extracted_links):
+            if "#" in e:
+                extracted_links[i] = extracted_links[i][:e.find('#')]
 
-    return extracted_links
+        for i, e in enumerate(extracted_links):
+            if e[len(e) - 1:] == "/":
+                extracted_links[i] = e[:len(e) - 1]
+
+        return extracted_links
+
+    except:
+        print("Beautiful soup failed")
+        return []
+        
 
 
 def is_valid(url):
@@ -175,34 +181,41 @@ def simhash(url):
         failedlinks.append(url)
         return [2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     txt = resp.raw_response
-    soup = BeautifulSoup(txt, "html.parser")
-    text = soup.get_text()
+    
+    try:
+        soup = BeautifulSoup(txt, "html.parser")
+        text = soup.get_text()
 
-    d = computeWordFrequencies(tokenize(text))
-    vector = {}
-    for i in d.keys():
-        l = []
-        hashnum = format(hash(i) % 8192, '013b')
-        for j in hashnum:
-            l.append(j)
-        vector[i] = l
-    final = []
-    for i in range(13):
-        add = 0
-        for k, v in vector.items():
-            if v[i] == '1':
-                add += d[k]
+        d = computeWordFrequencies(tokenize(text))
+        vector = {}
+        for i in d.keys():
+            l = []
+            hashnum = format(hash(i) % 8192, '013b')
+            for j in hashnum:
+                l.append(j)
+            vector[i] = l
+        final = []
+        for i in range(13):
+            add = 0
+            for k, v in vector.items():
+                if v[i] == '1':
+                    add += d[k]
+                else:
+                    add -= d[k]
+            final.append(add)
+
+        ans = []
+        for i in final:
+            if i > 0:
+                ans.append(1)
             else:
-                add -= d[k]
-        final.append(add)
+                ans.append(0)
+        return ans
 
-    ans = []
-    for i in final:
-        if i > 0:
-            ans.append(1)
-        else:
-            ans.append(0)
-    return ans
+    except:
+        print("Beautiful soup failed")
+        return []
+
 
 def tokenize(text):
     l = []
@@ -225,10 +238,20 @@ def computeWordFrequencies(tokens):
 
 if __name__ == '__main__':
     url = "https://www.ics.uci.edu"
+    url2 = "https://www.cs.uci.edu"
+    url3 = "https://www.informatics.uci.edu"
+    url4 = "https://www.stat.uci.edu"
 
 
     responseObj = get_response(url)
+    responseObj2 = get_response(url2)
+    responseObj3 = get_response(url3)
+    responseObj4 = get_response(url4)
 
     scraper(url, responseObj)
+    scraper(url, responseObj2)
+    scraper(url, responseObj3)
+    scraper(url, responseObj4)
+    
     print("TOTAL Unique links: " + str(len(uniquelinks)))
     print("FAILED LINKSSS: " + str(failedlinks))
