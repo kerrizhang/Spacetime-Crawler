@@ -311,7 +311,7 @@ if __name__ == '__main__':
         stopwords.append(line.strip("\n"))
     f.close()
 
-    url = "https://www.ics.uci.edu/software"
+    url = "https://www.ics.uci.edu"
     #print(get_response("http://www.informatics.uci.edu/files/pdf/InformaticsBrochure-March2018"))
     if not os.path.exists('logs'):
         os.makedirs('logs')
