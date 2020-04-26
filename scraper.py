@@ -24,6 +24,10 @@ longestlength = 0
 
 
 def scraper(url, resp):
+    links = extract_next_links(url, resp)
+    print("Links: ", links)
+    return [link for link in links if is_valid(link)]
+    '''
     global longestlength
     f = open("stopwords.txt")
     for line in f:
@@ -104,18 +108,21 @@ def scraper(url, resp):
         print("Number of subdomains so far: " + str(len(subdomains.keys())))
         print(
             "_____________________________________________________________________________________________________________________")
+    '''
 
 
 def extract_next_links(url, input_response):
     print("NOW EXTRACTING " + url)
-    print(longestlength)
+    #print(longestlength)
     # Implementation requred.
     extracted_links = []
 
     if input_response == None:
         return []
 
-    txt = input_response.raw_response
+    print("1")
+    txt = input_response.raw_response.content
+    
 
     try:
         soup = BeautifulSoup(txt, "html.parser")
@@ -280,18 +287,18 @@ if __name__ == '__main__':
     urltest = "http://www.ics.uci.edu/about"
 
 
-    # responseObj = get_response(url)
-    # responseObj2 = get_response(url2)
-    # responseObj3 = get_response(url3)
-    # responseObj4 = get_response(url4)
+    responseObj = get_response(url)
+    responseObj2 = get_response(url2)
+    responseObj3 = get_response(url3)
+    responseObj4 = get_response(url4)
 
-    # scraper(url, responseObj)
-    # scraper(url2, responseObj2)
-    # scraper(url3, responseObj3)
-    # scraper(url4, responseObj4)
+    scraper(url, responseObj)
+    scraper(url2, responseObj2)
+    scraper(url3, responseObj3)
+    scraper(url4, responseObj4)
     
-    # print("TOTAL Unique links: " + str(len(uniquelinks)))
-    # print("FAILED LINKSSS: " + str(failedlinks))
+    print("TOTAL Unique links: " + str(len(uniquelinks)))
+    print("FAILED LINKSSS: " + str(failedlinks))
 
-    responseObj = get_response(urltest)
-    scraper(urltest, responseObj)
+    # responseObj = get_response(urltest)
+    # scraper(urltest, responseObj)
