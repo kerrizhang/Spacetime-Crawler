@@ -20,6 +20,7 @@ uniquepages = 0
 commonwordsdict = dict()
 subdomains = dict()
 longestlength = 0
+longesturl = ""
 stopwords = ["a", "about", "above", "after", "again", "against", "all", "am", "an", "and", "any", "are", "aren't", "as", "at", "be", "because", "been", "before", "being", "below", "between", "both", "but", "by", "can't", "cannot", "could", "couldn't", "did", "didn't", "do", "does", "doesn't", "doing", "don't", "down", "during", "each", "few", "for", "from", "further", "had", "hadn't", "has", "hasn't", "have", "haven't", "having", "he", "he'd", "he'll", "he's", "her", "here", "here's", "hers", "herself", "him", "himself", "his", "how", "how's", "i", "i'd", "i'll", "i'm", "i've", "if", "in", "into", "is", "isn't", "it", "it's", "its", "itself", "let's", "me", "more", "most", "mustn't", "my", "myself", "no", "nor", "not", "of", "off", "on", "once", "only", "or", "other", "ought", "our", "ours     ourselves", "out", "over", "own", "same", "shan't", "she", "she'd", "she'll", "she's", "should", "shouldn't", "so", "some", "such", "than", "that", "that's", "the", "their", "theirs", "them", "themselves", "then", "there", "there's", "these", "they", "they'd", "they'll", "they're", "they've", "this", "those", "through", "to", "too", "under", "until", "up", "very", "was", "wasn't", "we", "we'd", "we'll", "we're", "we've", "were", "weren't", "what", "what's", "when", "when's", "where", "where's", "which", "while", "who", "who's", "whom", "why", "why's", "with", "won't", "would", "wouldn't", "you", "you'd", "you'll", "you're", "you've", "your", "yours", "yourself", "yourselves"]
 
 
@@ -113,11 +114,11 @@ def scraper(url, resp):
 
 
 def print_everything():
-    global uniquepages, commonwordsdict, subdomains, longestlength
+    global uniquepages, commonwordsdict, subdomains, longestlength, longesturl
 
     f = open("IMPORTANT_INFORMATION.txt", "w")
     f.write("Number of unique pages: " + str(uniquepages) + "\n-----------------------\n")
-    f.write("Longest page: " + str(longestlength) + "\n-----------------------\n")
+    f.write("Longest page: " + longesturl + ", " + str(longestlength) + "\n-----------------------\n")
     sortedwords = sorted(commonwordsdict.items(), key=lambda x: x[1], reverse=True)
     f.write("Common words: \n")
     count = 0
@@ -138,7 +139,7 @@ def print_everything():
 
 
 def extract_next_links(url, input_response):
-    global uniquepages, commonwordsdict, subdomains, longestlength
+    global uniquepages, commonwordsdict, subdomains, longestlength, longesturl
 
     print("NOW EXTRACTING " + url)
     #print(longestlength)
@@ -153,7 +154,7 @@ def extract_next_links(url, input_response):
     txt = ""
 
     try:
-        txt = input_response.raw_response#.content
+        txt = input_response.raw_response.content
     except:
         print("No content in raw response")
         return []
@@ -162,7 +163,6 @@ def extract_next_links(url, input_response):
     try:
         soup = BeautifulSoup(txt, "html.parser")
 
-        print('1')
 
         #TOKENIZE
         text = soup.get_text()
@@ -170,21 +170,17 @@ def extract_next_links(url, input_response):
         if len(tokens) < 250:   # Checking for low content
             return []
 
-        print('2')
 
         print(len(tokens))
         #print("LL: " ,longestlength)
         print("UP:", uniquepages)
         if len(tokens) > longestlength:
             longestlength = len(tokens)
+            longesturl = url
 
-        print('3')
 
         computeWordFrequencies(tokens)
         uniquepages += 1
-
-        print('4')
-
 
          ####### SUBDOMAIN 
         subd = urlparse(url).netloc
