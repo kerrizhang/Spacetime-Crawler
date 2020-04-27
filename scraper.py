@@ -25,7 +25,7 @@ longestlength = 0
 
 def scraper(url, resp):
     links = extract_next_links(url, resp)
-    print("Links: ", links)
+    #print("Links: ", links)
     return [link for link in links if is_valid(link)]
     '''
     global longestlength
@@ -121,7 +121,11 @@ def extract_next_links(url, input_response):
         return []
 
     print("1")
-    txt = input_response.raw_response.content
+    try:
+        txt = input_response.raw_response.content
+    except:
+        print("No content in raw response")
+        return []
     
 
     try:
@@ -161,7 +165,7 @@ def is_valid(url):
         if "/pdf/" in url or "mailto:" in url or "@" in url:
             return False
         parsed = urlparse(url)
-        print(parsed.netloc)
+        # print(parsed.netloc)
         if parsed.netloc == "" and str(parsed.path)[0:len(
                 "today.uci.edu/department/information_computer_sciences")] == "today.uci.edu/department/information_computer_sciences":
             return True
@@ -189,6 +193,7 @@ def is_valid(url):
                 + r"|data|dat|exe|bz2|tar|msi|bin|7z|psd|dmg|iso"
                 + r"|epub|dll|cnf|tgz|sha1"
                 + r"|thmx|mso|arff|rtf|jar|csv"
+                + r"|war|"
                 + r"|rm|smil|wmv|swf|wma|zip|rar|gz)$", parsed.path.lower())
         return False
 

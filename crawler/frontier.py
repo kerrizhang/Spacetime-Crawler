@@ -25,7 +25,6 @@ class Frontier(object):
             os.remove(self.config.save_file)
         # Load existing save file, or create one if it does not exist.
         self.save = shelve.open(self.config.save_file)
-        print("self.save: ", self.save)
         if restart:
             for url in self.config.seed_urls:
                 self.add_url(url)
@@ -49,7 +48,6 @@ class Frontier(object):
             f"total urls discovered.")
 
     def get_tbd_url(self):
-        print(self.to_be_downloaded)
         try:
             return self.to_be_downloaded.pop()
         except IndexError:
