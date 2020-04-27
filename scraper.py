@@ -166,15 +166,15 @@ def is_valid(url):
             return False
         parsed = urlparse(url)
         # print(parsed.netloc)
-        if parsed.netloc == "" and str(parsed.path)[0:len(
-                "today.uci.edu/department/information_computer_sciences")] == "today.uci.edu/department/information_computer_sciences":
-            return True
+        # if parsed.netloc == "" and str(parsed.path)[0:len(
+        #         "today.uci.edu/department/information_computer_sciences")] == "today.uci.edu/department/information_computer_sciences":
+        #     return True
 
         if parsed.scheme not in set(["http", "https"]):
             return False
 
 
-        if ("ics.uci.edu" in parsed.netloc or "cs.uci.edu" in parsed.netloc or "informatics.uci.edu" in parsed.netloc or "stat.uci.edu" in parsed.netloc):
+        if ("ics.uci.edu" in parsed.netloc or "cs.uci.edu" in parsed.netloc or "informatics.uci.edu" in parsed.netloc or "stat.uci.edu" in parsed.netloc or (parsed.netloc == "" and str(parsed.path)[0:len("today.uci.edu/department/information_computer_sciences")] == "today.uci.edu/department/information_computer_sciences")):
             if (re.match(
                 r".*\.(css|js|bmp|gif|jpe?g|ico"
                 + r"|png|tiff?|mid|mp2|mp3|mp4"
