@@ -12,15 +12,15 @@ import pickle
 
 # from collections import deque
 
-linkqueue = []
-uniquelinks = []
-failedlinks = []
-uniqueurls = set()
-stopwords = []
+# linkqueue = []
+# uniquelinks = []
+# failedlinks = []
+# uniqueurls = set()
+uniquepages = 0
 commonwordsdict = dict()
 subdomains = dict()
 longestlength = 0
-
+stopwords = ["a", "about", "above", "after", "again", "against", "all", "am", "an", "and", "any", "are", "aren't", "as", "at", "be", "because", "been", "before", "being", "below", "between", "both", "but", "by", "can't", "cannot", "could", "couldn't", "did", "didn't", "do", "does", "doesn't", "doing", "don't", "down", "during", "each", "few", "for", "from", "further", "had", "hadn't", "has", "hasn't", "have", "haven't", "having", "he", "he'd", "he'll", "he's", "her", "here", "here's", "hers", "herself", "him", "himself", "his", "how", "how's", "i", "i'd", "i'll", "i'm", "i've", "if", "in", "into", "is", "isn't", "it", "it's", "its", "itself", "let's", "me", "more", "most", "mustn't", "my", "myself", "no", "nor", "not", "of", "off", "on", "once", "only", "or", "other", "ought", "our", "ours     ourselves", "out", "over", "own", "same", "shan't", "she", "she'd", "she'll", "she's", "should", "shouldn't", "so", "some", "such", "than", "that", "that's", "the", "their", "theirs", "them", "themselves", "then", "there", "there's", "these", "they", "they'd", "they'll", "they're", "they've", "this", "those", "through", "to", "too", "under", "until", "up", "very", "was", "wasn't", "we", "we'd", "we'll", "we're", "we've", "were", "weren't", "what", "what's", "when", "when's", "where", "where's", "which", "while", "who", "who's", "whom", "why", "why's", "with", "won't", "would", "wouldn't", "you", "you'd", "you'll", "you're", "you've", "your", "yours", "yourself", "yourselves"]
 
 
 def scraper(url, resp):
@@ -111,6 +111,30 @@ def scraper(url, resp):
     '''
 
 
+def print_everything():
+    f = open("IMPORTANT_INFORMATION.txt", "w")
+    f.write("Number of unique pages: " + str(uniquepages) + "\n-----------------------\n")
+    f.write("Longest page: " + str(longestlength) + "\n-----------------------\n")
+    sortedwords = sorted(commonwordsdict.items(), key=lambda x: x[1], reverse=True)
+    f.write("Common words: \n")
+    count = 0
+    for tup in sortedwords:
+        if count < 50:
+            f.write(tup[0] + " = " + str(tup[1]) + '\n')
+            count += 1
+        else:
+            break
+    
+    f.write("\n-----------------------\nSubdomains: \n")
+    sorted_subdomains = sorted(subdomains.items())
+    for tup in sorted_subdomains:
+        f.write(tup[0] + ", " + str(tup[1]) + "\n")
+    
+
+    f.close()
+
+
+
 def extract_next_links(url, input_response):
     print("NOW EXTRACTING " + url)
     #print(longestlength)
@@ -120,16 +144,40 @@ def extract_next_links(url, input_response):
     if input_response == None:
         return []
 
-    print("1")
+
     try:
         txt = input_response.raw_response.content
     except:
         print("No content in raw response")
         return []
-    
+
 
     try:
         soup = BeautifulSoup(txt, "html.parser")
+
+
+        #TOKENIZE
+        text = soup.get_text()
+        tokens = tokenize(text)
+        if len(tokens) < 250:   # Checking for low content
+            return []
+
+        if len(tokens) > longestlength:
+            longestlength = len(tokens)
+
+        computeWordFrequencies(tokens)
+        uniquepages += 1
+
+
+         ####### SUBDOMAIN 
+        subd = urlparse(url).netloc
+        if subd in subdomains:
+            subdomains[subd] += 1
+        else:
+            subdomains[subd] = 1
+
+
+
 
         for link in soup.findAll('a'):
             link_href = link.get('href')
@@ -166,15 +214,15 @@ def is_valid(url):
             return False
         parsed = urlparse(url)
         # print(parsed.netloc)
-        if parsed.netloc == "" and str(parsed.path)[0:len(
-                "today.uci.edu/department/information_computer_sciences")] == "today.uci.edu/department/information_computer_sciences":
-            return True
+        # if parsed.netloc == "" and str(parsed.path)[0:len(
+        #         "today.uci.edu/department/information_computer_sciences")] == "today.uci.edu/department/information_computer_sciences":
+        #     return True
 
         if parsed.scheme not in set(["http", "https"]):
             return False
 
 
-        if ("ics.uci.edu" in parsed.netloc or "cs.uci.edu" in parsed.netloc or "informatics.uci.edu" in parsed.netloc or "stat.uci.edu" in parsed.netloc):
+        if ("ics.uci.edu" in parsed.netloc or "cs.uci.edu" in parsed.netloc or "informatics.uci.edu" in parsed.netloc or "stat.uci.edu" in parsed.netloc) or (parsed.netloc == "" and str(parsed.path)[0:len("today.uci.edu/department/information_computer_sciences")] == "today.uci.edu/department/information_computer_sciences"):
             if (re.match(
                 r".*\.(css|js|bmp|gif|jpe?g|ico"
                 + r"|png|tiff?|mid|mp2|mp3|mp4"
@@ -203,64 +251,64 @@ def is_valid(url):
 
 
 
-def get_response(url):
-    try:
-        resp = requests.get(url)
-        resp_dict = {'url': url, 'status': resp.status_code, 'response': pickle.dumps(resp.text.encode())}
+# def get_response(url):
+#     try:
+#         resp = requests.get(url)
+#         resp_dict = {'url': url, 'status': resp.status_code, 'response': pickle.dumps(resp.text.encode())}
 
-        return response.Response(resp_dict)
-    except:
-        print("Could not get response for URL")
-
-
-def similarity(l1, l2):
-    num = 0
-    for i in range(10):
-        if l1[i] == l2[i]:
-            num += 1
-    return num / 10
+#         return response.Response(resp_dict)
+#     except:
+#         print("Could not get response for URL")
 
 
-def simhash(url):
-    resp = get_response(url)
-    if (resp == None):
-        print("This url has an empty response: " + url)
-        failedlinks.append(url)
-        return ([2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], dict())
-    txt = resp.raw_response
+# def similarity(l1, l2):
+#     num = 0
+#     for i in range(10):
+#         if l1[i] == l2[i]:
+#             num += 1
+#     return num / 10
+
+
+# def simhash(url):
+#     resp = get_response(url)
+#     if (resp == None):
+#         print("This url has an empty response: " + url)
+#         failedlinks.append(url)
+#         return ([2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], dict())
+#     txt = resp.raw_response
     
-    try:
-        soup = BeautifulSoup(txt, "html.parser")
-        text = soup.get_text()
-        d = computeWordFrequencies(tokenize(text))
-        vector = {}
-        for i in d.keys():
-            l = []
-            hashnum = format(hash(i) % 32768, '015b')
-            for j in hashnum:
-                l.append(j)
-            vector[i] = l
-        final = []
-        for i in range(13):
-            add = 0
-            for k, v in vector.items():
-                if v[i] == '1':
-                    add += d[k]
-                else:
-                    add -= d[k]
-            final.append(add)
+#     try:
+#         soup = BeautifulSoup(txt, "html.parser")
+#         text = soup.get_text()
+#         d = computeWordFrequencies(tokenize(text))
+#         vector = {}
+#         for i in d.keys():
+#             l = []
+#             hashnum = format(hash(i) % 32768, '015b')
+#             for j in hashnum:
+#                 l.append(j)
+#             vector[i] = l
+#         final = []
+#         for i in range(13):
+#             add = 0
+#             for k, v in vector.items():
+#                 if v[i] == '1':
+#                     add += d[k]
+#                 else:
+#                     add -= d[k]
+#             final.append(add)
 
-        ans = []
-        for i in final:
-            if i > 0:
-                ans.append(1)
-            else:
-                ans.append(0)
-        return (ans, d)
+#         ans = []
+#         for i in final:
+#             if i > 0:
+#                 ans.append(1)
+#             else:
+#                 ans.append(0)
+#         return (ans, d)
 
-    except:
-        print("Beautiful soup failed")
-        return ([2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], dict())
+#     except:
+#         print("Beautiful soup failed")
+#         return ([2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], dict())
 
 
 def tokenize(text):
@@ -272,38 +320,42 @@ def tokenize(text):
 
 
 def computeWordFrequencies(tokens):
-    freq_dict = {}
+    #freq_dict = {}
     for i in tokens:
         if i not in stopwords:
-            if i in freq_dict.keys():
-                freq_dict[i] += 1
+            if i in commonwordsdict.keys():
+                commonwordsdict[i] += 1
             else:
-                freq_dict[i] = 1
-    return freq_dict
+                commonwordsdict[i] = 1
+    #return freq_dict
 
 
-if __name__ == '__main__':
-    url = "http://www.vision.ics.uci.edu"
-    url2 = "https://www.cs.uci.edu"
-    url3 = "https://www.informatics.uci.edu"
-    url4 = "https://www.stat.uci.edu"
+# if __name__ == '__main__':
+    # url = "http://www.vision.ics.uci.edu"
+    # url2 = "https://www.cs.uci.edu"
+    # url3 = "https://www.informatics.uci.edu"
+    # url4 = "https://www.stat.uci.edu"
 
-    #urltest = "http://www.vision.ics.uci.edu"
-    urltest = "http://www.ics.uci.edu/about"
+    # #urltest = "http://www.vision.ics.uci.edu"
+    # urltest = "http://www.ics.uci.edu/about"
 
 
-    responseObj = get_response(url)
-    responseObj2 = get_response(url2)
-    responseObj3 = get_response(url3)
-    responseObj4 = get_response(url4)
+    # responseObj = get_response(url)
+    # responseObj2 = get_response(url2)
+    # responseObj3 = get_response(url3)
+    # responseObj4 = get_response(url4)
 
-    scraper(url, responseObj)
-    scraper(url2, responseObj2)
-    scraper(url3, responseObj3)
-    scraper(url4, responseObj4)
+    # scraper(url, responseObj)
+    # scraper(url2, responseObj2)
+    # scraper(url3, responseObj3)
+    # scraper(url4, responseObj4)
     
-    print("TOTAL Unique links: " + str(len(uniquelinks)))
-    print("FAILED LINKSSS: " + str(failedlinks))
+    # print("TOTAL Unique links: " + str(len(uniquelinks)))
+    # print("FAILED LINKSSS: " + str(failedlinks))
+
+    # commonwordsdict = {'apple':78, 'banana':90, 'green':50, 'birthday':450, 'wassup':69, 'happy':2, 'peach':0}
+    # subdomains = {'ics.com':5, 'google.com':101, 'asomething.gov':56}
+    # print_everything()
 
     # responseObj = get_response(urltest)
     # scraper(urltest, responseObj)

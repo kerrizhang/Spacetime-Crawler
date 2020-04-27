@@ -27,8 +27,10 @@ class Worker(Thread):
 
             print("Frontier to be downloaded: ", len(self.frontier.to_be_downloaded))
             print("Frontier saved: ", len(self.frontier.save))
-            
+
             for scraped_url in scraped_urls:
                 self.frontier.add_url(scraped_url)
             self.frontier.mark_url_complete(tbd_url)
             time.sleep(self.config.time_delay)
+        
+        print_everything()
