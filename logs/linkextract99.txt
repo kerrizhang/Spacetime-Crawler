@@ -1,6 +1,0 @@
-NOW EXTRACTING - http://www.ics.uci.edu/~gmark
-Number of repeated urls: 0
-New number in queue: 142
-Number of newly added links: 0
-Number of unique so far: 242
-2020-04-24 22:36:25.741524

@@ -1,7 +1,0 @@
-NOW EXTRACTING - https://www.ics.uci.edu/~hillarya
-_________https://www.ics.uci.edu/~hillarya/javascript:void(0)
-Number of repeated urls: 1
-New number in queue: 253
-Number of newly added links: 0
-Number of unique so far: 431
-2020-04-24 22:55:45.572136

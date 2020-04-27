@@ -1,8 +1,0 @@
-NOW EXTRACTING - http://www.ics.uci.edu/~epaikari
-*********http://www.ics.uci.edu/~andre
-_________http://www.ics.uci.edu/~epaikari/mailto:epaikari@uci.edu
-Number of repeated urls: 2
-New number in queue: 309
-Number of newly added links: 0
-Number of unique so far: 568
-2020-04-24 22:59:43.508778

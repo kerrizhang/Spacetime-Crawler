@@ -1,8 +1,0 @@
-NOW EXTRACTING - http://www.ics.uci.edu/~yunanc
-http://www.ics.uci.edu/~claram/
-
-Number of repeated urls: 0
-New number in queue: 104
-Number of newly added links: 1
-Number of unique so far: 194
-2020-04-24 22:35:45.379111

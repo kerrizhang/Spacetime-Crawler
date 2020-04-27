@@ -1,8 +1,0 @@
-NOW EXTRACTING - http://www.ics.uci.edu/~golson
-*********http://www.ics.uci.edu/~jsolson
-*********http://www.ics.uci.edu
-Number of repeated urls: 2
-New number in queue: 112
-Number of newly added links: 0
-Number of unique so far: 206
-2020-04-24 22:35:57.496317

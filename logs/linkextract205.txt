@@ -1,6 +1,0 @@
-NOW EXTRACTING - https://www.ics.uci.edu/~magda/mailto:elzarki@uci.edu
-Number of repeated urls: 0
-New number in queue: 240
-Number of newly added links: 0
-Number of unique so far: 446
-2020-04-24 22:56:14.181363

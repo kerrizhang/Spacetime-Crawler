@@ -1,6 +1,0 @@
-NOW EXTRACTING - http://www.ics.uci.edu/%7Emagda/Ghana.html
-Number of repeated urls: 0
-New number in queue: 238
-Number of newly added links: 0
-Number of unique so far: 441
-2020-04-24 22:56:10.553843

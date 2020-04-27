@@ -1,9 +1,0 @@
-NOW EXTRACTING - https://www.ics.uci.edu/~iftekha/publication/land-of-lost-knowledge-an-initial-investigation-into-projects-lost-knowledge
-*********https://www.ics.uci.edu/~iftekha/publication/understanding-development-process-of-machine-learning-systems-challenges-and-solutions
-https://www.ics.uci.edu/~iftekha/publication/land-of-lost-knowledge-an-initial-investigation-into-projects-lost-knowledge/mailto:?subject=Land%20of%20Lost%20Knowledge%3a%20An%20Initial%20Investigation%20into%20Projects%20Lost%20Knowledge&body=https%3a%2f%2fwww.ics.uci.edu%2f~iftekha%2fpublication%2fland-of-lost-knowledge-an-initial-investigation-into-projects-lost-knowledge%2f
-*********https://www.ics.uci.edu/~iftekha/publication/an-empirical-investigation-into-merge-conflicts-and-their-effect-on-software-quality
-Number of repeated urls: 2
-New number in queue: 266
-Number of newly added links: 1
-Number of unique so far: 490
-2020-04-24 22:57:55.073814

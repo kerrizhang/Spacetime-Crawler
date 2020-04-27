@@ -1,9 +1,0 @@
-NOW EXTRACTING - http://www.ics.uci.edu/~pkammer
-*********http://www.ics.uci.edu/%7Etaylor
-_________http://www.ics.uci.edu/%7Egmark
-*********http://www.ics.uci.edu
-Number of repeated urls: 3
-New number in queue: 242
-Number of newly added links: 0
-Number of unique so far: 451
-2020-04-24 22:56:19.488589

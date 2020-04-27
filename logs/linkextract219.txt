@@ -1,6 +1,0 @@
-NOW EXTRACTING - http://www.ics.uci.edu/~neno/interests.html
-Number of repeated urls: 0
-New number in queue: 268
-Number of newly added links: 0
-Number of unique so far: 488
-2020-04-24 22:57:54.413610

@@ -1,6 +1,0 @@
-NOW EXTRACTING - https://www.ics.uci.edu/~pattis/mailto:pattis@ics.uci.edu
-Number of repeated urls: 0
-New number in queue: 242
-Number of newly added links: 0
-Number of unique so far: 439
-2020-04-24 22:56:08.242536

@@ -1,6 +1,0 @@
-NOW EXTRACTING - http://www.ics.uci.edu/~kobsa
-Number of repeated urls: 0
-New number in queue: 113
-Number of newly added links: 0
-Number of unique so far: 206
-2020-04-24 22:35:57.488306

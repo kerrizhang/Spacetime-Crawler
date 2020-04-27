@@ -1,6 +1,0 @@
-NOW EXTRACTING - https://www.ics.uci.edu/~pattis/misc/cheatingarticle/index.html
-Number of repeated urls: 0
-New number in queue: 241
-Number of newly added links: 0
-Number of unique so far: 440
-2020-04-24 22:56:09.498179

@@ -1,6 +1,0 @@
-NOW EXTRACTING - http://www.ics.uci.edu/~wmt/mailto:wmt@uci.edu
-Number of repeated urls: 0
-New number in queue: 261
-Number of newly added links: 0
-Number of unique so far: 475
-2020-04-24 22:57:05.829257

@@ -1,8 +1,0 @@
-NOW EXTRACTING - http://www.ics.uci.edu/%7Efielding
-http://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
-*********http://www.ics.uci.edu
-Number of repeated urls: 1
-New number in queue: 262
-Number of newly added links: 1
-Number of unique so far: 475
-2020-04-24 22:57:05.828292

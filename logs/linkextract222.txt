@@ -1,9 +1,0 @@
-NOW EXTRACTING - https://www.ics.uci.edu/~iftekha/publication/towards-understanding-code-readability-and-its-impact-on-design-quality
-*********https://www.ics.uci.edu/~iftekha/publication/how-verified-or-tested-is-my-code
-*********https://www.ics.uci.edu/~iftekha/publication/a-case-study-of-motivations-for-corporate-contribution-to-foss
-https://www.ics.uci.edu/~iftekha/publication/towards-understanding-code-readability-and-its-impact-on-design-quality/mailto:?subject=Towards%20understanding%20code%20readability%20and%20its%20impact%20on%20design%20quality.&body=https%3a%2f%2fwww.ics.uci.edu%2f~iftekha%2fpublication%2ftowards-understanding-code-readability-and-its-impact-on-design-quality%2f
-Number of repeated urls: 2
-New number in queue: 266
-Number of newly added links: 1
-Number of unique so far: 489
-2020-04-24 22:57:54.756662

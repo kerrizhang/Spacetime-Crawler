@@ -1,7 +1,0 @@
-NOW EXTRACTING - https://www.ics.uci.edu/~amezasor
-_________https://www.ics.uci.edu/~amezasor/index.html
-Number of repeated urls: 1
-New number in queue: 308
-Number of newly added links: 0
-Number of unique so far: 568
-2020-04-24 22:59:44.043392

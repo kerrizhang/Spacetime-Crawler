@@ -1,9 +1,0 @@
-NOW EXTRACTING - http://www.ics.uci.edu/~mbietz
-http://www.ics.uci.edu/~mbietz/publications
-*********http://www.ics.uci.edu/informatics
-_________http://www.ics.uci.edu/~mbietz/research
-Number of repeated urls: 2
-New number in queue: 152
-Number of newly added links: 1
-Number of unique so far: 255
-2020-04-24 22:36:37.167693

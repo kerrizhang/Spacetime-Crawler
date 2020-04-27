@@ -1,7 +1,0 @@
-NOW EXTRACTING - https://www.ics.uci.edu/~pattis/educationvideoclips.html
-https://www.ics.uci.edu/~pattis/educationvideoclips.html/videos/5minuteU.wvx
-Number of repeated urls: 0
-New number in queue: 243
-Number of newly added links: 1
-Number of unique so far: 439
-2020-04-24 22:56:08.241539
