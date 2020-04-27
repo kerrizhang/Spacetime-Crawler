@@ -3,16 +3,6 @@ Number of unique pages: 0
 Longest page: 0
 -----------------------
 Common words: 
-birthday = 450
-banana = 90
-apple = 78
-wassup = 69
-green = 50
-happy = 2
-peach = 0
 
 -----------------------
 Subdomains: 
-asomething.gov, 56
-google.com, 101
-ics.com, 5

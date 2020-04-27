@@ -24,6 +24,7 @@ stopwords = ["a", "about", "above", "after", "again", "against", "all", "am", "a
 
 
 def scraper(url, resp):
+    print(uniquepages)
     links = extract_next_links(url, resp)
     #print("Links: ", links)
     return [link for link in links if is_valid(link)]
@@ -112,6 +113,8 @@ def scraper(url, resp):
 
 
 def print_everything():
+    global uniquepages, commonwordsdict, subdomains, longestlength
+
     f = open("IMPORTANT_INFORMATION.txt", "w")
     f.write("Number of unique pages: " + str(uniquepages) + "\n-----------------------\n")
     f.write("Longest page: " + str(longestlength) + "\n-----------------------\n")
@@ -130,12 +133,13 @@ def print_everything():
     for tup in sorted_subdomains:
         f.write(tup[0] + ", " + str(tup[1]) + "\n")
     
-
     f.close()
 
 
 
 def extract_next_links(url, input_response):
+    global uniquepages, commonwordsdict, subdomains, longestlength
+
     print("NOW EXTRACTING " + url)
     #print(longestlength)
     # Implementation requred.
@@ -145,8 +149,11 @@ def extract_next_links(url, input_response):
         return []
 
 
+
+    txt = ""
+
     try:
-        txt = input_response.raw_response.content
+        txt = input_response.raw_response#.content
     except:
         print("No content in raw response")
         return []
@@ -155,6 +162,7 @@ def extract_next_links(url, input_response):
     try:
         soup = BeautifulSoup(txt, "html.parser")
 
+        print('1')
 
         #TOKENIZE
         text = soup.get_text()
@@ -162,11 +170,20 @@ def extract_next_links(url, input_response):
         if len(tokens) < 250:   # Checking for low content
             return []
 
+        print('2')
+
+        print(len(tokens))
+        #print("LL: " ,longestlength)
+        print("UP:", uniquepages)
         if len(tokens) > longestlength:
             longestlength = len(tokens)
 
+        print('3')
+
         computeWordFrequencies(tokens)
         uniquepages += 1
+
+        print('4')
 
 
          ####### SUBDOMAIN 
@@ -320,6 +337,8 @@ def tokenize(text):
 
 
 def computeWordFrequencies(tokens):
+    global stopwords
+
     #freq_dict = {}
     for i in tokens:
         if i not in stopwords:
@@ -331,6 +350,18 @@ def computeWordFrequencies(tokens):
 
 
 # if __name__ == '__main__':
+
+    # url = "https://www.stat.uci.edu"
+    # resp = get_response(url)
+
+    # #print(uniquepages)
+
+    # # set_globals()
+
+    # print(scraper(url, resp))
+    
+    # print_everything()
+
     # url = "http://www.vision.ics.uci.edu"
     # url2 = "https://www.cs.uci.edu"
     # url3 = "https://www.informatics.uci.edu"

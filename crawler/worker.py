@@ -2,7 +2,7 @@ from threading import Thread
 
 from utils.download import download
 from utils import get_logger
-from scraper import scraper
+from scraper import scraper, print_everything
 import time
 
 
