@@ -305,7 +305,7 @@ def simhash(url):
         print("This url has an empty response: " + url)
         failedlinks.append(url)
         return ([2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], dict())
-    txt = resp.raw_response
+    txt = resp.raw_response.content
     
     try:
         soup = BeautifulSoup(txt, "html.parser")
@@ -337,7 +337,7 @@ def simhash(url):
         return (ans, d)
 
     except:
-        print("Beautiful soup failed")
+        print("Simhash failed")
         return ([2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], dict())
 
 

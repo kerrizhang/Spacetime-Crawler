@@ -14,8 +14,6 @@ class Frontier(object):
         self.to_be_downloaded = list()
 
         self.simhash_set = []
-
-        print("F_init_")
         
         if not os.path.exists(self.config.save_file) and not restart:
             # Save file does not exist, but request to load save.
@@ -58,7 +56,7 @@ class Frontier(object):
             return None
 
     def add_url(self, url):
-        print("F0")
+        #print("F0")
         url = normalize(url)
         urlhash = get_urlhash(url)
 
