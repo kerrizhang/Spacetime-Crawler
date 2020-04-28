@@ -305,12 +305,12 @@ def simhash(url):
         print("This url has an empty response: " + url)
         failedlinks.append(url)
         return ([2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], dict())
-    txt = resp.raw_response.content
+    txt = resp.raw_response
     
     try:
         soup = BeautifulSoup(txt, "html.parser")
         text = soup.get_text()
-        d = computeWordFrequencies(tokenize(text))
+        d = computeWordFrequencies2(tokenize(text))
         vector = {}
         for i in d.keys():
             l = []
@@ -360,6 +360,19 @@ def computeWordFrequencies(tokens):
             else:
                 commonwordsdict[i] = 1
     #return freq_dict
+
+
+def computeWordFrequencies2(tokens):
+    global stopwords
+
+    freq_dict = {}
+    for i in tokens:
+        if i not in stopwords:
+            if i in freq_dict.keys():
+                freq_dict[i] += 1
+            else:
+                freq_dict[i] = 1
+    return freq_dict
 
 
 # if __name__ == '__main__':
