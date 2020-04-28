@@ -171,6 +171,7 @@ def extract_next_links(url, input_response):
 
 
     try:
+        print(0)
         soup = BeautifulSoup(txt, "html.parser")
 
         print(1)
