@@ -16,6 +16,7 @@ class Worker(Thread):
     def run(self):
         while True:
             tbd_url = self.frontier.get_tbd_url()
+            print("W0")
             if not tbd_url:
                 self.logger.info("Frontier is empty. Stopping Crawler.")
                 break
@@ -23,10 +24,15 @@ class Worker(Thread):
             self.logger.info(
                 f"Downloaded {tbd_url}, status <{resp.status}>, "
                 f"using cache {self.config.cache_server}.")
+
+            print("W1")
             scraped_urls = scraper(tbd_url, resp)
+
+            print("W2")
 
             print("Frontier to be downloaded: ", len(self.frontier.to_be_downloaded))
             print("Frontier saved: ", len(self.frontier.save))
+
 
             for scraped_url in scraped_urls:
                 self.frontier.add_url(scraped_url)

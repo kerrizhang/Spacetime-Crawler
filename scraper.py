@@ -25,7 +25,7 @@ stopwords = ["a", "about", "above", "after", "again", "against", "all", "am", "a
 
 
 def scraper(url, resp):
-    print(uniquepages)
+    print("Scraper called")
     links = extract_next_links(url, resp)
     #print("Links: ", links)
     return [link for link in links if is_valid(link)]
