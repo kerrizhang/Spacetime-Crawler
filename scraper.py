@@ -304,7 +304,7 @@ def simhash(url):
     if (resp == None):
         print("This url has an empty response: " + url)
         failedlinks.append(url)
-        return ([2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], dict())
+        return ((2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), dict())
     txt = resp.raw_response
     
     try:
@@ -334,11 +334,11 @@ def simhash(url):
                 ans.append(1)
             else:
                 ans.append(0)
-        return (ans, d)
+        return (tuple(ans), d)
 
     except:
         print("Simhash failed")
-        return ([2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], dict())
+        return ((2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), dict())
 
 
 def tokenize(text):
