@@ -173,24 +173,30 @@ def extract_next_links(url, input_response):
     try:
         soup = BeautifulSoup(txt, "html.parser")
 
+        print(1)
 
         #TOKENIZE
         text = soup.get_text()
         tokens = tokenize(text)
         if len(tokens) < 250:   # Checking for low content
             return []
+    
+        print(2)
 
-
-        print(len(tokens))
+        #print(len(tokens))
         #print("LL: " ,longestlength)
         print("UP:", uniquepages)
         if len(tokens) > longestlength:
             longestlength = len(tokens)
             longesturl = url
 
+        print(3)
+
 
         computeWordFrequencies(tokens)
         uniquepages += 1
+
+        print(4)
 
          ####### SUBDOMAIN 
         subd = urlparse(url).netloc
@@ -200,7 +206,7 @@ def extract_next_links(url, input_response):
             subdomains[subd] = 1
 
 
-
+        print(5)
 
         for link in soup.findAll('a'):
             link_href = link.get('href')
