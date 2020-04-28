@@ -13,7 +13,7 @@ class Frontier(object):
         self.config = config
         self.to_be_downloaded = list()
 
-        self.simhash_set = set()
+        self.simhash_set = []
         
         if not os.path.exists(self.config.save_file) and not restart:
             # Save file does not exist, but request to load save.
@@ -59,13 +59,13 @@ class Frontier(object):
         url = normalize(url)
         urlhash = get_urlhash(url)
 
-        simhash_value = simhash(url)
+        simhash_value = simhash(url)[0]
 
-        if urlhash not in self.save and simhash_value not in self.simhash_set:
+        if urlhash not in self.save and simhash_value[0] != 2 and simhash_value not in self.simhash_set:
             self.save[urlhash] = (url, False)
             self.save.sync()
             #
-            self.simhash_set.add(simhash_value)
+            self.simhash_set.append(simhash_value[0])
             #
             self.to_be_downloaded.append(url)
     
