@@ -113,10 +113,11 @@ def scraper(url, resp):
     '''
 
 
-def print_everything():
+def print_everything(num):
     global uniquepages, commonwordsdict, subdomains, longestlength, longesturl
 
     f = open("IMPORTANT_INFORMATION.txt", "w")
+    f.write("Printing out for " + str(num) + " of links \n-----------------------\n")
     f.write("Number of unique pages: " + str(uniquepages) + "\n-----------------------\n")
     f.write("Longest page: " + longesturl + ", " + str(longestlength) + "\n-----------------------\n")
     sortedwords = sorted(commonwordsdict.items(), key=lambda x: x[1], reverse=True)
@@ -149,6 +150,15 @@ def extract_next_links(url, input_response):
     if input_response == None:
         return []
 
+    
+    try:
+        if 200 <= input_response.status_code < 400:
+            pass
+        elif input_response.status_code >= 400:
+            print("Status code between 400 and 599")
+            return []
+    except:
+        print("If you see this message then you're seriously stupid")
 
 
     txt = ""
@@ -282,46 +292,46 @@ def is_valid(url):
 #     return num / 10
 
 
-# def simhash(url):
-#     resp = get_response(url)
-#     if (resp == None):
-#         print("This url has an empty response: " + url)
-#         failedlinks.append(url)
-#         return ([2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], dict())
-#     txt = resp.raw_response
+def simhash(url):
+    resp = get_response(url)
+    if (resp == None):
+        print("This url has an empty response: " + url)
+        failedlinks.append(url)
+        return ([2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], dict())
+    txt = resp.raw_response
     
-#     try:
-#         soup = BeautifulSoup(txt, "html.parser")
-#         text = soup.get_text()
-#         d = computeWordFrequencies(tokenize(text))
-#         vector = {}
-#         for i in d.keys():
-#             l = []
-#             hashnum = format(hash(i) % 32768, '015b')
-#             for j in hashnum:
-#                 l.append(j)
-#             vector[i] = l
-#         final = []
-#         for i in range(13):
-#             add = 0
-#             for k, v in vector.items():
-#                 if v[i] == '1':
-#                     add += d[k]
-#                 else:
-#                     add -= d[k]
-#             final.append(add)
+    try:
+        soup = BeautifulSoup(txt, "html.parser")
+        text = soup.get_text()
+        d = computeWordFrequencies(tokenize(text))
+        vector = {}
+        for i in d.keys():
+            l = []
+            hashnum = format(hash(i) % 32768, '015b')
+            for j in hashnum:
+                l.append(j)
+            vector[i] = l
+        final = []
+        for i in range(13):
+            add = 0
+            for k, v in vector.items():
+                if v[i] == '1':
+                    add += d[k]
+                else:
+                    add -= d[k]
+            final.append(add)
 
-#         ans = []
-#         for i in final:
-#             if i > 0:
-#                 ans.append(1)
-#             else:
-#                 ans.append(0)
-#         return (ans, d)
+        ans = []
+        for i in final:
+            if i > 0:
+                ans.append(1)
+            else:
+                ans.append(0)
+        return (ans, d)
 
-#     except:
-#         print("Beautiful soup failed")
-#         return ([2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], dict())
+    except:
+        print("Beautiful soup failed")
+        return ([2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], dict())
 
 
 def tokenize(text):
@@ -345,7 +355,11 @@ def computeWordFrequencies(tokens):
     #return freq_dict
 
 
-# if __name__ == '__main__':
+if __name__ == '__main__':
+
+    url = "https://www.ics.uci.edu/alumni/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/stayconnected/hall_of_fame/hall_of_fame/stayconnected/stayconnected/stayconnected/hall_of_fame/hall_of_fame/hall_of_fame/index.php"
+    thingy = urlparse(url)
+    print(thingy.path)
 
     # url = "https://www.stat.uci.edu"
     # resp = get_response(url)

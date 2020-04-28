@@ -31,6 +31,16 @@ class Worker(Thread):
             for scraped_url in scraped_urls:
                 self.frontier.add_url(scraped_url)
             self.frontier.mark_url_complete(tbd_url)
+            #
+            if len(self.frontier.save)) == 1000:
+                print_everything(1000)
+            elif len(self.frontier.save)) == 5000:
+                print_everything(5000)
+            elif len(self.frontier.save)) == 7000:
+                print_everything(7000)
+            elif len(self.frontier.save)) == 11000:
+                print_everything(11000)
+            #
             time.sleep(self.config.time_delay)
         
-        print_everything()
+        print_everything(69)
