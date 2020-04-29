@@ -117,7 +117,7 @@ def scraper(url, resp):
 def print_everything(num):
     global uniquepages, commonwordsdict, subdomains, longestlength, longesturl, simhash_set
 
-    f = open("IMPORTANT_INFORMATION.txt", "w")
+    f = open("IMPORTANT_INFORMATION" + str(num) + ".txt", "w")
     f.write("Printing out for " + str(num) + " of links \n-----------------------\n")
     f.write("Number of unique pages: " + str(len(simhash_set)) + "\n-----------------------\n")
     f.write("Longest page: " + longesturl + ", " + str(longestlength) + "\n-----------------------\n")
