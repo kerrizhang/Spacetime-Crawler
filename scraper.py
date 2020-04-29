@@ -115,7 +115,7 @@ def scraper(url, resp):
 
 
 def print_everything(num):
-    global uniquepages, commonwordsdict, subdomains, longestlength, longesturl
+    global uniquepages, commonwordsdict, subdomains, longestlength, longesturl, simhash_set
 
     f = open("IMPORTANT_INFORMATION.txt", "w")
     f.write("Printing out for " + str(num) + " of links \n-----------------------\n")
@@ -190,6 +190,7 @@ def extract_next_links(url, input_response):
         if simhash_value[0] == 2:
             return []
         if simhash_value in simhash_set:
+            print("Content repeat")
             return []
         
         else:
@@ -332,7 +333,7 @@ def simhash(resp):
                 l.append(j)
             vector[i] = l
         final = []
-        for i in range(13):
+        for i in range(15):
             add = 0
             for k, v in vector.items():
                 if v[i] == '1':

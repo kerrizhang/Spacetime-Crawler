@@ -14,6 +14,8 @@ class Worker(Thread):
         super().__init__(daemon=True)
         
     def run(self):
+        checkpoint = 500
+
         while True:
             tbd_url = self.frontier.get_tbd_url()
             # print("W0")
@@ -38,15 +40,24 @@ class Worker(Thread):
                 self.frontier.add_url(scraped_url)
             self.frontier.mark_url_complete(tbd_url)
             #
-            if len(self.frontier.save) == 1000:
-                print_everything(1000)
-            elif len(self.frontier.save) == 5000:
-                print_everything(5000)
-            elif len(self.frontier.save) == 7000:
-                print_everything(7000)
-            elif len(self.frontier.save) == 11000:
-                print_everything(11000)
-            #
+            
+            if len(self.frontier.save) > checkpoint:
+                print_everything(checkpoint)
+                checkpoint += 500 
+
+
+
+            # if len(self.frontier.save) < 500:
+            #     print_everything(500)
+            # elif len(self.frontier.save) == 1000:
+            #     print_everything(1000)
+            # elif len(self.frontier.save) == 5000:
+            #     print_everything(5000)
+            # elif len(self.frontier.save) == 7000:
+            #     print_everything(7000)
+            # elif len(self.frontier.save) == 11000:
+            #     print_everything(11000)
+            # #
             time.sleep(self.config.time_delay)
         
         print_everything(69)
