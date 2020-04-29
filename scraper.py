@@ -19,6 +19,7 @@ import pickle
 uniquepages = 0
 commonwordsdict = dict()
 subdomains = dict()
+simhash_set = set()
 longestlength = 0
 longesturl = ""
 stopwords = ["a", "about", "above", "after", "again", "against", "all", "am", "an", "and", "any", "are", "aren't", "as", "at", "be", "because", "been", "before", "being", "below", "between", "both", "but", "by", "can't", "cannot", "could", "couldn't", "did", "didn't", "do", "does", "doesn't", "doing", "don't", "down", "during", "each", "few", "for", "from", "further", "had", "hadn't", "has", "hasn't", "have", "haven't", "having", "he", "he'd", "he'll", "he's", "her", "here", "here's", "hers", "herself", "him", "himself", "his", "how", "how's", "i", "i'd", "i'll", "i'm", "i've", "if", "in", "into", "is", "isn't", "it", "it's", "its", "itself", "let's", "me", "more", "most", "mustn't", "my", "myself", "no", "nor", "not", "of", "off", "on", "once", "only", "or", "other", "ought", "our", "ours     ourselves", "out", "over", "own", "same", "shan't", "she", "she'd", "she'll", "she's", "should", "shouldn't", "so", "some", "such", "than", "that", "that's", "the", "their", "theirs", "them", "themselves", "then", "there", "there's", "these", "they", "they'd", "they'll", "they're", "they've", "this", "those", "through", "to", "too", "under", "until", "up", "very", "was", "wasn't", "we", "we'd", "we'll", "we're", "we've", "were", "weren't", "what", "what's", "when", "when's", "where", "where's", "which", "while", "who", "who's", "whom", "why", "why's", "with", "won't", "would", "wouldn't", "you", "you'd", "you'll", "you're", "you've", "your", "yours", "yourself", "yourselves"]
@@ -118,7 +119,7 @@ def print_everything(num):
 
     f = open("IMPORTANT_INFORMATION.txt", "w")
     f.write("Printing out for " + str(num) + " of links \n-----------------------\n")
-    f.write("Number of unique pages: " + str(uniquepages) + "\n-----------------------\n")
+    f.write("Number of unique pages: " + str(len(simhash_set)) + "\n-----------------------\n")
     f.write("Longest page: " + longesturl + ", " + str(longestlength) + "\n-----------------------\n")
     sortedwords = sorted(commonwordsdict.items(), key=lambda x: x[1], reverse=True)
     f.write("Common words: \n")
@@ -140,7 +141,7 @@ def print_everything(num):
 
 
 def extract_next_links(url, input_response):
-    global uniquepages, commonwordsdict, subdomains, longestlength, longesturl
+    global uniquepages, commonwordsdict, subdomains, longestlength, longesturl, simhash_dict
 
     print("NOW EXTRACTING " + url)
     #print(longestlength)
@@ -159,6 +160,9 @@ def extract_next_links(url, input_response):
             return []
     except:
         print("If you see this message then you're seriously stupid")
+
+    
+    
 
 
     txt = ""
@@ -181,6 +185,15 @@ def extract_next_links(url, input_response):
         tokens = tokenize(text)
         if len(tokens) < 250:   # Checking for low content
             return []
+
+        simhash_value = simhash(input_response)
+        if simhash_value[0] == 2:
+            return []
+        if simhash_value in simhash_set:
+            return []
+        
+        else:
+            simhash_set.add(simhash_value)
     
         #print(2)
 
@@ -281,14 +294,14 @@ def is_valid(url):
 
 
 
-def get_response(url):
-    try:
-        resp = requests.get(url)
-        resp_dict = {'url': url, 'status': resp.status_code, 'response': pickle.dumps(resp.text.encode())}
+# def get_response(url):
+#     try:
+#         resp = requests.get(url)
+#         resp_dict = {'url': url, 'status': resp.status_code, 'response': pickle.dumps(resp.text.encode())}
 
-        return response.Response(resp_dict)
-    except:
-        print("Could not get response for URL")
+#         return response.Response(resp_dict)
+#     except:
+#         print("Could not get response for URL")
 
 
 # def similarity(l1, l2):
@@ -299,13 +312,13 @@ def get_response(url):
 #     return num / 10
 
 
-def simhash(url):
-    resp = get_response(url)
-    if (resp == None):
-        print("This url has an empty response: " + url)
-        failedlinks.append(url)
-        return ((2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), dict())
-    txt = resp.raw_response
+def simhash(resp):
+    #resp = get_response(url)
+    # if (resp == None):
+    #     print("This url has an empty response: " + url)
+    #     #failedlinks.append(url)
+    #     return ((2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), dict())
+    txt = resp.raw_response.content
     
     try:
         soup = BeautifulSoup(txt, "html.parser")
@@ -334,11 +347,11 @@ def simhash(url):
                 ans.append(1)
             else:
                 ans.append(0)
-        return (tuple(ans), d)
+        return tuple(ans)
 
     except:
         print("Simhash failed")
-        return ((2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0), dict())
+        return (2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
 
 
 def tokenize(text):

@@ -5,15 +5,13 @@ from threading import Thread, RLock
 from queue import Queue, Empty
 
 from utils import get_logger, get_urlhash, normalize
-from scraper import is_valid, simhash
+from scraper import is_valid
 
 class Frontier(object):
     def __init__(self, config, restart):
         self.logger = get_logger("FRONTIER")
         self.config = config
         self.to_be_downloaded = list()
-
-        self.simhash_set = set()
         
         if not os.path.exists(self.config.save_file) and not restart:
             # Save file does not exist, but request to load save.
@@ -60,14 +58,9 @@ class Frontier(object):
         url = normalize(url)
         urlhash = get_urlhash(url)
 
-        simhash_value = simhash(url)[0]
-
-        if urlhash not in self.save and simhash_value[0] != 2 and simhash_value not in self.simhash_set:
+        if urlhash not in self.save:
             self.save[urlhash] = (url, False)
             self.save.sync()
-            #
-            self.simhash_set.add(simhash_value[0])
-            #
             self.to_be_downloaded.append(url)
     
     def mark_url_complete(self, url):
